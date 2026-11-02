@@ -67,7 +67,7 @@ flowchart TD
     end
 
     subgraph Application_Layer ["4. Interactive Delivery"]
-        SQL & EXCEL & ML & OVERBOOK --> APP["Streamlit Interactive Dashboard<br/>- Executive Revenue KPI Ribbon<br/>- Lead-Time Root Cause Explorer<br/>- Live Reservation Risk Calculator<br/>- In-Memory DuckDB Query Runner"]
+        SQL & EXCEL & ML & OVERBOOK --> APP["Streamlit Interactive Dashboard<br/>- Executive Revenue KPI Ribbon<br/>- Lead-Time Root Cause Explorer<br/>- Live Reservation Risk Calculator<br/>- Research-Backed RM Strategy & ROI Simulator"]
     end
 ```
 
@@ -175,10 +175,10 @@ python run_pipeline.py
 streamlit run app.py
 ```
 Open your browser at `http://localhost:8501` to view:
-* **Executive Dashboard:** Filter between City and Resort hotels and inspect monthly revenue trends.
-* **Lead Time Diagnostics:** Visualize the advance booking hazard curve.
+* **Executive Overview:** Apply dynamic multi-dimensional filters (Property Type, Market Segment, Deposit Policy, Customer Type, Arrival Year, Lead Time range).
+* **Lead Time Diagnostics:** Visualize the advance booking hazard curve and guest engagement intent signals.
 * **Cancellation Risk Calculator:** Input custom reservation parameters to receive real-time risk scores and recommendations.
-* **SQL Query Explorer:** Inspect and run analytical SQL models directly against the dataset in DuckDB.
+* **Revenue Management Strategy & ROI:** Explore research-backed mitigation frameworks and test the interactive annual revenue recovery calculator.
 
 ---
 
