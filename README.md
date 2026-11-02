@@ -1,5 +1,6 @@
 # Hotel Booking Cancellation & Revenue Recovery Analytics
 
+[![Deploy to Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Namannn28/hotel-booking-cancellation-analytics&branch=main&mainModule=app.py)
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.14-blue?logo=python&logoColor=white)](https://python.org)
 [![SQL Engine](https://img.shields.io/badge/SQL-DuckDB%20%7C%20PostgreSQL-orange?logo=postgresql&logoColor=white)](https://duckdb.org)
 [![Power BI](https://img.shields.io/badge/Power%20BI-DAX%20%26%20Star%20Schema-yellow?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)

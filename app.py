@@ -192,6 +192,22 @@ elif selected_page == "Lead Time & Root Causes":
         """)
 
 
+@st.cache_resource
+def load_cancellation_model():
+    """Loads the trained model or retrains if running in a new cloud environment."""
+    model_file_path = os.path.join(MODELS_DIR, "hotel_cancellation_rf.joblib")
+    features_file_path = os.path.join(MODELS_DIR, "feature_columns.joblib")
+    try:
+        model = joblib.load(model_file_path)
+        features = joblib.load(features_file_path)
+        return model, features
+    except Exception:
+        from ml.train_cancellation_model import load_and_preprocess_data, train_cancellation_model
+        _, feature_matrix, target_series = load_and_preprocess_data()
+        model, _ = train_cancellation_model(feature_matrix, target_series)
+        return model, feature_matrix.columns.tolist()
+
+
 # -----------------------------------------------------------------------------
 # 3. Cancellation Risk Calculator Page
 # -----------------------------------------------------------------------------
@@ -199,13 +215,9 @@ elif selected_page == "Cancellation Risk Calculator":
     st.title("Interactive Cancellation Risk Calculator")
     st.markdown("Test the Random Forest model live with custom reservation inputs.")
 
-    model_file_path = os.path.join(MODELS_DIR, "hotel_cancellation_rf.joblib")
-    features_file_path = os.path.join(MODELS_DIR, "feature_columns.joblib")
+    trained_model, feature_column_names = load_cancellation_model()
 
-    if os.path.exists(model_file_path) and os.path.exists(features_file_path):
-        trained_model = joblib.load(model_file_path)
-        feature_column_names = joblib.load(features_file_path)
-
+    if trained_model is not None:
         col_input1, col_input2, col_input3 = st.columns(3)
 
         with col_input1:
