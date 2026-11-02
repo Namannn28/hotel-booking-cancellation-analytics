@@ -1,174 +1,196 @@
-# PulseMetrics-AI: Enterprise SaaS Customer 360, Revenue Analytics & GenAI Copilot
+# Hotel Booking Cancellation & Revenue Recovery Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.14-blue?logo=python&logoColor=white)](https://python.org)
-[![SQL Engine](https://img.shields.io/badge/SQL-DuckDB%20%7C%20PostgreSQL-orange?logo=postgresql&logoColor=white)](https://duckdb.org)
-[![BI Dashboard](https://img.shields.io/badge/BI-Power%20BI%20%26%20Streamlit-yellow?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
-[![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn%20(0.99%20ROC--AUC)-green?logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
-[![GenAI / RAG](https://img.shields.io/badge/AI%20Copilot-Text--to--SQL%20%2B%20RAG-purple?logo=openai&logoColor=white)](https://github.com)
+[![SQL](https://img.shields.io/badge/SQL-DuckDB%20%7C%20PostgreSQL-orange?logo=postgresql&logoColor=white)](https://duckdb.org)
+[![Power BI](https://img.shields.io/badge/Power%20BI-DAX%20%26%20Star%20Schema-yellow?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
+[![Excel](https://img.shields.io/badge/Excel-Financial%20Modeling%20%26%20Formulas-green?logo=microsoftexcel&logoColor=white)](https://office.com)
+[![Machine Learning](https://img.shields.io/badge/ML-Random%20Forest%20(82.1%25%20Acc%20%7C%200.89%20AUC)-purple?logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-> **A production-ready Enterprise B2B SaaS Customer Intelligence Suite designed to bridge traditional data analytics (SQL, Star Schema, Power BI, Excel financial modeling) with modern predictive machine learning and an autonomous GenAI RAG Analytics Copilot.**
+> **An end-to-end hospitality revenue management and cancellation analytics project built on 119,390 real-world hotel reservations. Designed to demonstrate production SQL, Excel financial modeling, Power BI DAX, and explainable Machine Learning.**
 
 ---
 
-## 🌟 Executive Summary & Business Problem
+## 📌 Business Problem & Overview
 
-In enterprise B2B SaaS, **quantitative metrics** (MRR, churn rate, DAU/MAU, seat utilization) live in relational data warehouses, while the **qualitative reasons** why customers churn or expand (feature gaps, SLA breaches, competitor pricing, leadership changes) are buried in support transcripts and QBR notes.
+Hotel room inventory is a perishable asset: once a night passes, an empty room represents permanent lost revenue. 
 
-**PulseMetrics-AI** solves this disconnect by unifying:
-1. **Dimensional Star Schema Modeling (SQL & DuckDB)** for sub-second ARR waterfalls and cohort retention decay curves.
-2. **Executive Financial Modeling (Excel & Power BI)** complete with dynamic formulas (`XLOOKUP`, `SUMIFS`), sensitivity matrices, and a library of production DAX measures.
-3. **Predictive Churn Early Warning System (Random Forest & K-Means Clustering)** achieving **0.99 ROC-AUC and 92.1% Recall** to flag at-risk revenue before renewal.
-4. **Autonomous GenAI Analytics Copilot (Text-to-SQL + Qualitative RAG)** translating executive business questions into live SQL queries paired with semantic voice-of-customer citations.
+Analysis of **119,390 real hotel bookings** across two Portuguese hotels (a City Hotel and a Resort Hotel) revealed an alarming **37.0% overall cancellation rate**, resulting in over **\$11.2M in unrealized room revenue**. 
+
+```
+Total Reservations:    119,390
+Canceled Bookings:      44,224 (37.0%)
+Total Potential Rev:   $29.64M
+Realized Room Rev:     $18.42M
+Lost Room Revenue:     $11.22M (37.9% of Potential)
+```
+
+### Key Business Questions Addressed:
+1. **When and Why are guests canceling?** How do lead times, origin countries, and distribution channels influence cancellation likelihood?
+2. **What is the financial loss?** How does cancellation revenue loss vary month-over-month between City and Resort hotels?
+3. **Can we predict cancellations before they occur?** Can a machine learning model accurately flag high-risk reservations at booking time?
+4. **How can revenue managers recover this lost revenue?** What dynamic deposit rules and safe overbooking percentages should be implemented?
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ Analytics Architecture
 
 ```mermaid
 flowchart TD
-    subgraph Data_Layer ["1. Data Ingestion & Dimensional Modeling"]
-        RAW["Raw Telemetry & Customer Logs<br/>(1,500 Accounts, 5,400+ Tickets)"] --> ETL["DuckDB / Postgres Ingestion"]
-        ETL --> STAR["Dimensional Star Schema<br/>dim_customers | fact_subscriptions<br/>fact_product_usage | fact_support_tickets"]
+    subgraph Sourcing ["1. Real-World Data Ingestion"]
+        DATA["Real Hotel Booking Dataset<br/>119,390 Records | 32 Columns<br/>(Nuno Antonio et al., 2019)"]
+        DATA --> CLEAN["Data Cleansing & Preprocessing<br/>Handling Nulls, ADR Clipping, Types"]
     end
 
-    subgraph Analytics_Layer ["2. Advanced Analytics & Financial Modeling"]
-        STAR --> SQL_MODELS["Production SQL Models<br/>- Monthly ARR Waterfall<br/>- Cohort Retention Matrix<br/>- Pure SQL RFM Scoring"]
-        STAR --> EXCEL["Executive Financial Model<br/>(PulseMetrics_Financial_Model.xlsx)"]
-        STAR --> PBI["Power BI DAX Suite<br/>(NRR, ARPU, Quick Ratio)"]
+    subgraph Analytics ["2. Analytical & Financial Modeling"]
+        CLEAN --> SQL["Production SQL Analytics (DuckDB)<br/>- Monthly Cancellation & MoM Loss<br/>- Lead Time Buckets & Hazard Rate<br/>- Channel & Segment Attribution<br/>- Origin Country Rankings (DENSE_RANK)"]
+        CLEAN --> EXCEL["Executive Excel Model<br/>- KPI Cards & Property Matrix<br/>- Dynamic SUMIFS, AVERAGEIFS, XLOOKUP<br/>- Conditional Formatting & Heatmaps"]
+        CLEAN --> PBI["Power BI DAX Semantic Suite<br/>- 15+ Production DAX Measures<br/>- Dimensional Star Schema Model"]
     end
 
-    subgraph ML_Layer ["3. Predictive & Unsupervised ML"]
-        STAR --> CHURN["Supervised Churn Predictor<br/>(Random Forest | 0.99 ROC-AUC)"]
-        STAR --> RFM_KM["Customer Segmentation<br/>(K-Means Clustering | k=4)"]
-        CHURN --> ALERTS["High-Risk Account Alert Feed<br/>(Protects $1.8M At-Risk ARR)"]
+    subgraph Predictive ["3. Machine Learning & Solutions"]
+        CLEAN --> ML["Explainable Classification Model<br/>(Random Forest | 82.1% Accuracy | 0.89 AUC)"]
+        ML --> FEAT["Feature Importance Analysis<br/>(Lead Time, Deposits, Special Requests)"]
+        ML --> OB["Overbooking Strategy Generator<br/>(Empirical Buffer: 10% - 16% per month)"]
     end
 
-    subgraph AI_Layer ["4. Autonomous GenAI Copilot"]
-        USER["Executive Natural Language Query"] --> COPILOT["Unified AI Copilot"]
-        COPILOT --> TEXT_SQL["Text-to-SQL Engine<br/>(DuckDB In-Memory Execution)"]
-        COPILOT --> RAG["Qualitative RAG Engine<br/>(TF-IDF Vector Search on QBRs/Exits)"]
-        TEXT_SQL & RAG --> BRIEF["Executive Decision Brief<br/>(Data Tables + VOC Citations + Actions)"]
-    end
-
-    subgraph UI_Layer ["5. Interactive Delivery"]
-        SQL_MODELS & ALERTS & RFM_KM & BRIEF --> DASHBOARD["Streamlit Executive UI (app.py)"]
+    subgraph Delivery ["4. Interactive Application"]
+        SQL & EXCEL & ML & OB --> APP["Streamlit Interactive Dashboard<br/>- Live Executive KPI Ribbon<br/>- Lead Time Diagnostics<br/>- Real-time ML Cancellation Risk Simulator<br/>- In-Memory DuckDB Query Runner"]
     end
 ```
 
 ---
 
-## 📊 Key Business Findings & Operational Metrics
+## 🔍 Core Analytical Discoveries
 
-| Metric | Measured Value | Benchmark / Target | Strategic Implication |
-| :--- | :---: | :---: | :--- |
-| **Total Active ARR** | **\$15.25M** | \$14.0M Target | Strong year-over-year expansion across Enterprise tier accounts. |
-| **Blended Churn Rate** | **16.9%** | < 20% Healthy SaaS | Heavily concentrated in Starter tier (26.2%) vs Enterprise (7.8%). |
-| **Net Revenue Retention (NRR)** | **108.4%** | > 105% Good SaaS | Expansion MRR outpaces contraction and churn across Mid-Market accounts. |
-| **Support SLA Hazard Threshold** | **> 36 Hours** | < 24 Hours SLA | Accounts experiencing resolution times >36 hrs have a **3.8x higher churn rate**. |
-| **Product Seat Utilization** | **< 45%** | > 70% Target | Strongest leading indicator of non-renewal; flags attrition 60 days in advance. |
-
----
-
-## 🛠️ Technology Stack & Capabilities
-
-- **Database & Query Modeling:** SQL, DuckDB, PostgreSQL, ANSI SQL CTEs, Window Functions (`ROW_NUMBER`, `LAG`, `NTILE`, `SUM OVER`).
-- **Data Science & ML:** Python, Pandas, NumPy, Scikit-Learn (Random Forest, K-Means Clustering, StandardScaler, ROC-AUC).
-- **Business Intelligence & Reporting:** Microsoft Power BI (DAX Measures Library, Star Schema Semantic Model), OpenPyXL, Excel Financial Modeling (`XLOOKUP`, `SUMIFS`, conditional formatting).
-- **GenAI & RAG:** Dual-retrieval pipeline, Text-to-SQL translation, Vector search (TF-IDF Cosine Similarity), RAG Context Synthesis.
-- **Frontend & App Delivery:** Streamlit, Altair Charts, GitHub Actions CI.
+| Finding / Driver | Data Evidence | Strategic Solution |
+| :--- | :--- | :--- |
+| **Lead Time Hazard Curve** | Bookings made within 7 days cancel at **14.0%**, while bookings made >180 days advance cancel at **54.5%**. | Implement tiered deposit requirements for reservations made >60 days in advance. |
+| **Distribution Channel Risk** | **Online Travel Agencies (OTAs)** account for 73% of total cancellations due to zero-commitment reservation policies. | Introduce direct booking incentives and require credit card pre-authorization on third-party channels. |
+| **Special Requests Signal** | Guests submitting **2+ special requests** (e.g. high floor, twin beds) exhibit an **82% show-up rate**. | Use special requests as an indicator of guest commitment in revenue allocation models. |
+| **Property Variance** | **City Hotel** experienced a **41.7% cancellation rate**, whereas **Resort Hotel** experienced **27.8%**. | Apply higher overbooking thresholds (14-18%) to urban business hotels during weekdays. |
 
 ---
 
-## 📂 Repository Directory Structure
+## 🛠️ Tech Stack & Skills Demonstrated
+
+- **SQL:** DuckDB in-memory execution, ANSI SQL CTEs, Window Functions (`LAG`, `DENSE_RANK`, `SUM OVER`), conditional aggregation (`CASE WHEN`).
+- **Excel:** Advanced formulas (`SUMIFS`, `COUNTIFS`, `AVERAGEIFS`, `XLOOKUP`), multi-tab executive formatting, sensitivity matrix, pivot-ready design.
+- **Power BI:** DAX library (15+ measures: RevPAR, ADR Variance, Cancellation Rate %, Lost Revenue), Star Schema modeling.
+- **Machine Learning & Python:** Scikit-Learn (Random Forest Classifier, Logistic Regression), Pandas, NumPy, ROC-AUC evaluation, Feature Importance.
+- **Interactive Delivery:** Streamlit, Altair Charts, GitHub CLI.
+
+---
+
+## 📂 Repository Structure
 
 ```text
-PulseMetrics-AI/
+hotel-booking-cancellation-analytics/
 ├── data/
-│   ├── raw/                             # Raw generated CSVs (customers, subscriptions, usage, tickets)
-│   ├── processed/                       # ML scores and RFM segments
-│   └── PulseMetrics_Executive_Financial_Model.xlsx # Stylized multi-tab Excel model with formulas
+│   ├── raw/
+│   │   └── hotel_bookings.csv           # 119,390 real booking records
+│   ├── processed/
+│   │   └── overbooking_recommendations.csv # Computed monthly overbooking buffer %
+│   └── Hotel_Revenue_Analysis_Executive_Model.xlsx # Stylized multi-tab Excel model
 ├── sql/
-│   ├── schema.sql                       # Production Star Schema DDL
-│   ├── 01_kpi_arr_waterfall.sql         # Monthly ARR Waterfall & MoM Growth %
-│   ├── 02_cohort_retention.sql          # 12-Month Customer Cohort Retention Matrix
-│   ├── 03_rfm_segmentation.sql          # Pure SQL RFM Scoring with NTILE()
-│   ├── 04_product_engagement.sql        # Feature Adoption & Usage Correlation
-│   └── 05_churn_driver_analysis.sql     # Support Ticket SLA & CSAT Impact Analysis
+│   ├── schema.sql                       # DDL schema definition
+│   ├── 01_monthly_cancellation_trends.sql # Monthly volume, cancellations & MoM variance
+│   ├── 02_lead_time_cancellation_risk.sql # Lead time buckets & hazard curves
+│   ├── 03_market_segment_channel_analysis.sql # Online TA vs Direct channel performance
+│   ├── 04_country_cancellation_ranking.sql # Origin country risk rankings (DENSE_RANK)
+│   └── 05_deposit_and_repeated_guest_paradox.sql # Deposit policy & loyalty analysis
 ├── powerbi/
-│   ├── DAX_Measures.dax                 # 15+ Production DAX Measures (NRR, Quick Ratio, Churn %)
-│   ├── Data_Model_Architecture.md       # Semantic model ERD & cardinality documentation
-│   └── Dashboard_Wireframe.md           # Visual design specification
+│   ├── DAX_Measures.dax                 # 15+ Production DAX Measures
+│   ├── Data_Model_Architecture.md       # Semantic model ERD & cardinality guide
+│   └── Dashboard_Wireframe.md           # Visual design & layout specification
 ├── ml/
-│   ├── train_churn_model.py             # Supervised churn prediction pipeline
-│   ├── rfm_clustering.py                # Unsupervised K-Means customer segmentation
-│   └── models/                          # Serialized model artifacts & feature importances
-├── ai_agent/
-│   ├── text_to_sql.py                   # Natural Language to DuckDB SQL translator
-│   ├── rag_engine.py                    # Qualitative feedback vector retriever
-│   └── copilot.py                       # Unified Executive Copilot synthesizer
-├── app.py                               # Interactive Streamlit Executive Dashboard
+│   ├── train_cancellation_model.py      # Random Forest classifier training pipeline
+│   └── models/                          # Saved model artifacts & feature importances
+├── app.py                               # Interactive Streamlit executive dashboard
 ├── run_pipeline.py                      # One-command master runner
-├── generate_dataset.py                  # Synthetic enterprise dataset generator
-├── generate_excel_model.py              # Automated formatted Excel model builder
-├── RESUME_BULLETS.md                    # ATS-optimized resume bullet points
-├── INTERVIEW_TALKING_POINTS.md          # 15+ STAR technical interview questions & answers
+├── generate_excel_model.py              # Automated Excel workbook generator
+├── RESUME_BULLETS.md                    # Tailored ATS resume bullet points
+├── INTERVIEW_TALKING_POINTS.md          # 12+ STAR technical interview questions & answers
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 🚀 Quickstart & Reproduction Guide
+## 🤖 Machine Learning Model Summary
+
+A Random Forest Classifier was trained on 80% of the dataset and evaluated on a held-out 20% test set (23,878 reservations):
+
+```
+Accuracy Score   : 82.1%
+ROC-AUC Score    : 0.8944
+Precision (Class 1): 86.6% (Low false alarm rate protects guest trust)
+Recall (Class 1)   : 61.2%
+```
+
+### Top 5 Predictive Features:
+1. **Deposit Type (Non-Refundable / No Deposit)** (Weight: 27.5%)
+2. **Lead Time Window** (Weight: 13.6%)
+3. **Total Special Requests Submitted** (Weight: 11.0%)
+4. **Previous Cancellation History** (Weight: 9.9%)
+5. **Required Parking Spaces** (Weight: 4.8%)
+
+---
+
+## 🚀 How to Run Locally
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Namannn28/PulseMetrics-AI.git
-cd PulseMetrics-AI
+git clone https://github.com/Namannn28/hotel-booking-cancellation-analytics.git
+cd hotel-booking-cancellation-analytics
 ```
 
-### 2. Set Up Virtual Environment & Dependencies
+### 2. Install Dependencies
 ```bash
 python -m venv venv
-# Windows:
+# On Windows:
 .\venv\Scripts\activate
-# Mac/Linux:
+# On Mac/Linux:
 source venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
-### 3. Run the Complete End-to-End Pipeline
-Executes data generation, SQL models, predictive ML training, Excel workbook creation, and AI copilot verification with a single command:
+### 3. Run the Complete Pipeline
+Executes all SQL queries via DuckDB, trains the ML model, and generates the Excel workbook:
 ```bash
 python run_pipeline.py
 ```
 
-### 4. Launch the Interactive Executive Dashboard
+### 4. Launch the Interactive Dashboard
 ```bash
 streamlit run app.py
 ```
-Open your browser at `http://localhost:8501` to explore:
-- **Executive Revenue Scorecard:** Live metric cards, ARR distribution by plan tier, industry churn benchmarks.
-- **Predictive Churn Alerts:** Feature importance chart and actionable high-risk customer feed.
-- **Customer 360 & RFM Segments:** Interactive 2D scatter plots of Champions vs. At-Risk accounts.
-- **Autonomous GenAI Copilot:** Ask questions in plain English to trigger live DuckDB SQL queries and qualitative RAG transcripts.
+Open `http://localhost:8501` to test:
+- **Executive Revenue Dashboard:** Filter between City and Resort hotels, view monthly revenue trends.
+- **Lead Time Root Cause Explorer:** View cancellation hazard rates.
+- **Live ML Cancellation Simulator:** Adjust booking sliders (lead time, deposit type, special requests) to predict cancellation probability live.
+- **DuckDB SQL Query Explorer:** Inspect and run the production SQL queries in real-time.
 
 ---
 
-## 💼 Resume & Interview Kit Included
+## 📄 Resume & Interview Preparation Kit
 
-This repository is optimized to help you land senior data analyst, analytics engineer, or product data analyst roles:
-- 📄 **[RESUME_BULLETS.md](RESUME_BULLETS.md)**: Tailored bullet points with quantifiable metrics ready to paste into your resume.
-- 🎙️ **[INTERVIEW_TALKING_POINTS.md](INTERVIEW_TALKING_POINTS.md)**: Comprehensive answers for 10+ common technical and behavioral interview questions following the STAR format.
+- 💼 **[RESUME_BULLETS.md](RESUME_BULLETS.md):** Pre-written, metric-backed bullet points formatted for ATS resumes.
+- 🎙️ **[INTERVIEW_TALKING_POINTS.md](INTERVIEW_TALKING_POINTS.md):** 12+ real-world interview questions with full STAR answers you can speak through in hiring rounds.
 
 ---
 
-## 👤 Author & Contact
+## 📚 Data Source & Academic Citation
+The dataset used in this project is real-world operational data from two hotels in Portugal, published by:
+- **Authors:** Nuno Antonio, Ana de Almeida, Luis Nunes
+- **Publication:** *Hotel booking demand datasets*, Data in Brief, Volume 22, February 2019, Pages 41-49. [DOI: 10.1016/j.dib.2018.11.126](https://doi.org/10.1016/j.dib.2018.11.126)
+
+---
+
+## 👤 Author
 
 **Naman Gupta**
 - **GitHub:** [@Namannn28](https://github.com/Namannn28)
 - **Email:** namang380@gmail.com
-- **Role Target:** Data Analyst | Analytics Engineer | AI Data Analyst
-
-*Feel free to star ⭐ this repository if you find it helpful!*
+- **Role Target:** Data Analyst | Junior Data Analyst | BI Analyst

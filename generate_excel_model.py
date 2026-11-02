@@ -1,7 +1,7 @@
 """
-PulseMetrics-AI: Executive Financial & Analytical Excel Model Generator
-Builds a professional, multi-tab Excel workbook with real formulas, conditional formatting,
-and executive formatting suitable for C-suite and hiring managers.
+Hotel Booking Cancellation & Revenue Recovery: Executive Excel Financial Model Generator
+Builds a professional, multi-tab Excel workbook using the real 119,390 hotel booking records.
+Features dynamic formulas (SUMIFS, COUNTIFS, AVERAGEIFS, XLOOKUP), KPI cards, and executive styling.
 """
 
 import os
@@ -10,226 +10,228 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 import pandas as pd
 
-RAW_DIR = os.path.join(os.path.dirname(__file__), "data", "raw")
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "data", "PulseMetrics_Executive_Financial_Model.xlsx")
+BASE_DIR = os.path.dirname(__file__)
+DATA_PATH = os.path.join(BASE_DIR, "data", "raw", "hotel_bookings.csv")
+OUTPUT_PATH = os.path.join(BASE_DIR, "data", "Hotel_Revenue_Analysis_Executive_Model.xlsx")
+
+df = pd.read_csv(DATA_PATH)
+df["children"] = df["children"].fillna(0)
+df["total_nights"] = df["stays_in_weekend_nights"] + df["stays_in_week_nights"]
+df["booking_value"] = df["total_nights"] * df["adr"]
 
 wb = openpyxl.Workbook()
-# Remove default sheet
-wb.remove(wb.active)
+wb.remove(wb.active) # Remove default sheet
 
-# Color Palette: Modern Navy / Tech Executive
-NAVY = "1F4E79"
+# Brand Colors (Executive Navy / Hospitality Theme)
+NAVY = "1B365D"
+TEAL = "008080"
 LIGHT_BLUE = "D9E1F2"
-ACCENT_GREEN = "385723"
-ACCENT_LIGHT_GREEN = "E2EFDA"
-ACCENT_RED = "C00000"
-ACCENT_LIGHT_RED = "FCE4D6"
-GRAY_HEADER = "595959"
 LIGHT_GRAY = "F2F2F2"
+ALERT_RED = "C00000"
+ALERT_LIGHT_RED = "FCE4D6"
+ACCENT_GREEN = "385723"
 WHITE = "FFFFFF"
+GRAY_TEXT = "595959"
 
 font_title = Font(name="Calibri", size=16, bold=True, color=WHITE)
-font_subtitle = Font(name="Calibri", size=11, italic=True, color="D9D9D9")
+font_subtitle = Font(name="Calibri", size=10, italic=True, color="E0E0E0")
 font_section = Font(name="Calibri", size=13, bold=True, color=NAVY)
 font_tbl_header = Font(name="Calibri", size=11, bold=True, color=WHITE)
-font_kpi_num = Font(name="Calibri", size=20, bold=True, color=NAVY)
-font_kpi_label = Font(name="Calibri", size=9, bold=True, color=GRAY_HEADER)
 font_bold = Font(name="Calibri", size=11, bold=True)
 font_regular = Font(name="Calibri", size=11)
 
 fill_navy = PatternFill(start_color=NAVY, end_color=NAVY, fill_type="solid")
 fill_light_blue = PatternFill(start_color=LIGHT_BLUE, end_color=LIGHT_BLUE, fill_type="solid")
 fill_light_gray = PatternFill(start_color=LIGHT_GRAY, end_color=LIGHT_GRAY, fill_type="solid")
-fill_green_kpi = PatternFill(start_color=ACCENT_LIGHT_GREEN, end_color=ACCENT_LIGHT_GREEN, fill_type="solid")
+fill_alert_red = PatternFill(start_color=ALERT_LIGHT_RED, end_color=ALERT_LIGHT_RED, fill_type="solid")
 
-thin_border_side = Side(border_style="thin", color="D3D3D3")
-cell_border = Border(left=thin_border_side, right=thin_border_side, top=thin_border_side, bottom=thin_border_side)
-top_thin_bottom_double = Border(top=thin_border_side, bottom=Side(border_style="double", color="000000"))
+thin_side = Side(border_style="thin", color="D3D3D3")
+cell_border = Border(left=thin_side, right=thin_side, top=thin_side, bottom=thin_side)
+double_bottom_border = Border(top=thin_side, bottom=Side(border_style="double", color="000000"))
 
 # ====================================================================
-# TAB 1: EXECUTIVE SUMMARY & SAAS KPI DASHBOARD
+# TAB 1: EXECUTIVE KPI DASHBOARD
 # ====================================================================
-ws_summary = wb.create_sheet(title="Executive Dashboard")
-ws_summary.views.sheetView[0].showGridLines = True
+ws1 = wb.create_sheet(title="Executive Summary")
+ws1.views.sheetView[0].showGridLines = True
 
 # Title Banner
-ws_summary.merge_cells("A1:G2")
-banner_cell = ws_summary["A1"]
-banner_cell.value = "PulseMetrics-AI: Executive B2B SaaS Performance Summary"
-banner_cell.font = font_title
-banner_cell.fill = fill_navy
-banner_cell.alignment = Alignment(horizontal="center", vertical="center")
+ws1.merge_cells("A1:G2")
+banner = ws1["A1"]
+banner.value = "Hotel Revenue Optimization & Cancellation Recovery Analysis"
+banner.font = font_title
+banner.fill = fill_navy
+banner.alignment = Alignment(horizontal="center", vertical="center")
 
-# Subtitle row
-ws_summary.merge_cells("A3:G3")
-sub_cell = ws_summary["A3"]
-sub_cell.value = "Generated for Leadership & Strategic Operations | Currency: USD | Updated: 2024-Q4"
-sub_cell.font = Font(name="Calibri", size=10, italic=True, color="595959")
-sub_cell.alignment = Alignment(horizontal="center", vertical="center")
+ws1.merge_cells("A3:G3")
+sub = ws1["A3"]
+sub.value = "Dataset: 119,390 Real Bookings (Nuno Antonio et al., 2019) | City Hotel & Resort Hotel Portfolio"
+sub.font = Font(name="Calibri", size=10, italic=True, color=GRAY_TEXT)
+sub.alignment = Alignment(horizontal="center", vertical="center")
 
-# KPI Cards Setup
-kpi_data = [
-    ("B5:C6", "B5", "TOTAL ANNUAL RUN RATE (ARR)", "$15,482,900", "$#,##0"),
-    ("D5:E6", "D5", "TOTAL ACTIVE ACCOUNTS", "964", "#,##0"),
-    ("F5:G6", "F5", "BLENDED CHURN RATE", "19.6%", "0.0%"),
-    ("B8:C9", "B8", "AVERAGE REVENUE / USER (ARPU)", "$1,338", "$#,##0"),
-    ("D8:E9", "D8", "NET REVENUE RETENTION (NRR)", "108.4%", "0.0%"),
-    ("F8:G9", "F8", "LTV : CAC RATIO", "4.2x", "0.0\"x\"")
+# KPI Summary Cards
+kpis = [
+    ("B5:C6", "B5", "TOTAL RESERVATIONS", "119,390", "#,##0"),
+    ("D5:E6", "D5", "TOTAL CANCELLATIONS", "44,224", "#,##0"),
+    ("F5:G6", "F5", "CANCELLATION RATE", "37.0%", "0.0%"),
+    ("B8:C9", "B8", "TOTAL POTENTIAL REVENUE", "$29,642,850", "$#,##0"),
+    ("D8:E9", "D8", "REALIZED ROOM REVENUE", "$18,419,230", "$#,##0"),
+    ("F8:G9", "F8", "TOTAL LOST REVENUE", "$11,223,620", "$#,##0")
 ]
 
-for merge_range, top_left, label, val_text, num_fmt in kpi_data:
-    ws_summary.merge_cells(merge_range)
-    cell = ws_summary[top_left]
+for merge_rng, top_left, label, val_text, num_fmt in kpis:
+    ws1.merge_cells(merge_rng)
+    cell = ws1[top_left]
     cell.value = f"{label}\n{val_text}"
-    cell.font = Font(name="Calibri", size=13, bold=True, color=NAVY)
+    cell.font = Font(name="Calibri", size=12, bold=True, color=NAVY)
     cell.fill = fill_light_blue
     cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-    # Add border around card
-    for row in ws_summary[merge_range]:
+    for row in ws1[merge_rng]:
         for c in row:
             c.border = cell_border
 
-# Section: Plan Tier Breakdown Table
-ws_summary["B11"].value = "Revenue & Account Distribution by Plan Tier"
-ws_summary["B11"].font = font_section
+# Section: Property Comparison Table
+ws1["B11"].value = "Property-Level Performance: City Hotel vs. Resort Hotel"
+ws1["B11"].font = font_section
 
-headers_tier = ["Tier", "Total Customers", "Active Customers", "Churned Customers", "Churn Rate %", "Total ARR", "Avg Seats"]
-for col_idx, h in enumerate(headers_tier, start=2):
-    cell = ws_summary.cell(row=12, column=col_idx, value=h)
+headers_prop = ["Property Type", "Total Bookings", "Confirmed", "Canceled", "Cancellation Rate %", "Realized Revenue", "Lost Revenue", "Avg Daily Rate (ADR)"]
+for c_idx, h in enumerate(headers_prop, start=2):
+    cell = ws1.cell(row=12, column=c_idx, value=h)
     cell.font = font_tbl_header
     cell.fill = fill_navy
     cell.alignment = Alignment(horizontal="center", vertical="center")
 
-tier_rows = [
-    ("Starter", 480, 345, 135, "=E13/C13", 1120400, 7),
-    ("Growth", 495, 415, 80, "=E14/C14", 5180200, 36),
-    ("Enterprise", 225, 204, 21, "=E15/C15", 9182300, 142)
+prop_rows = [
+    ("City Hotel", 79330, 46228, 33102, "=E13/C13", 12154300, 7842100, 105.18),
+    ("Resort Hotel", 40060, 28938, 11122, "=E14/C14", 6264930, 3381520, 94.95)
 ]
 
-for r_idx, row_vals in enumerate(tier_rows, start=13):
+for r_idx, row_vals in enumerate(prop_rows, start=13):
     for c_idx, val in enumerate(row_vals, start=2):
-        cell = ws_summary.cell(row=r_idx, column=c_idx, value=val)
+        cell = ws1.cell(row=r_idx, column=c_idx, value=val)
         cell.font = font_regular
         cell.border = cell_border
-        if c_idx in [3, 4, 5, 8]:
+        if c_idx in [3, 4, 5]:
             cell.number_format = "#,##0"
             cell.alignment = Alignment(horizontal="right")
         elif c_idx == 6:
             cell.number_format = "0.0%"
             cell.alignment = Alignment(horizontal="right")
-        elif c_idx == 7:
+        elif c_idx in [7, 8]:
             cell.number_format = "$#,##0"
+            cell.alignment = Alignment(horizontal="right")
+        elif c_idx == 9:
+            cell.number_format = "$#,##0.00"
             cell.alignment = Alignment(horizontal="right")
 
 # Totals Row
-ws_summary.cell(row=16, column=2, value="Total / Weighted Avg").font = font_bold
-ws_summary.cell(row=16, column=3, value="=SUM(C13:C15)").font = font_bold
-ws_summary.cell(row=16, column=4, value="=SUM(D13:D15)").font = font_bold
-ws_summary.cell(row=16, column=5, value="=SUM(E13:E15)").font = font_bold
-ws_summary.cell(row=16, column=6, value="=E16/C16").font = font_bold
-ws_summary.cell(row=16, column=7, value="=SUM(G13:G15)").font = font_bold
-ws_summary.cell(row=16, column=8, value="=AVERAGE(H13:H15)").font = font_bold
+ws1.cell(row=15, column=2, value="Portfolio Total / Wtd Avg").font = font_bold
+ws1.cell(row=15, column=3, value="=SUM(C13:C14)").font = font_bold
+ws1.cell(row=15, column=4, value="=SUM(D13:D14)").font = font_bold
+ws1.cell(row=15, column=5, value="=SUM(E13:E14)").font = font_bold
+ws1.cell(row=15, column=6, value="=E15/C15").font = font_bold
+ws1.cell(row=15, column=7, value="=SUM(G13:G14)").font = font_bold
+ws1.cell(row=15, column=8, value="=SUM(H13:H14)").font = font_bold
+ws1.cell(row=15, column=9, value="=AVERAGE(I13:I14)").font = font_bold
 
-for c in range(2, 9):
-    cl = ws_summary.cell(row=16, column=c)
-    cl.border = top_thin_bottom_double
-    if c in [3, 4, 5, 8]:
+for c in range(2, 10):
+    cl = ws1.cell(row=15, column=c)
+    cl.border = double_bottom_border
+    if c in [3, 4, 5]:
         cl.number_format = "#,##0"
     elif c == 6:
         cl.number_format = "0.0%"
-    elif c == 7:
+    elif c in [7, 8]:
         cl.number_format = "$#,##0"
+    elif c == 9:
+        cl.number_format = "$#,##0.00"
 
 # ====================================================================
-# TAB 2: MONTHLY MRR & ARR WATERFALL
+# TAB 2: LEAD TIME SENSITIVITY & REVENUE ATTRITION
 # ====================================================================
-ws_waterfall = wb.create_sheet(title="ARR Waterfall")
-ws_waterfall.views.sheetView[0].showGridLines = True
+ws2 = wb.create_sheet(title="Lead Time Sensitivity")
+ws2.views.sheetView[0].showGridLines = True
 
-ws_waterfall["A1"].value = "PulseMetrics-AI: Monthly ARR Waterfall & Growth Trajectory"
-ws_waterfall["A1"].font = font_section
+ws2["A1"].value = "Cancellation Risk by Booking Lead Time Window"
+ws2["A1"].font = font_section
 
-waterfall_headers = [
-    "Month", "Beginning ARR", "New Added ARR", "Expansion ARR", "Contraction ARR", "Churned ARR", "Ending ARR", "Net New ARR", "MoM Growth %"
-]
-for col_idx, h in enumerate(waterfall_headers, start=1):
-    cell = ws_waterfall.cell(row=3, column=col_idx, value=h)
-    cell.font = font_tbl_header
-    cell.fill = fill_navy
-    cell.alignment = Alignment(horizontal="center", vertical="center")
-
-# Populate 12 monthly sample rows with dynamic formulas
-months = ["2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12"]
-base_arr = 10500000
-
-for i, m in enumerate(months, start=4):
-    ws_waterfall.cell(row=i, column=1, value=m).font = font_regular
-    
-    # Beginning ARR: formula referring to prior month ending ARR or base
-    if i == 4:
-        ws_waterfall.cell(row=i, column=2, value=base_arr).number_format = "$#,##0"
-    else:
-        ws_waterfall.cell(row=i, column=2, value=f"=G{i-1}").number_format = "$#,##0"
-        
-    new_arr = 450000 + (i * 15000)
-    exp_arr = 120000 + (i * 5000)
-    con_arr = 35000 + (i * 2000)
-    chu_arr = 110000 + (i * 4000)
-    
-    ws_waterfall.cell(row=i, column=3, value=new_arr).number_format = "$#,##0"
-    ws_waterfall.cell(row=i, column=4, value=exp_arr).number_format = "$#,##0"
-    ws_waterfall.cell(row=i, column=5, value=con_arr).number_format = "$#,##0"
-    ws_waterfall.cell(row=i, column=6, value=chu_arr).number_format = "$#,##0"
-    
-    # Ending ARR = Beginning + New + Expansion - Contraction - Churn
-    ws_waterfall.cell(row=i, column=7, value=f"=B{i}+C{i}+D{i}-E{i}-F{i}").number_format = "$#,##0"
-    # Net New ARR = Ending - Beginning
-    ws_waterfall.cell(row=i, column=8, value=f"=G{i}-B{i}").number_format = "$#,##0"
-    # MoM Growth %
-    ws_waterfall.cell(row=i, column=9, value=f"=(G{i}-B{i})/B{i}").number_format = "0.0%"
-    
-    for c in range(1, 10):
-        ws_waterfall.cell(row=i, column=c).border = cell_border
-
-# ====================================================================
-# TAB 3: CUSTOMER RAW DATASET & RFM
-# ====================================================================
-ws_cust = wb.create_sheet(title="Customer Master Data")
-ws_cust.views.sheetView[0].showGridLines = True
-
-df_c = pd.read_csv(os.path.join(RAW_DIR, "dim_customers.csv"))
-df_s = pd.read_csv(os.path.join(RAW_DIR, "fact_subscriptions.csv"))
-df_u = pd.read_csv(os.path.join(RAW_DIR, "fact_product_usage.csv"))
-
-merged = df_c.merge(df_s, on="customer_id").merge(df_u, on="customer_id")
-cols_to_export = [
-    "customer_id", "company_name", "industry", "region", "tier", "status", "arr", 
-    "licensed_seats", "avg_weekly_logins", "active_seat_utilization", "nps_score", "last_active_days_ago"
-]
-merged_sub = merged[cols_to_export].head(300) # top 300 for clean workbook performance
-
-for col_idx, col_name in enumerate(cols_to_export, start=1):
-    cell = ws_cust.cell(row=1, column=col_idx, value=col_name.replace("_", " ").title())
+lead_headers = ["Lead Time Bucket", "Total Reservations", "Cancellations", "Cancellation Rate %", "Avg ADR", "Lost Booking Revenue", "Realized Revenue"]
+for c_idx, h in enumerate(lead_headers, start=1):
+    cell = ws2.cell(row=3, column=c_idx, value=h)
     cell.font = font_tbl_header
     cell.fill = fill_navy
     cell.alignment = Alignment(horizontal="center")
 
-for r_idx, row in enumerate(merged_sub.itertuples(index=False), start=2):
+lead_data = [
+    ("1. Last Minute (0-7 Days)", 25480, 3560, "=C4/B4", 98.40, 680200, 4820100),
+    ("2. Short Notice (8-30 Days)", 22150, 6820, "=C5/B5", 102.10, 1420500, 3750400),
+    ("3. Moderate Advance (31-90 Days)", 31420, 12890, "=C6/B6", 104.50, 3180400, 4920800),
+    ("4. Long Advance (91-180 Days)", 22890, 11450, "=C7/B7", 101.80, 2980100, 3120600),
+    ("5. Early Bird (>180 Days)", 17450, 9504, "=C8/B8", 96.20, 2962420, 1807330)
+]
+
+for r_idx, row in enumerate(lead_data, start=4):
     for c_idx, val in enumerate(row, start=1):
-        cell = ws_cust.cell(row=r_idx, column=c_idx, value=val)
+        cell = ws2.cell(row=r_idx, column=c_idx, value=val)
         cell.font = font_regular
         cell.border = cell_border
-        if c_idx == 7:
+        if c_idx in [2, 3]:
+            cell.number_format = "#,##0"
+        elif c_idx == 4:
+            cell.number_format = "0.0%"
+            # Alert highlight for high cancellation rates (>45%)
+            if r_idx in [6, 7, 8]:
+                cell.fill = fill_alert_red
+        elif c_idx == 5:
+            cell.number_format = "$#,##0.00"
+        elif c_idx in [6, 7]:
             cell.number_format = "$#,##0"
-        elif c_idx == 10:
+
+# ====================================================================
+# TAB 3: MONTHLY OVERBOOKING STRATEGY
+# ====================================================================
+ws3 = wb.create_sheet(title="Overbooking Schedule")
+ws3.views.sheetView[0].showGridLines = True
+
+ws3["A1"].value = "Monthly Cancellation Rates & Recommended Overbooking Buffer %"
+ws3["A1"].font = font_section
+
+ob_headers = ["Month", "City Hotel Cancellation %", "City Recommended Overbooking %", "Resort Cancellation %", "Resort Recommended Overbooking %"]
+for c_idx, h in enumerate(ob_headers, start=1):
+    cell = ws3.cell(row=3, column=c_idx, value=h)
+    cell.font = font_tbl_header
+    cell.fill = fill_navy
+    cell.alignment = Alignment(horizontal="center")
+
+months = [
+    ("January", 0.38, 0.15, 0.15, 0.06),
+    ("February", 0.39, 0.15, 0.21, 0.08),
+    ("March", 0.40, 0.16, 0.24, 0.09),
+    ("April", 0.45, 0.18, 0.31, 0.12),
+    ("May", 0.44, 0.17, 0.33, 0.13),
+    ("June", 0.44, 0.17, 0.31, 0.12),
+    ("July", 0.41, 0.16, 0.32, 0.13),
+    ("August", 0.40, 0.16, 0.34, 0.14),
+    ("September", 0.42, 0.17, 0.28, 0.11),
+    ("October", 0.43, 0.17, 0.27, 0.11),
+    ("November", 0.36, 0.14, 0.19, 0.07),
+    ("December", 0.35, 0.14, 0.25, 0.10)
+]
+
+for r_idx, row in enumerate(months, start=4):
+    for c_idx, val in enumerate(row, start=1):
+        cell = ws3.cell(row=r_idx, column=c_idx, value=val)
+        cell.font = font_regular
+        cell.border = cell_border
+        if c_idx >= 2:
             cell.number_format = "0.0%"
 
-# Adjust column widths across all sheets
+# Adjust column widths
 for sheet in wb.worksheets:
     for col in sheet.columns:
         max_len = max(len(str(cell.value or '')) for cell in col)
         col_letter = get_column_letter(col[0].column)
-        sheet.column_dimensions[col_letter].width = max(max_len + 3, 12)
+        sheet.column_dimensions[col_letter].width = max(max_len + 3, 14)
 
 wb.save(OUTPUT_PATH)
 print(f"Executive Excel model successfully generated at: {OUTPUT_PATH}")

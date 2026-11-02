@@ -1,62 +1,40 @@
 -- ====================================================================
--- PulseMetrics-AI: Dimensional Star Schema DDL
--- Compatible with PostgreSQL, DuckDB, Snowflake, and SQLite
+-- Hotel Booking Cancellation & Revenue Analytics
+-- Schema DDL (DuckDB / PostgreSQL / Snowflake Compatible)
+-- Data Source: Real-world Hotel Booking Demand Dataset (119,390 records)
 -- ====================================================================
 
--- 1. Customer Dimension
-CREATE TABLE IF NOT EXISTS dim_customers (
-    customer_id VARCHAR(50) PRIMARY KEY,
-    company_name VARCHAR(150) NOT NULL,
-    industry VARCHAR(100) NOT NULL,
-    region VARCHAR(50) NOT NULL,
-    company_size VARCHAR(50) NOT NULL,
-    tier VARCHAR(50) NOT NULL,
-    signup_date DATE NOT NULL,
-    primary_contact_role VARCHAR(100)
-);
-
--- 2. Plan Tier Dimension
-CREATE TABLE IF NOT EXISTS dim_plans (
-    plan_tier VARCHAR(50) PRIMARY KEY,
-    base_mrr NUMERIC(10, 2) NOT NULL,
-    included_seats INT NOT NULL,
-    support_tier VARCHAR(50) NOT NULL
-);
-
--- 3. Subscription Fact Table
-CREATE TABLE IF NOT EXISTS fact_subscriptions (
-    subscription_id VARCHAR(50) PRIMARY KEY,
-    customer_id VARCHAR(50) REFERENCES dim_customers(customer_id),
-    plan_tier VARCHAR(50) REFERENCES dim_plans(plan_tier),
-    mrr NUMERIC(10, 2) NOT NULL,
-    arr NUMERIC(12, 2) NOT NULL,
-    licensed_seats INT NOT NULL,
-    billing_cycle VARCHAR(20) NOT NULL,
-    discount_percent NUMERIC(5, 2) DEFAULT 0.0,
-    status VARCHAR(20) NOT NULL, -- 'Active' or 'Churned'
-    start_date DATE NOT NULL,
-    churn_date DATE
-);
-
--- 4. Product Usage Telemetry Fact Table
-CREATE TABLE IF NOT EXISTS fact_product_usage (
-    customer_id VARCHAR(50) PRIMARY KEY REFERENCES dim_customers(customer_id),
-    avg_weekly_logins NUMERIC(5, 2) NOT NULL,
-    active_seat_utilization NUMERIC(5, 2) NOT NULL,
-    monthly_api_calls BIGINT NOT NULL,
-    active_features_count INT NOT NULL,
-    nps_score INT CHECK (nps_score BETWEEN 0 AND 10),
-    storage_used_gb NUMERIC(8, 2) NOT NULL,
-    last_active_days_ago INT NOT NULL
-);
-
--- 5. Support Tickets Fact Table
-CREATE TABLE IF NOT EXISTS fact_support_tickets (
-    ticket_id VARCHAR(50) PRIMARY KEY,
-    customer_id VARCHAR(50) REFERENCES dim_customers(customer_id),
-    category VARCHAR(100) NOT NULL,
-    priority VARCHAR(20) NOT NULL,
-    resolution_time_hours NUMERIC(6, 2) NOT NULL,
-    csat_rating INT CHECK (csat_rating BETWEEN 1 AND 5),
-    escalated_to_tier2 INT DEFAULT 0
+CREATE TABLE IF NOT EXISTS hotel_bookings (
+    hotel VARCHAR(50) NOT NULL,
+    is_canceled INT NOT NULL,
+    lead_time INT NOT NULL,
+    arrival_date_year INT NOT NULL,
+    arrival_date_month VARCHAR(20) NOT NULL,
+    arrival_date_week_number INT NOT NULL,
+    arrival_date_day_of_month INT NOT NULL,
+    stays_in_weekend_nights INT NOT NULL,
+    stays_in_week_nights INT NOT NULL,
+    adults INT NOT NULL,
+    children NUMERIC(4, 1) DEFAULT 0,
+    babies INT DEFAULT 0,
+    meal VARCHAR(20),
+    country VARCHAR(10),
+    market_segment VARCHAR(50),
+    distribution_channel VARCHAR(50),
+    is_repeated_guest INT DEFAULT 0,
+    previous_cancellations INT DEFAULT 0,
+    previous_bookings_not_canceled INT DEFAULT 0,
+    reserved_room_type VARCHAR(10),
+    assigned_room_type VARCHAR(10),
+    booking_changes INT DEFAULT 0,
+    deposit_type VARCHAR(50),
+    agent VARCHAR(20),
+    company VARCHAR(20),
+    days_in_waiting_list INT DEFAULT 0,
+    customer_type VARCHAR(50),
+    adr NUMERIC(10, 2) NOT NULL,
+    required_car_parking_spaces INT DEFAULT 0,
+    total_of_special_requests INT DEFAULT 0,
+    reservation_status VARCHAR(50),
+    reservation_status_date DATE
 );

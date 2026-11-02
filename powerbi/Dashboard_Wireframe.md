@@ -1,36 +1,24 @@
-# Power BI Dashboard Visual Wireframe & Layout Guide
+# Power BI Dashboard Visual Wireframe & Layout Specification
 
-## Layout Overview (16:9 1920x1080 Aspect Ratio)
+## Report Canvas Layout (16:9 1920x1080)
 
-### 1. Header Banner (Height: 80px, Background: #1F4E79)
-- **Left:** Logo + Title *"PulseMetrics-AI: Executive Revenue & Retention Intelligence"*
-- **Right:** Slicers for `Date Range` (Slider), `Plan Tier` (Dropdown), `Industry` (Multi-select)
+### Page 1: Executive Revenue & Cancellation Overview
+* **Header Bar (Navy #1B365D):** Title *"Hotel Revenue Optimization & Cancellation Recovery"*, Global Slicers: `Hotel Type`, `Year`, `Market Segment`.
+* **Top Metric Ribbon (5 Cards):**
+  1. `[Total Reservations]` (119,390)
+  2. `[Cancellation Rate %]` (37.0% - Conditional Red if >35%)
+  3. `[Realized Room Revenue]` ($18.42M)
+  4. `[Lost Revenue from Cancellations]` ($11.22M)
+  5. `[Average Daily Rate (ADR)]` ($101.83)
+* **Middle Left (Area/Line Chart):** Monthly Booking & Cancellation Trends (Volume vs % Canceled over 2015-2017).
+* **Middle Right (Clustered Bar Chart):** Lost Revenue & Cancellation Rate across Market Segments (Online TA vs Direct vs Corporate).
+* **Bottom Row (Decomposition Tree / Map):** Global Guest Origin Map showing Top 10 origin countries with highest cancellation rates.
 
-### 2. Top Metric Cards Row (KPI Banner)
-- **Card 1:** `[Total ARR]` (Formatted as Currency `$#,##0`) + Target Delta
-- **Card 2:** `[Active Customer Count]` (Formatted as Integer `#,##0`)
-- **Card 3:** `[Customer Churn Rate %]` (Formatted as Percentage `0.0%`, Conditional Color: Green <15%, Red >20%)
-- **Card 4:** `[Net Revenue Retention (NRR) %]` (Formatted as Percentage `0.0%`, Benchmark: 105%)
-- **Card 5:** `[Quick Ratio]` (Target: >4.0)
+---
 
-### 3. Visual Grid Section (Middle Row)
-- **Visual 1 (Left 50%):** Clustered Column Chart
-  - **X-Axis:** `timeline[report_month]`
-  - **Y-Axis:** `[New ARR]`, `[Expansion ARR]`, `[Contraction ARR]`, `[Lost Churned ARR]`
-  - **Line Overlay:** `[Net New ARR]`
-- **Visual 2 (Right 50%):** Matrix Table (Cohort Retention Heatmap)
-  - **Rows:** `cohort_month`
-  - **Columns:** `Month 0`, `Month 1`, `Month 3`, `Month 6`, `Month 9`, `Month 12`
-  - **Values:** `[Cohort Retention Rate %]`
-  - **Conditional Formatting:** Color scale background (Red for <60%, Yellow for 75%, Green for 90%+)
-
-### 4. Bottom Row: Customer 360 & Operational SLAs
-- **Visual 3 (Left 50%):** Scatter Plot
-  - **X-Axis:** `[Avg Seat Utilization %]`
-  - **Y-Axis:** `[Total ARR]`
-  - **Legend:** `[Customer Health Status]`
-  - **Tooltip:** `Company Name`, `Primary Contact Role`, `NPS Score`
-- **Visual 4 (Right 50%):** Bar Chart
-  - **Category:** `fact_support_tickets[category]`
-  - **Values:** `[Avg Support Resolution Time (Hours)]`
-  - **Color Saturation:** `[Tier 2 Escalation Rate %]`
+### Page 2: Lead Time Risk & Overbooking Strategy
+* **Top Slicer Bar:** `Lead Time Bucket` (0-7 days, 8-30 days, 31-90 days, 91-180 days, >180 days).
+* **Chart 1 (Waterfall / Bar):** Cancellation % Escalation by Lead Time Bucket (14% at 0-7 days jumping to 56% at >180 days).
+* **Chart 2 (Heatmap Matrix):** Month vs Property Type showing Empirical Cancellation % and Recommended Overbooking Buffer %.
+* **Chart 3 (Scatter Plot):** ADR vs Lead Time categorized by Confirmation vs Cancellation.
+* **Operational Action Card:** Real-time overbooking recommendation calculator.

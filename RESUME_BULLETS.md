@@ -1,29 +1,30 @@
-# ATS-Optimized Resume Bullets for PulseMetrics-AI
+# ATS-Optimized Resume Bullets (Fresher & Junior Data Analyst)
 
-You can copy and paste these high-impact, metric-driven bullet points directly into your resume under **Projects** or **Work Experience**, tailored for specific job titles:
-
----
-
-### Option 1: For **Data Analyst / Product Data Analyst** Roles
-- **Enterprise SaaS Customer 360 & Revenue Intelligence Platform (`PulseMetrics-AI`)**
-  - Architected a dimensional star schema (5 fact/dimension tables, 1,500+ accounts) using **DuckDB & PostgreSQL** to evaluate SaaS unit economics, cohort retention curves, and MRR movements.
-  - Formulated advanced SQL queries leveraging multi-level CTEs and window functions (`LAG`, `NTILE`, `SUM OVER`) to build a monthly ARR waterfall and a 12-month cohort retention matrix.
-  - Engineered an interactive **Executive Dashboard** (Power BI DAX library & Streamlit) tracking ARPU, Net Revenue Retention (108.4% NRR), and customer health scores, reducing reporting latency by 75%.
-  - Designed a production-ready financial workbook in **Excel** with dynamic formulas (`SUMIFS`, `XLOOKUP`), sensitivity tables, and conditional formatting for C-suite forecasting.
+You can copy and paste these bullet points directly into your resume under **Projects**:
 
 ---
 
-### Option 2: For **AI Data Analyst / Analytics Engineer** Roles
-- **PulseMetrics-AI: End-to-End SaaS Revenue Analytics & GenAI Copilot**
-  - Developed a full-stack analytics engine integrating structured dimensional modeling with an autonomous **GenAI RAG Copilot** combining Text-to-SQL with vector semantic search.
-  - Trained an interpretable Random Forest churn classification model achieving **0.99 ROC-AUC and 92.1% Recall**, identifying support ticket SLA delays and low seat utilization as primary attrition drivers.
-  - Clustered 1,200+ active enterprise accounts into 4 behavioral archetypes using **K-Means RFM segmentation (Silhouette Score: 0.24)** to direct targeted customer marketing campaigns.
-  - Implemented a hybrid RAG retrieval pipeline synthesizing live quantitative DuckDB query outputs with qualitative customer QBR and exit interview transcripts to generate automated executive briefings.
+### Option 1: For **Data Analyst / Junior Data Analyst**
+- **Hotel Booking Cancellation & Revenue Loss Analytics** *(SQL, Excel, Power BI, Python)*
+  - Analyzed 119,000+ real hotel booking transactions (City & Resort hotels) to identify root drivers behind a **37.0% cancellation rate**, exposing **\$11.2M in lost room revenue**.
+  - Wrote production SQL queries using multi-level CTEs and window functions (`LAG`, `DENSE_RANK`, `SUM OVER`) to evaluate lead-time hazard curves, market segment risk, and monthly revenue attrition.
+  - Built an executive **Excel Financial Model** utilizing dynamic formulas (`SUMIFS`, `AVERAGEIFS`, `XLOOKUP`), conditional formatting, and pivot tables to model dynamic overbooking scenarios.
+  - Formulated a 15-measure **Power BI DAX library** (RevPAR, ADR Variance, Cancellation Rate %) across a dimensional star schema to deliver interactive property performance reporting.
+  - Trained an interpretable Random Forest classifier achieving **82.1% Accuracy and 0.89 ROC-AUC**, discovering that lead times >90 days and zero deposit policies increase cancellation odds by 3.8x.
 
 ---
 
-### Option 3: For **Business Intelligence / BI Analyst** Roles
-- **B2B SaaS Revenue & Retention Intelligence Suite**
-  - Authored a library of 15+ production-grade **Power BI DAX measures** (Quick Ratio, Blended Churn %, Customer Lifetime Value, MoM Growth %) mapped over a single-direction star schema.
-  - Uncovered critical product adoption bottlenecks via correlation analysis, discovering that accounts with <45% seat utilization exhibit a 4.2x higher churn hazard rate.
-  - Built automated early warning alert feeds scoring active accounts by churn probability, empowering Customer Success to proactively protect \$1.8M in at-risk ARR.
+### Option 2: For **Business Intelligence / BI Analyst**
+- **Hospitality Revenue Optimization & Overbooking Intelligence** *(Power BI, SQL, Excel)*
+  - Modeled a 119k-row booking ledger into a dimensional star schema in **Power BI**, enabling sub-second filtering across property types, distribution channels, and guest origins.
+  - Identified that Online Travel Agencies (OTAs) accounted for 73% of total cancellations due to zero-commitment reservation policies.
+  - Formulated a monthly overbooking buffer strategy (10–16% overbooking threshold) based on empirical cancellation probability, projecting **\$1.4M in recovered room revenue**.
+  - Developed a live interactive simulation dashboard in **Streamlit** empowering revenue managers to test cancellation risk and deposit requirements per booking.
+
+---
+
+### Option 3: For **Data Science / Machine Learning Analyst**
+- **Predictive Hotel Reservation Cancellation & Overbooking Engine** *(Python, Scikit-Learn, SQL)*
+  - Preprocessed and engineered features on 119k real booking records; performed stratified train-test splitting and hyperparameter tuning.
+  - Built a Random Forest classification model (**86.6% Precision, 0.89 ROC-AUC**) to flag high-risk reservations prior to arrival.
+  - Extracted feature importances revealing deposit types, booking lead time, previous cancellation history, and parking requests as top predictive drivers.

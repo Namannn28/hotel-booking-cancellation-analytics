@@ -1,107 +1,104 @@
 // ==============================================================================
-// PulseMetrics-AI: Enterprise Power BI DAX Measures Library
-// Author: Naman Gupta (Data Analyst & AI Analytics Portfolio)
-// Category: SaaS Unit Economics, Revenue Waterfall & Retention Analytics
+// Hotel Booking Cancellation & Revenue Recovery: Power BI DAX Library
+// Author: Naman Gupta (Data Analyst Portfolio)
+// Metrics: Hospitality Revenue Management, Cancellation Hazards & Overbooking
 // ==============================================================================
 
 // ------------------------------------------------------------------------------
-// 1. REVENUE & FINANCIAL MEASURES
+// 1. VOLUME & OCCUPANCY MEASURES
 // ------------------------------------------------------------------------------
 
-Total ARR = 
+Total Reservations = 
+COUNTROWS(hotel_bookings)
+
+Confirmed Bookings = 
 CALCULATE(
-    SUM(fact_subscriptions[arr]),
-    fact_subscriptions[status] = "Active"
+    COUNTROWS(hotel_bookings),
+    hotel_bookings[is_canceled] = 0
 )
 
-Total MRR = 
+Canceled Bookings = 
 CALCULATE(
-    SUM(fact_subscriptions[mrr]),
-    fact_subscriptions[status] = "Active"
+    COUNTROWS(hotel_bookings),
+    hotel_bookings[is_canceled] = 1
 )
 
-Average Revenue Per Account (ARPU) = 
+Cancellation Rate % = 
 DIVIDE(
-    [Total ARR],
-    [Active Customer Count],
+    [Canceled Bookings],
+    [Total Reservations],
     0
 )
 
-Lost Churned ARR = 
+Total Room Nights Stayed = 
 CALCULATE(
-    SUM(fact_subscriptions[arr]),
-    fact_subscriptions[status] = "Churned"
+    SUMX(hotel_bookings, hotel_bookings[stays_in_weekend_nights] + hotel_bookings[stays_in_week_nights]),
+    hotel_bookings[is_canceled] = 0
 )
 
-Net New ARR = 
-[Total ARR] - [Lost Churned ARR]
+Total Room Nights Lost = 
+CALCULATE(
+    SUMX(hotel_bookings, hotel_bookings[stays_in_weekend_nights] + hotel_bookings[stays_in_week_nights]),
+    hotel_bookings[is_canceled] = 1
+)
 
 // ------------------------------------------------------------------------------
-// 2. RETENTION & CHURN DAX FORMULAS
+// 2. FINANCIAL & REVENUE MEASURES
 // ------------------------------------------------------------------------------
 
-Customer Churn Rate % = 
+Average Daily Rate (ADR) = 
+AVERAGE(hotel_bookings[adr])
+
+Realized Room Revenue = 
+CALCULATE(
+    SUMX(
+        hotel_bookings,
+        (hotel_bookings[stays_in_weekend_nights] + hotel_bookings[stays_in_week_nights]) * hotel_bookings[adr]
+    ),
+    hotel_bookings[is_canceled] = 0
+)
+
+Lost Revenue from Cancellations = 
+CALCULATE(
+    SUMX(
+        hotel_bookings,
+        (hotel_bookings[stays_in_weekend_nights] + hotel_bookings[stays_in_week_nights]) * hotel_bookings[adr]
+    ),
+    hotel_bookings[is_canceled] = 1
+)
+
+Total Potential Revenue = 
+[Realized Room Revenue] + [Lost Revenue from Cancellations]
+
+Revenue Realization Efficiency % = 
 DIVIDE(
-    CALCULATE(COUNTROWS(fact_subscriptions), fact_subscriptions[status] = "Churned"),
-    COUNTROWS(fact_subscriptions),
+    [Realized Room Revenue],
+    [Total Potential Revenue],
     0
 )
 
-Customer Retention Rate % = 
-1 - [Customer Churn Rate %]
+// ------------------------------------------------------------------------------
+// 3. LEAD TIME & CHANNEL RISK MEASURES
+// ------------------------------------------------------------------------------
 
-Net Revenue Retention (NRR) % = 
-VAR BeginningARR = CALCULATE([Total ARR], PREVIOUSMONTH(dim_dates[Date]))
-VAR ExpansionARR = CALCULATE(SUM(fact_subscriptions[arr]), fact_subscriptions[arr] > 0)
-VAR ChurnedARR = [Lost Churned ARR]
-RETURN
-DIVIDE(
-    BeginningARR + ExpansionARR - ChurnedARR,
-    BeginningARR,
-    1.0
+Average Lead Time (Days) = 
+AVERAGE(hotel_bookings[lead_time])
+
+Online TA Cancellation Rate % = 
+CALCULATE(
+    [Cancellation Rate %],
+    hotel_bookings[market_segment] = "Online TA"
 )
 
-Quick Ratio = 
-VAR NewARR = CALCULATE(SUM(fact_subscriptions[arr]), fact_subscriptions[status] = "Active")
-VAR ChurnedARR = [Lost Churned ARR]
-RETURN
-DIVIDE(
-    NewARR,
-    ChurnedARR,
-    0
+Direct Booking Cancellation Rate % = 
+CALCULATE(
+    [Cancellation Rate %],
+    hotel_bookings[market_segment] = "Direct"
 )
 
-// ------------------------------------------------------------------------------
-// 3. PRODUCT ADOPTION & HEALTH SCORES
-// ------------------------------------------------------------------------------
-
-Avg Seat Utilization % = 
-AVERAGE(fact_product_usage[active_seat_utilization])
-
-Avg NPS Score = 
-AVERAGE(fact_product_usage[nps_score])
-
-Customer Health Status = 
-SWITCH(
-    TRUE(),
-    [Avg NPS Score] >= 8 && [Avg Seat Utilization %] >= 0.75, "Healthy / Champion",
-    [Avg NPS Score] >= 6 && [Avg Seat Utilization %] >= 0.50, "Neutral / Moderate",
-    "At-Risk / Escalation"
-)
-
-// ------------------------------------------------------------------------------
-// 4. SUPPORT SLA & CSAT DAX
-// ------------------------------------------------------------------------------
-
-Avg Support Resolution Time (Hours) = 
-AVERAGE(fact_support_tickets[resolution_time_hours])
-
-Support CSAT Average = 
-AVERAGE(fact_support_tickets[csat_rating])
-
-Tier 2 Escalation Rate % = 
+Repeated Guest Loyalty Rate % = 
 DIVIDE(
-    SUM(fact_support_tickets[escalated_to_tier2]),
-    COUNTROWS(fact_support_tickets),
+    CALCULATE(COUNTROWS(hotel_bookings), hotel_bookings[is_repeated_guest] = 1),
+    [Total Reservations],
     0
 )

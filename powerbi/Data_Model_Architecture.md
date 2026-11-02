@@ -1,43 +1,40 @@
-# Power BI Semantic Model & Star Schema Architecture
+# Power BI Semantic Model & Architecture Guide
 
 ## Overview
-The PulseMetrics semantic model is architected around a strict **Dimensional Star Schema** designed for sub-second query performance and clean DAX calculations in Power BI and Microsoft Fabric.
+This document outlines the data model architecture for the **Hotel Booking Revenue Optimization & Cancellation Analytics** report in Power BI.
+
+The model transforms the flat 119,390-row booking ledger into an optimized **Dimensional Star Schema** for sub-second visual performance, cross-filtering, and DAX metric calculation.
 
 ```
        +--------------------+
-       |   dim_customers    |
+       |     dim_dates      |
        +--------------------+
                  | (1)
                  |
                  | (*)
        +--------------------+          (1) +--------------------+
-       | fact_subscriptions |<-------------|     dim_plans      |
-       +--------------------+              +--------------------+
-                 | (1)
-                 |
-                 | (1)
+       |   hotel_bookings   |<-------------|   dim_properties   |
+       |    (Fact Table)    |              +--------------------+
        +--------------------+
-       | fact_product_usage |
-       +--------------------+
-                 | (1)
-                 |
-                 | (*)
-       +--------------------+
-       |fact_support_tickets|
-       +--------------------+
+          | (*)          (*) |
+          |                  |
+          | (1)              | (1)
++--------------------+   +--------------------+
+|    dim_channels    |   |   dim_geography    |
++--------------------+   +--------------------+
 ```
 
-## Table Roles & Cardinality
+## Table Breakdown & Cardinality
 
-| Table Name | Type | Key Columns | Cardinality & Filter Direction | Description |
+| Table | Role | Key Column(s) | Cardinality | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **`dim_customers`** | Dimension | `customer_id` (PK) | 1 to Many (`1:*`), Single | Core customer profile (Industry, Region, Tier, Size) |
-| **`dim_plans`** | Dimension | `plan_tier` (PK) | 1 to Many (`1:*`), Single | Tier metadata, base pricing, SLA standards |
-| **`fact_subscriptions`**| Fact | `subscription_id` (PK), `customer_id` (FK) | Core Fact | Subscription contracts, MRR, ARR, Billing status |
-| **`fact_product_usage`** | Fact (Degenerate) | `customer_id` (PK/FK) | 1 to 1 (`1:1`), Bi-directional | Weekly logins, seat utilization %, NPS, API volume |
-| **`fact_support_tickets`**| Fact | `ticket_id` (PK), `customer_id` (FK) | Many to 1 (`*:1`), Single | Support cases, resolution latency, CSAT scores |
+| **`hotel_bookings`** | Central Fact | `booking_id` | N/A | 119,390 reservation event records with ADR, stays, status |
+| **`dim_properties`** | Dimension | `hotel` | `1 : *` (Single) | Property attributes (City Hotel vs Resort Hotel) |
+| **`dim_dates`** | Dimension | `date_key` | `1 : *` (Single) | Continuous calendar table (Year, Month, Day, Weekday, Quarter) |
+| **`dim_channels`** | Dimension | `market_segment` | `1 : *` (Single) | Distribution channel hierarchy (Online TA, Direct, Corporate) |
+| **`dim_geography`** | Dimension | `country_code` | `1 : *` (Single) | Guest origin countries, ISO codes, continent rollups |
 
-## Best Practices Implemented
-1. **Single-Direction Filtering**: Enforced single-directional filtering on dimension tables to avoid circular dependency paths and DAX ambiguity.
-2. **Hidden Foreign Keys**: All raw surrogate keys (`customer_id`, `subscription_id`) are hidden from report view, exposing clean business attributes.
-3. **Calculated Columns vs Measures**: Row-level transforms were kept strictly in SQL ETL. All metrics (ARR, Churn %, NRR) are computed dynamically via optimized DAX measures.
+## DAX Modeling Best Practices Applied
+1. **Separation of Fact and Dimension Tables:** Eliminates redundancy in filter slicers and enhances Power BI VertiPaq engine compression.
+2. **Explicit Measures:** All financial aggregations (`Realized Revenue`, `Lost Revenue`, `ADR`) are written in explicit DAX measures with divide-by-zero protection via `DIVIDE()`.
+3. **Single-Direction Relationships:** Prevents circular dependency loops and ensures predictable filter propagation.

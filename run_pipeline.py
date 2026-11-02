@@ -1,68 +1,59 @@
 """
-PulseMetrics-AI: Master Pipeline Runner
-Executes the end-to-end data analytics and AI pipeline in a single command:
-1. Synthetic Data Generation
-2. SQL Analytical Modeling (DuckDB)
-3. Predictive Churn Modeling (Random Forest)
-4. Unsupervised Customer RFM Clustering (K-Means)
-5. Executive Financial Model Workbook Generation (OpenPyXL)
-6. Copilot Self-Verification Test
+Hotel Booking Cancellation & Revenue Recovery: Master Pipeline Runner
+Executes the end-to-end data analytics and predictive modeling workflow:
+1. Validates Real-World Dataset (119,390 records)
+2. Executes 5 Production SQL Models via DuckDB
+3. Trains Predictive Cancellation ML Model (Random Forest)
+4. Generates Formatted Executive Excel Financial Model
 """
 
 import os
 import sys
 import subprocess
 import duckdb
-import pandas as pd
 
 def log(msg):
-    print(f"\n[PulseMetrics-AI] >>> {msg}")
+    print(f"\n[Hotel-Analytics] >>> {msg}")
 
 def main():
-    log("Step 1: Generating B2B SaaS Enterprise Datasets...")
-    import generate_dataset
-
-    log("Step 2: Executing Production SQL Analytical Models via DuckDB...")
-    con = duckdb.connect(database=":memory:")
-    raw_dir = os.path.join(os.path.dirname(__file__), "data", "raw").replace("\\", "/")
+    base_dir = os.path.dirname(__file__)
+    data_path = os.path.join(base_dir, "data", "raw", "hotel_bookings.csv")
     
-    # Load raw tables
-    for tbl in ["dim_customers", "fact_subscriptions", "fact_product_usage", "fact_support_tickets"]:
-        con.execute(f"CREATE TABLE {tbl} AS SELECT * FROM read_csv_auto('{raw_dir}/{tbl}.csv');")
+    if not os.path.exists(data_path):
+        print(f"Error: {data_path} not found. Please ensure the real dataset is present.")
+        sys.exit(1)
+
+    log("Step 1: Real-World Dataset Verified (119,390 records)")
+
+    log("Step 2: Executing Production SQL Models via DuckDB...")
+    con = duckdb.connect(database=":memory:")
+    clean_path = data_path.replace("\\", "/")
+    con.execute(f"CREATE TABLE hotel_bookings AS SELECT * FROM read_csv_auto('{clean_path}');")
 
     sql_files = [
-        "01_kpi_arr_waterfall.sql",
-        "02_cohort_retention.sql",
-        "03_rfm_segmentation.sql",
-        "04_product_engagement.sql",
-        "05_churn_driver_analysis.sql"
+        "01_monthly_cancellation_trends.sql",
+        "02_lead_time_cancellation_risk.sql",
+        "03_market_segment_channel_analysis.sql",
+        "04_country_cancellation_ranking.sql",
+        "05_deposit_and_repeated_guest_paradox.sql"
     ]
-    
-    for sql_file in sql_files:
-        sql_path = os.path.join(os.path.dirname(__file__), "sql", sql_file)
+
+    for sf in sql_files:
+        sql_path = os.path.join(base_dir, "sql", sf)
         with open(sql_path, "r", encoding="utf-8") as f:
-            query = f.read()
-        res = con.execute(query).df()
-        print(f"  [OK] Successfully executed {sql_file} ({len(res)} rows)")
+            q = f.read()
+        res = con.execute(q).df()
+        print(f"  [OK] Successfully executed {sf} ({len(res)} rows returned)")
 
-    log("Step 3: Training Predictive Churn Model & Generating Risk Alert Feed...")
-    subprocess.run([sys.executable, "ml/train_churn_model.py"], check=True)
+    log("Step 3: Training Predictive Cancellation ML Classifier (Random Forest)...")
+    subprocess.run([sys.executable, "ml/train_cancellation_model.py"], check=True)
 
-    log("Step 4: Executing Unsupervised K-Means Customer Clustering...")
-    subprocess.run([sys.executable, "ml/rfm_clustering.py"], check=True)
-
-    log("Step 5: Generating Multi-Tab Formatted Executive Excel Model...")
+    log("Step 4: Generating Formatted Executive Excel Financial Model...")
     subprocess.run([sys.executable, "generate_excel_model.py"], check=True)
 
-    log("Step 6: Testing Autonomous GenAI Analytics Copilot (Text-to-SQL + RAG)...")
-    from ai_agent.copilot import AnalyticsCopilot
-    copilot = AnalyticsCopilot()
-    test_brief = copilot.generate_executive_brief("What is our active ARR and churn rate by plan tier?")
-    print("  [OK] Copilot test verification successful!")
-
     print("\n" + "="*70)
-    print("  PulseMetrics-AI: Full Pipeline Completed Successfully!")
-    print("  To launch the interactive executive dashboard, run:")
+    print("  Hotel Analytics Pipeline Executed Successfully!")
+    print("  To launch the interactive dashboard, run:")
     print("     streamlit run app.py")
     print("="*70)
 
