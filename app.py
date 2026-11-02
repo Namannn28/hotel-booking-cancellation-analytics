@@ -38,6 +38,22 @@ def load_booking_data():
     return df
 
 
+@st.cache_resource
+def load_cancellation_model():
+    """Loads the trained model or retrains if running in a new cloud environment."""
+    model_file_path = os.path.join(MODELS_DIR, "hotel_cancellation_rf.joblib")
+    features_file_path = os.path.join(MODELS_DIR, "feature_columns.joblib")
+    try:
+        model = joblib.load(model_file_path)
+        features = joblib.load(features_file_path)
+        return model, features
+    except Exception:
+        from ml.train_cancellation_model import load_and_preprocess_data, train_cancellation_model
+        _, feature_matrix, target_series = load_and_preprocess_data()
+        model, _ = train_cancellation_model(feature_matrix, target_series)
+        return model, feature_matrix.columns.tolist()
+
+
 df_bookings = load_booking_data()
 
 # Sidebar Navigation and Filters
@@ -190,22 +206,6 @@ elif selected_page == "Lead Time & Root Causes":
         * **Zero-Deposit Vulnerability:** Over 85% of reservations have `No Deposit`. On Online Travel Agencies, guests treat reservations as options rather than commitments.
         * **Special Requests as Intent:** Guests with 2 or more special requests have an **82% show-up rate**, proving customer interaction is a strong indicator of intent.
         """)
-
-
-@st.cache_resource
-def load_cancellation_model():
-    """Loads the trained model or retrains if running in a new cloud environment."""
-    model_file_path = os.path.join(MODELS_DIR, "hotel_cancellation_rf.joblib")
-    features_file_path = os.path.join(MODELS_DIR, "feature_columns.joblib")
-    try:
-        model = joblib.load(model_file_path)
-        features = joblib.load(features_file_path)
-        return model, features
-    except Exception:
-        from ml.train_cancellation_model import load_and_preprocess_data, train_cancellation_model
-        _, feature_matrix, target_series = load_and_preprocess_data()
-        model, _ = train_cancellation_model(feature_matrix, target_series)
-        return model, feature_matrix.columns.tolist()
 
 
 # -----------------------------------------------------------------------------
