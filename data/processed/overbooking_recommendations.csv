@@ -1,4 +1,4 @@
-hotel,arrival_date_month,total_bookings,cancellations,cancellation_rate,recommended_overbooking_pct
+hotel,arrival_date_month,total_reservations,total_cancellations,cancellation_rate,recommended_overbooking_buffer_pct
 City Hotel,April,7480,3465,0.4632352941176471,18.5
 City Hotel,August,8983,3602,0.4009796281865746,16.0
 City Hotel,December,4132,1740,0.42110358180058083,16.8
