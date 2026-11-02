@@ -1,0 +1,107 @@
+// ==============================================================================
+// PulseMetrics-AI: Enterprise Power BI DAX Measures Library
+// Author: Naman Gupta (Data Analyst & AI Analytics Portfolio)
+// Category: SaaS Unit Economics, Revenue Waterfall & Retention Analytics
+// ==============================================================================
+
+// ------------------------------------------------------------------------------
+// 1. REVENUE & FINANCIAL MEASURES
+// ------------------------------------------------------------------------------
+
+Total ARR = 
+CALCULATE(
+    SUM(fact_subscriptions[arr]),
+    fact_subscriptions[status] = "Active"
+)
+
+Total MRR = 
+CALCULATE(
+    SUM(fact_subscriptions[mrr]),
+    fact_subscriptions[status] = "Active"
+)
+
+Average Revenue Per Account (ARPU) = 
+DIVIDE(
+    [Total ARR],
+    [Active Customer Count],
+    0
+)
+
+Lost Churned ARR = 
+CALCULATE(
+    SUM(fact_subscriptions[arr]),
+    fact_subscriptions[status] = "Churned"
+)
+
+Net New ARR = 
+[Total ARR] - [Lost Churned ARR]
+
+// ------------------------------------------------------------------------------
+// 2. RETENTION & CHURN DAX FORMULAS
+// ------------------------------------------------------------------------------
+
+Customer Churn Rate % = 
+DIVIDE(
+    CALCULATE(COUNTROWS(fact_subscriptions), fact_subscriptions[status] = "Churned"),
+    COUNTROWS(fact_subscriptions),
+    0
+)
+
+Customer Retention Rate % = 
+1 - [Customer Churn Rate %]
+
+Net Revenue Retention (NRR) % = 
+VAR BeginningARR = CALCULATE([Total ARR], PREVIOUSMONTH(dim_dates[Date]))
+VAR ExpansionARR = CALCULATE(SUM(fact_subscriptions[arr]), fact_subscriptions[arr] > 0)
+VAR ChurnedARR = [Lost Churned ARR]
+RETURN
+DIVIDE(
+    BeginningARR + ExpansionARR - ChurnedARR,
+    BeginningARR,
+    1.0
+)
+
+Quick Ratio = 
+VAR NewARR = CALCULATE(SUM(fact_subscriptions[arr]), fact_subscriptions[status] = "Active")
+VAR ChurnedARR = [Lost Churned ARR]
+RETURN
+DIVIDE(
+    NewARR,
+    ChurnedARR,
+    0
+)
+
+// ------------------------------------------------------------------------------
+// 3. PRODUCT ADOPTION & HEALTH SCORES
+// ------------------------------------------------------------------------------
+
+Avg Seat Utilization % = 
+AVERAGE(fact_product_usage[active_seat_utilization])
+
+Avg NPS Score = 
+AVERAGE(fact_product_usage[nps_score])
+
+Customer Health Status = 
+SWITCH(
+    TRUE(),
+    [Avg NPS Score] >= 8 && [Avg Seat Utilization %] >= 0.75, "Healthy / Champion",
+    [Avg NPS Score] >= 6 && [Avg Seat Utilization %] >= 0.50, "Neutral / Moderate",
+    "At-Risk / Escalation"
+)
+
+// ------------------------------------------------------------------------------
+// 4. SUPPORT SLA & CSAT DAX
+// ------------------------------------------------------------------------------
+
+Avg Support Resolution Time (Hours) = 
+AVERAGE(fact_support_tickets[resolution_time_hours])
+
+Support CSAT Average = 
+AVERAGE(fact_support_tickets[csat_rating])
+
+Tier 2 Escalation Rate % = 
+DIVIDE(
+    SUM(fact_support_tickets[escalated_to_tier2]),
+    COUNTROWS(fact_support_tickets),
+    0
+)

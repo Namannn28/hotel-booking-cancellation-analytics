@@ -1,0 +1,1501 @@
+customer_id,company_name,industry,region,company_size,tier,signup_date,primary_contact_role
+CUST-1001,InfraOps 124 Inc.,Fintech,EMEA,1-50 employees,Starter,2023-04-15,COO
+CUST-1002,EchoLink 923 Inc.,Healthcare,EMEA,1-50 employees,Starter,2023-08-27,CTO
+CUST-1003,Hyperion 37 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2024-04-04,CTO
+CUST-1004,QuantIQ 838 Inc.,Fintech,APAC,1-50 employees,Starter,2023-10-12,Head of Product
+CUST-1005,Nexora 990 Inc.,DevOps,North America,51-200 employees,Starter,2023-12-19,CTO
+CUST-1006,QuantIQ 836 Inc.,Fintech,EMEA,51-200 employees,Enterprise,2024-01-23,VP Engineering
+CUST-1007,AuraCloud 310 Inc.,DevOps,EMEA,201-1000 employees,Starter,2023-08-22,Director of IT
+CUST-1008,Stripewave 885 Inc.,Cybersecurity,APAC,51-200 employees,Starter,2024-01-09,Head of Product
+CUST-1009,LogiChain 373 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2023-03-15,CTO
+CUST-1010,InfraOps 185 Inc.,Cybersecurity,North America,51-200 employees,Enterprise,2024-10-17,COO
+CUST-1011,AuraCloud 234 Inc.,DevOps,APAC,201-1000 employees,Growth,2023-02-02,Director of IT
+CUST-1012,BioSync 284 Inc.,Healthcare,North America,1000+ employees,Enterprise,2023-11-19,Head of Product
+CUST-1013,InfraOps 521 Inc.,Logistics,APAC,51-200 employees,Starter,2023-05-23,Head of Product
+CUST-1014,EchoLink 584 Inc.,EdTech,EMEA,51-200 employees,Growth,2024-01-06,Head of Product
+CUST-1015,OmniLogic 531 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-10-04,Head of Product
+CUST-1016,HealthVault 706 Inc.,Logistics,EMEA,51-200 employees,Growth,2024-04-24,CTO
+CUST-1017,QuantIQ 576 Inc.,Fintech,EMEA,1-50 employees,Growth,2023-10-01,COO
+CUST-1018,KubeSphere 124 Inc.,EdTech,North America,51-200 employees,Enterprise,2023-09-27,CTO
+CUST-1019,FinSecure 192 Inc.,Healthcare,APAC,1-50 employees,Growth,2024-09-15,Head of Product
+CUST-1020,OmniLogic 392 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2023-01-01,CTO
+CUST-1021,KubeSphere 510 Inc.,Fintech,North America,51-200 employees,Enterprise,2023-11-11,Head of Product
+CUST-1022,CloudScale 256 Inc.,Healthcare,North America,51-200 employees,Starter,2024-06-29,Head of Product
+CUST-1023,OmniLogic 685 Inc.,Marketing SaaS,LATAM,1-50 employees,Starter,2024-09-13,Lead Analyst
+CUST-1024,Nexora 961 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-01-18,Lead Analyst
+CUST-1025,ScaleBridge 539 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-08-25,CTO
+CUST-1026,Synthetix 612 Inc.,Cybersecurity,North America,201-1000 employees,Starter,2023-03-11,VP Engineering
+CUST-1027,VeloceData 348 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-07-06,Head of Product
+CUST-1028,EchoLink 967 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2023-04-07,VP Engineering
+CUST-1029,TrustWave 451 Inc.,DevOps,North America,51-200 employees,Growth,2024-11-20,COO
+CUST-1030,InfraOps 110 Inc.,Fintech,North America,1-50 employees,Growth,2023-09-12,Head of Product
+CUST-1031,Nexora 559 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-03-19,Lead Analyst
+CUST-1032,HealthVault 892 Inc.,Healthcare,North America,1000+ employees,Enterprise,2023-04-06,Head of Product
+CUST-1033,DataPulse 426 Inc.,Marketing SaaS,EMEA,201-1000 employees,Enterprise,2023-06-18,Lead Analyst
+CUST-1034,ApexFlow 409 Inc.,EdTech,APAC,201-1000 employees,Growth,2024-12-14,COO
+CUST-1035,HealthVault 579 Inc.,Marketing SaaS,North America,1-50 employees,Enterprise,2024-08-16,COO
+CUST-1036,AuraCloud 72 Inc.,DevOps,North America,51-200 employees,Starter,2024-06-27,Head of Product
+CUST-1037,CloudScale 993 Inc.,Healthcare,APAC,1-50 employees,Starter,2023-08-29,Lead Analyst
+CUST-1038,VortexData 974 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-11-04,CTO
+CUST-1039,CoreStack 545 Inc.,DevOps,LATAM,1-50 employees,Growth,2023-09-02,Director of IT
+CUST-1040,BioSync 144 Inc.,EdTech,EMEA,1000+ employees,Enterprise,2023-01-10,Lead Analyst
+CUST-1041,Hyperion 586 Inc.,Healthcare,North America,1-50 employees,Starter,2023-12-24,VP Engineering
+CUST-1042,ScaleBridge 260 Inc.,DevOps,North America,51-200 employees,Starter,2023-11-06,CTO
+CUST-1043,HealthVault 679 Inc.,Fintech,EMEA,51-200 employees,Enterprise,2023-04-17,Head of Product
+CUST-1044,QuantIQ 128 Inc.,Healthcare,EMEA,1-50 employees,Starter,2023-08-04,COO
+CUST-1045,KubeSphere 218 Inc.,EdTech,EMEA,1-50 employees,Growth,2023-02-22,VP Engineering
+CUST-1046,InfraOps 443 Inc.,EdTech,North America,1-50 employees,Starter,2023-09-26,Head of Product
+CUST-1047,EchoLink 462 Inc.,Logistics,EMEA,1-50 employees,Enterprise,2024-12-08,Head of Product
+CUST-1048,AuraCloud 46 Inc.,DevOps,EMEA,1-50 employees,Starter,2023-11-12,Director of IT
+CUST-1049,ScaleBridge 965 Inc.,Fintech,APAC,1-50 employees,Starter,2023-04-16,Director of IT
+CUST-1050,FinSecure 583 Inc.,Logistics,LATAM,201-1000 employees,Enterprise,2023-08-31,Head of Product
+CUST-1051,HealthVault 840 Inc.,E-commerce,APAC,1-50 employees,Growth,2023-12-07,Lead Analyst
+CUST-1052,HealthVault 695 Inc.,Cybersecurity,North America,201-1000 employees,Starter,2023-02-09,Lead Analyst
+CUST-1053,Synthetix 214 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2023-08-17,VP Engineering
+CUST-1054,TrustWave 207 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-10-13,Director of IT
+CUST-1055,InfraOps 531 Inc.,Logistics,EMEA,201-1000 employees,Growth,2023-01-29,VP Engineering
+CUST-1056,ScaleBridge 277 Inc.,E-commerce,EMEA,1000+ employees,Starter,2024-09-02,Lead Analyst
+CUST-1057,LogiChain 756 Inc.,DevOps,North America,1000+ employees,Growth,2024-08-13,Head of Product
+CUST-1058,QuantIQ 55 Inc.,Logistics,North America,1000+ employees,Enterprise,2024-11-17,Head of Product
+CUST-1059,LogiChain 451 Inc.,Healthcare,LATAM,1000+ employees,Enterprise,2024-11-10,VP Engineering
+CUST-1060,EchoLink 931 Inc.,EdTech,EMEA,51-200 employees,Starter,2024-12-14,Director of IT
+CUST-1061,AuraCloud 140 Inc.,Cybersecurity,North America,1000+ employees,Enterprise,2023-06-28,CTO
+CUST-1062,CoreStack 318 Inc.,Logistics,EMEA,1-50 employees,Starter,2024-03-16,CTO
+CUST-1063,Hyperion 680 Inc.,DevOps,EMEA,51-200 employees,Starter,2024-04-29,COO
+CUST-1064,DataPulse 684 Inc.,Healthcare,North America,51-200 employees,Growth,2023-04-06,Head of Product
+CUST-1065,TrustWave 327 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2024-05-01,CTO
+CUST-1066,VeloceData 796 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2024-12-14,Lead Analyst
+CUST-1067,NeuroTech 419 Inc.,Cybersecurity,North America,51-200 employees,Growth,2023-04-20,Lead Analyst
+CUST-1068,Synthetix 190 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-04-12,Head of Product
+CUST-1069,HealthVault 485 Inc.,DevOps,LATAM,201-1000 employees,Growth,2024-05-31,Lead Analyst
+CUST-1070,ClearSignal 938 Inc.,Marketing SaaS,APAC,201-1000 employees,Growth,2023-09-23,Head of Product
+CUST-1071,ClearSignal 662 Inc.,EdTech,APAC,51-200 employees,Growth,2023-10-09,Lead Analyst
+CUST-1072,Stripewave 740 Inc.,EdTech,North America,1-50 employees,Growth,2023-03-24,Head of Product
+CUST-1073,OmniLogic 246 Inc.,Logistics,EMEA,201-1000 employees,Starter,2024-02-22,Director of IT
+CUST-1074,AuraCloud 487 Inc.,Logistics,North America,201-1000 employees,Growth,2024-08-21,COO
+CUST-1075,ApexFlow 887 Inc.,Logistics,EMEA,1000+ employees,Growth,2024-02-04,Lead Analyst
+CUST-1076,AuraCloud 775 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-02-03,Director of IT
+CUST-1077,TrustWave 705 Inc.,Logistics,EMEA,201-1000 employees,Enterprise,2024-09-29,CTO
+CUST-1078,ApexFlow 938 Inc.,Logistics,EMEA,51-200 employees,Starter,2024-03-14,Head of Product
+CUST-1079,VeloceData 482 Inc.,E-commerce,North America,51-200 employees,Starter,2023-12-01,Director of IT
+CUST-1080,FinSecure 910 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-03-25,Lead Analyst
+CUST-1081,ApexFlow 777 Inc.,Fintech,LATAM,1-50 employees,Growth,2024-10-29,VP Engineering
+CUST-1082,FinSecure 41 Inc.,Cybersecurity,North America,1-50 employees,Starter,2023-05-10,Lead Analyst
+CUST-1083,TrustWave 127 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-09-12,CTO
+CUST-1084,EchoLink 745 Inc.,Healthcare,APAC,1-50 employees,Starter,2024-08-15,VP Engineering
+CUST-1085,ZennithAnalytics 329 Inc.,Logistics,North America,201-1000 employees,Starter,2024-12-08,COO
+CUST-1086,Synthetix 114 Inc.,EdTech,APAC,51-200 employees,Starter,2024-08-02,VP Engineering
+CUST-1087,LogiChain 555 Inc.,Logistics,EMEA,1-50 employees,Growth,2023-01-13,Lead Analyst
+CUST-1088,ClearSignal 511 Inc.,Healthcare,North America,51-200 employees,Growth,2024-04-15,COO
+CUST-1089,OmniLogic 455 Inc.,E-commerce,EMEA,1000+ employees,Growth,2024-07-05,Lead Analyst
+CUST-1090,RetailSphere 456 Inc.,EdTech,North America,1-50 employees,Enterprise,2023-10-13,Lead Analyst
+CUST-1091,Synthetix 778 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2024-05-21,Director of IT
+CUST-1092,DataPulse 509 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-09-02,COO
+CUST-1093,ScaleBridge 292 Inc.,Fintech,EMEA,1-50 employees,Starter,2024-02-21,Lead Analyst
+CUST-1094,AuraCloud 786 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-01-18,VP Engineering
+CUST-1095,IronShield 236 Inc.,Logistics,EMEA,1-50 employees,Growth,2024-04-29,CTO
+CUST-1096,MetricWorks 362 Inc.,Logistics,LATAM,51-200 employees,Starter,2024-04-09,Director of IT
+CUST-1097,IronShield 267 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-07-02,COO
+CUST-1098,DataPulse 206 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2024-06-21,CTO
+CUST-1099,IronShield 112 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-12-26,CTO
+CUST-1100,OmniLogic 290 Inc.,Fintech,LATAM,51-200 employees,Growth,2023-05-10,COO
+CUST-1101,VeloceData 780 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-05-05,Lead Analyst
+CUST-1102,KubeSphere 198 Inc.,Fintech,North America,201-1000 employees,Starter,2023-03-08,Lead Analyst
+CUST-1103,NeuroTech 85 Inc.,Fintech,North America,201-1000 employees,Enterprise,2023-03-29,Head of Product
+CUST-1104,VortexData 581 Inc.,Logistics,EMEA,201-1000 employees,Growth,2024-06-19,Lead Analyst
+CUST-1105,RetailSphere 940 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-08-05,CTO
+CUST-1106,CloudScale 634 Inc.,Healthcare,LATAM,1-50 employees,Starter,2024-11-07,VP Engineering
+CUST-1107,DataPulse 255 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-12-06,CTO
+CUST-1108,NeuroTech 308 Inc.,Fintech,North America,201-1000 employees,Enterprise,2024-04-09,VP Engineering
+CUST-1109,TrustWave 249 Inc.,EdTech,APAC,51-200 employees,Growth,2023-07-22,Lead Analyst
+CUST-1110,VortexData 567 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2023-03-15,VP Engineering
+CUST-1111,DataPulse 821 Inc.,EdTech,EMEA,201-1000 employees,Enterprise,2024-03-25,VP Engineering
+CUST-1112,RetailSphere 715 Inc.,EdTech,EMEA,1000+ employees,Enterprise,2024-05-20,Lead Analyst
+CUST-1113,Stripewave 622 Inc.,Fintech,APAC,201-1000 employees,Growth,2023-01-27,VP Engineering
+CUST-1114,Synthetix 994 Inc.,Fintech,LATAM,51-200 employees,Starter,2023-02-11,Head of Product
+CUST-1115,NeuroTech 541 Inc.,Marketing SaaS,APAC,1-50 employees,Growth,2024-10-12,Lead Analyst
+CUST-1116,Stripewave 491 Inc.,DevOps,North America,1-50 employees,Starter,2023-06-14,Director of IT
+CUST-1117,PayMatrix 720 Inc.,Marketing SaaS,North America,1000+ employees,Enterprise,2024-07-17,VP Engineering
+CUST-1118,RetailSphere 100 Inc.,DevOps,North America,1-50 employees,Growth,2024-06-10,VP Engineering
+CUST-1119,TrustWave 900 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-05-25,COO
+CUST-1120,RetailSphere 788 Inc.,Fintech,North America,51-200 employees,Growth,2024-03-24,COO
+CUST-1121,NeuroTech 134 Inc.,Fintech,LATAM,51-200 employees,Starter,2023-06-12,Director of IT
+CUST-1122,AuraCloud 24 Inc.,Logistics,North America,1000+ employees,Enterprise,2024-04-17,VP Engineering
+CUST-1123,InfraOps 862 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2023-10-07,Lead Analyst
+CUST-1124,ClearSignal 504 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-09-05,CTO
+CUST-1125,EchoLink 910 Inc.,E-commerce,APAC,1-50 employees,Growth,2024-02-29,Director of IT
+CUST-1126,ZennithAnalytics 816 Inc.,EdTech,APAC,1-50 employees,Starter,2024-08-24,CTO
+CUST-1127,TrustWave 511 Inc.,E-commerce,North America,51-200 employees,Starter,2024-07-10,Lead Analyst
+CUST-1128,RetailSphere 965 Inc.,DevOps,APAC,1000+ employees,Growth,2024-01-28,Head of Product
+CUST-1129,VeloceData 804 Inc.,Logistics,North America,201-1000 employees,Enterprise,2024-01-26,Lead Analyst
+CUST-1130,TrustWave 821 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-08-27,Director of IT
+CUST-1131,VeloceData 112 Inc.,Marketing SaaS,North America,1000+ employees,Starter,2023-05-28,Lead Analyst
+CUST-1132,VeloceData 680 Inc.,E-commerce,North America,201-1000 employees,Growth,2024-09-30,COO
+CUST-1133,BioSync 675 Inc.,Healthcare,APAC,201-1000 employees,Enterprise,2024-01-25,Director of IT
+CUST-1134,InfraOps 745 Inc.,Marketing SaaS,APAC,1-50 employees,Starter,2024-10-08,COO
+CUST-1135,ZennithAnalytics 304 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2024-10-10,COO
+CUST-1136,VeloceData 112 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-11-29,VP Engineering
+CUST-1137,IronShield 377 Inc.,DevOps,North America,1-50 employees,Starter,2024-11-29,Head of Product
+CUST-1138,DataPulse 189 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-05-24,CTO
+CUST-1139,OmniLogic 247 Inc.,Marketing SaaS,EMEA,51-200 employees,Growth,2024-04-21,Director of IT
+CUST-1140,TrustWave 569 Inc.,E-commerce,North America,1000+ employees,Enterprise,2023-11-03,COO
+CUST-1141,PayMatrix 716 Inc.,EdTech,EMEA,1-50 employees,Enterprise,2024-05-09,VP Engineering
+CUST-1142,Synthetix 400 Inc.,DevOps,EMEA,1000+ employees,Growth,2024-11-05,Lead Analyst
+CUST-1143,QuantIQ 18 Inc.,Fintech,APAC,201-1000 employees,Enterprise,2023-10-21,Head of Product
+CUST-1144,Hyperion 831 Inc.,DevOps,North America,1-50 employees,Starter,2024-11-06,COO
+CUST-1145,ClearSignal 150 Inc.,Healthcare,APAC,51-200 employees,Starter,2024-03-27,VP Engineering
+CUST-1146,CoreStack 383 Inc.,E-commerce,North America,1-50 employees,Growth,2023-06-29,Head of Product
+CUST-1147,OmniLogic 815 Inc.,DevOps,EMEA,1000+ employees,Enterprise,2023-09-21,Lead Analyst
+CUST-1148,HealthVault 312 Inc.,DevOps,APAC,51-200 employees,Starter,2023-08-20,COO
+CUST-1149,EchoLink 700 Inc.,Logistics,LATAM,201-1000 employees,Growth,2024-02-09,VP Engineering
+CUST-1150,QuantIQ 559 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-08-21,Lead Analyst
+CUST-1151,ClearSignal 663 Inc.,DevOps,North America,1-50 employees,Starter,2024-07-28,Director of IT
+CUST-1152,ZennithAnalytics 634 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2024-12-18,Director of IT
+CUST-1153,InfraOps 428 Inc.,Healthcare,North America,1000+ employees,Enterprise,2024-05-19,VP Engineering
+CUST-1154,VortexData 250 Inc.,E-commerce,North America,51-200 employees,Enterprise,2024-12-14,CTO
+CUST-1155,PayMatrix 611 Inc.,E-commerce,APAC,51-200 employees,Growth,2024-09-22,Lead Analyst
+CUST-1156,QuantIQ 43 Inc.,DevOps,North America,51-200 employees,Starter,2024-01-07,VP Engineering
+CUST-1157,TrustWave 386 Inc.,DevOps,North America,1-50 employees,Enterprise,2024-04-10,VP Engineering
+CUST-1158,TrustWave 227 Inc.,Fintech,North America,1-50 employees,Enterprise,2024-08-01,Head of Product
+CUST-1159,Stripewave 859 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2023-06-01,CTO
+CUST-1160,ApexFlow 293 Inc.,E-commerce,LATAM,51-200 employees,Growth,2023-04-23,COO
+CUST-1161,VeloceData 36 Inc.,E-commerce,North America,201-1000 employees,Growth,2023-11-28,VP Engineering
+CUST-1162,DataPulse 281 Inc.,Fintech,North America,51-200 employees,Starter,2023-03-07,Lead Analyst
+CUST-1163,RetailSphere 806 Inc.,DevOps,EMEA,1-50 employees,Starter,2024-09-21,VP Engineering
+CUST-1164,EchoLink 812 Inc.,EdTech,EMEA,1000+ employees,Growth,2024-05-05,Lead Analyst
+CUST-1165,PayMatrix 712 Inc.,Healthcare,EMEA,1000+ employees,Growth,2023-03-24,Director of IT
+CUST-1166,Hyperion 161 Inc.,Healthcare,North America,51-200 employees,Growth,2024-12-30,Director of IT
+CUST-1167,BioSync 621 Inc.,EdTech,EMEA,51-200 employees,Starter,2024-12-19,VP Engineering
+CUST-1168,VeloceData 680 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2024-04-09,Lead Analyst
+CUST-1169,PayMatrix 757 Inc.,Healthcare,North America,1-50 employees,Starter,2023-06-06,COO
+CUST-1170,ZennithAnalytics 495 Inc.,Healthcare,North America,1-50 employees,Starter,2024-01-17,Head of Product
+CUST-1171,AuraCloud 71 Inc.,DevOps,EMEA,51-200 employees,Growth,2024-03-09,COO
+CUST-1172,CloudScale 304 Inc.,EdTech,North America,51-200 employees,Starter,2024-11-03,Lead Analyst
+CUST-1173,Synthetix 877 Inc.,Healthcare,North America,51-200 employees,Starter,2023-10-13,CTO
+CUST-1174,Synthetix 836 Inc.,Logistics,APAC,1000+ employees,Enterprise,2024-09-20,COO
+CUST-1175,InfraOps 580 Inc.,Fintech,EMEA,51-200 employees,Growth,2023-01-30,Head of Product
+CUST-1176,QuantIQ 729 Inc.,EdTech,APAC,51-200 employees,Starter,2023-05-27,CTO
+CUST-1177,TrustWave 420 Inc.,Healthcare,North America,51-200 employees,Starter,2024-06-27,Head of Product
+CUST-1178,BioSync 439 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2024-08-04,CTO
+CUST-1179,Stripewave 914 Inc.,Fintech,North America,201-1000 employees,Starter,2023-03-25,Director of IT
+CUST-1180,RetailSphere 687 Inc.,Logistics,EMEA,51-200 employees,Starter,2024-06-08,VP Engineering
+CUST-1181,LogiChain 450 Inc.,Healthcare,North America,51-200 employees,Starter,2024-11-14,Director of IT
+CUST-1182,CloudScale 235 Inc.,Logistics,LATAM,1-50 employees,Starter,2023-08-05,Head of Product
+CUST-1183,FinSecure 271 Inc.,EdTech,North America,1-50 employees,Growth,2023-06-29,Head of Product
+CUST-1184,BioSync 555 Inc.,Cybersecurity,EMEA,201-1000 employees,Enterprise,2023-03-15,Lead Analyst
+CUST-1185,VeloceData 769 Inc.,Fintech,North America,51-200 employees,Starter,2023-11-17,CTO
+CUST-1186,PayMatrix 597 Inc.,Logistics,EMEA,51-200 employees,Starter,2023-01-22,Director of IT
+CUST-1187,DataPulse 830 Inc.,Marketing SaaS,APAC,1000+ employees,Growth,2023-04-19,Head of Product
+CUST-1188,PayMatrix 613 Inc.,Logistics,EMEA,51-200 employees,Starter,2023-12-14,Head of Product
+CUST-1189,KubeSphere 807 Inc.,E-commerce,North America,51-200 employees,Starter,2023-07-18,Director of IT
+CUST-1190,LogiChain 754 Inc.,E-commerce,North America,1-50 employees,Starter,2024-09-08,Head of Product
+CUST-1191,FinSecure 787 Inc.,Healthcare,North America,201-1000 employees,Growth,2024-07-31,CTO
+CUST-1192,RetailSphere 707 Inc.,DevOps,APAC,51-200 employees,Starter,2023-03-11,Lead Analyst
+CUST-1193,RetailSphere 656 Inc.,EdTech,APAC,51-200 employees,Starter,2023-03-17,Director of IT
+CUST-1194,RetailSphere 472 Inc.,Fintech,North America,201-1000 employees,Starter,2023-04-03,CTO
+CUST-1195,Hyperion 529 Inc.,Logistics,EMEA,51-200 employees,Growth,2023-02-12,Lead Analyst
+CUST-1196,ZennithAnalytics 839 Inc.,Cybersecurity,North America,51-200 employees,Starter,2023-03-05,Lead Analyst
+CUST-1197,VortexData 840 Inc.,DevOps,LATAM,1-50 employees,Growth,2023-02-10,Head of Product
+CUST-1198,PrismGuard 458 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2023-10-17,Lead Analyst
+CUST-1199,PayMatrix 803 Inc.,DevOps,EMEA,1-50 employees,Growth,2023-12-09,VP Engineering
+CUST-1200,KubeSphere 106 Inc.,Logistics,North America,201-1000 employees,Growth,2024-09-09,Head of Product
+CUST-1201,KubeSphere 93 Inc.,E-commerce,APAC,1-50 employees,Growth,2024-11-09,Lead Analyst
+CUST-1202,OmniLogic 619 Inc.,Healthcare,North America,51-200 employees,Growth,2023-05-11,COO
+CUST-1203,PrismGuard 858 Inc.,Healthcare,EMEA,51-200 employees,Starter,2024-01-07,Director of IT
+CUST-1204,DataPulse 983 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-05-21,Head of Product
+CUST-1205,Stripewave 312 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-06-23,VP Engineering
+CUST-1206,TrustWave 354 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-12-10,CTO
+CUST-1207,HealthVault 934 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-09-01,Lead Analyst
+CUST-1208,Hyperion 301 Inc.,Marketing SaaS,North America,1-50 employees,Enterprise,2024-04-25,Head of Product
+CUST-1209,LogiChain 704 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-06-24,Lead Analyst
+CUST-1210,DataPulse 846 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2024-10-18,Lead Analyst
+CUST-1211,VeloceData 390 Inc.,Healthcare,EMEA,51-200 employees,Starter,2023-03-27,Head of Product
+CUST-1212,QuantIQ 470 Inc.,E-commerce,APAC,1-50 employees,Growth,2024-04-06,Director of IT
+CUST-1213,ZennithAnalytics 37 Inc.,Logistics,North America,51-200 employees,Starter,2023-03-25,Director of IT
+CUST-1214,Synthetix 38 Inc.,DevOps,LATAM,201-1000 employees,Growth,2023-05-30,Head of Product
+CUST-1215,CloudScale 303 Inc.,Marketing SaaS,EMEA,1-50 employees,Growth,2024-04-04,CTO
+CUST-1216,ApexFlow 937 Inc.,Healthcare,North America,1-50 employees,Starter,2024-09-15,CTO
+CUST-1217,PayMatrix 123 Inc.,EdTech,North America,1-50 employees,Starter,2024-10-16,CTO
+CUST-1218,RetailSphere 74 Inc.,Healthcare,APAC,51-200 employees,Starter,2024-10-09,CTO
+CUST-1219,CoreStack 257 Inc.,E-commerce,North America,1-50 employees,Starter,2024-08-07,Lead Analyst
+CUST-1220,DataPulse 690 Inc.,Healthcare,EMEA,51-200 employees,Enterprise,2024-07-11,CTO
+CUST-1221,HealthVault 529 Inc.,Fintech,North America,51-200 employees,Growth,2024-01-18,Director of IT
+CUST-1222,EchoLink 26 Inc.,DevOps,APAC,1-50 employees,Growth,2024-10-05,VP Engineering
+CUST-1223,FinSecure 605 Inc.,DevOps,North America,51-200 employees,Starter,2024-10-20,Head of Product
+CUST-1224,ClearSignal 807 Inc.,Marketing SaaS,LATAM,51-200 employees,Starter,2023-05-19,VP Engineering
+CUST-1225,PrismGuard 804 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2023-02-12,Director of IT
+CUST-1226,ZennithAnalytics 327 Inc.,Logistics,LATAM,51-200 employees,Starter,2024-10-24,Head of Product
+CUST-1227,IronShield 375 Inc.,Fintech,APAC,1-50 employees,Starter,2024-01-12,Lead Analyst
+CUST-1228,ScaleBridge 419 Inc.,Marketing SaaS,APAC,51-200 employees,Enterprise,2024-05-23,COO
+CUST-1229,NeuroTech 386 Inc.,EdTech,APAC,201-1000 employees,Starter,2024-09-08,Head of Product
+CUST-1230,AuraCloud 310 Inc.,DevOps,North America,1-50 employees,Starter,2024-04-01,CTO
+CUST-1231,PrismGuard 446 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-12-28,CTO
+CUST-1232,PayMatrix 291 Inc.,Fintech,North America,51-200 employees,Starter,2024-11-26,Head of Product
+CUST-1233,ApexFlow 156 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-01-11,Director of IT
+CUST-1234,BioSync 982 Inc.,Fintech,EMEA,51-200 employees,Enterprise,2024-01-16,Lead Analyst
+CUST-1235,FinSecure 88 Inc.,E-commerce,EMEA,51-200 employees,Growth,2023-09-13,VP Engineering
+CUST-1236,ApexFlow 763 Inc.,E-commerce,EMEA,51-200 employees,Growth,2023-09-26,Director of IT
+CUST-1237,PrismGuard 466 Inc.,Cybersecurity,LATAM,1-50 employees,Growth,2024-05-17,Head of Product
+CUST-1238,VortexData 148 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2023-03-31,COO
+CUST-1239,VeloceData 337 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-11-04,Head of Product
+CUST-1240,PrismGuard 736 Inc.,E-commerce,APAC,51-200 employees,Starter,2023-07-25,Head of Product
+CUST-1241,Synthetix 819 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-07-18,Head of Product
+CUST-1242,Hyperion 915 Inc.,Healthcare,North America,51-200 employees,Growth,2024-05-05,CTO
+CUST-1243,PayMatrix 797 Inc.,Logistics,APAC,1-50 employees,Enterprise,2024-10-19,VP Engineering
+CUST-1244,RetailSphere 487 Inc.,DevOps,North America,201-1000 employees,Growth,2024-08-24,Head of Product
+CUST-1245,FinSecure 999 Inc.,E-commerce,North America,1000+ employees,Growth,2023-05-08,CTO
+CUST-1246,OmniLogic 321 Inc.,E-commerce,North America,1000+ employees,Growth,2024-06-15,Director of IT
+CUST-1247,VeloceData 90 Inc.,EdTech,North America,1000+ employees,Growth,2024-10-02,Director of IT
+CUST-1248,Hyperion 556 Inc.,Healthcare,EMEA,1-50 employees,Enterprise,2023-06-07,Head of Product
+CUST-1249,TrustWave 649 Inc.,DevOps,APAC,51-200 employees,Growth,2023-01-30,VP Engineering
+CUST-1250,CloudScale 981 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-10-16,VP Engineering
+CUST-1251,NeuroTech 920 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-12-02,Lead Analyst
+CUST-1252,IronShield 474 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-04-20,Head of Product
+CUST-1253,KubeSphere 631 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2023-12-20,Lead Analyst
+CUST-1254,OmniLogic 788 Inc.,DevOps,EMEA,1-50 employees,Starter,2023-05-06,Director of IT
+CUST-1255,RetailSphere 263 Inc.,E-commerce,North America,1-50 employees,Starter,2024-09-22,Lead Analyst
+CUST-1256,Synthetix 995 Inc.,E-commerce,APAC,1000+ employees,Enterprise,2023-07-14,Head of Product
+CUST-1257,NeuroTech 537 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-02-07,CTO
+CUST-1258,RetailSphere 999 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-05-21,CTO
+CUST-1259,ScaleBridge 873 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-05-18,Director of IT
+CUST-1260,EchoLink 384 Inc.,Logistics,North America,51-200 employees,Growth,2023-07-19,Director of IT
+CUST-1261,AuraCloud 305 Inc.,Healthcare,North America,51-200 employees,Starter,2024-09-30,COO
+CUST-1262,Hyperion 131 Inc.,E-commerce,LATAM,51-200 employees,Growth,2023-12-14,CTO
+CUST-1263,LogiChain 783 Inc.,E-commerce,North America,51-200 employees,Starter,2023-02-16,VP Engineering
+CUST-1264,OmniLogic 740 Inc.,DevOps,APAC,51-200 employees,Starter,2024-06-11,Head of Product
+CUST-1265,KubeSphere 963 Inc.,DevOps,North America,1000+ employees,Enterprise,2023-11-03,CTO
+CUST-1266,KubeSphere 529 Inc.,Marketing SaaS,EMEA,1-50 employees,Growth,2024-01-13,Director of IT
+CUST-1267,TrustWave 122 Inc.,Logistics,EMEA,201-1000 employees,Enterprise,2024-12-05,COO
+CUST-1268,ApexFlow 621 Inc.,Marketing SaaS,North America,51-200 employees,Enterprise,2024-08-15,CTO
+CUST-1269,Synthetix 748 Inc.,Fintech,EMEA,1-50 employees,Growth,2024-09-26,Lead Analyst
+CUST-1270,OmniLogic 851 Inc.,Cybersecurity,North America,1000+ employees,Growth,2023-01-20,Lead Analyst
+CUST-1271,KubeSphere 438 Inc.,E-commerce,North America,1-50 employees,Starter,2024-09-18,Lead Analyst
+CUST-1272,VeloceData 878 Inc.,Fintech,EMEA,51-200 employees,Growth,2024-11-09,Lead Analyst
+CUST-1273,MetricWorks 395 Inc.,DevOps,LATAM,51-200 employees,Starter,2024-07-13,Director of IT
+CUST-1274,TrustWave 800 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-07-25,Director of IT
+CUST-1275,Synthetix 974 Inc.,EdTech,APAC,201-1000 employees,Growth,2024-05-15,Director of IT
+CUST-1276,NeuroTech 367 Inc.,EdTech,North America,51-200 employees,Starter,2024-02-09,Director of IT
+CUST-1277,FinSecure 833 Inc.,E-commerce,North America,1-50 employees,Growth,2023-12-21,Lead Analyst
+CUST-1278,InfraOps 272 Inc.,Marketing SaaS,North America,201-1000 employees,Growth,2024-07-29,COO
+CUST-1279,QuantIQ 150 Inc.,Healthcare,EMEA,51-200 employees,Starter,2024-11-16,CTO
+CUST-1280,Synthetix 663 Inc.,Cybersecurity,North America,51-200 employees,Growth,2023-04-13,COO
+CUST-1281,FinSecure 150 Inc.,Fintech,LATAM,1000+ employees,Growth,2024-10-30,Lead Analyst
+CUST-1282,NeuroTech 676 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2023-03-02,VP Engineering
+CUST-1283,InfraOps 597 Inc.,Cybersecurity,EMEA,201-1000 employees,Enterprise,2023-06-29,Lead Analyst
+CUST-1284,ScaleBridge 867 Inc.,E-commerce,LATAM,1-50 employees,Growth,2024-05-22,Head of Product
+CUST-1285,ZennithAnalytics 776 Inc.,EdTech,APAC,1-50 employees,Growth,2023-04-20,Director of IT
+CUST-1286,IronShield 475 Inc.,Marketing SaaS,APAC,1-50 employees,Starter,2023-10-07,Head of Product
+CUST-1287,HealthVault 125 Inc.,DevOps,North America,51-200 employees,Starter,2023-07-10,VP Engineering
+CUST-1288,EchoLink 355 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-10-16,Lead Analyst
+CUST-1289,ClearSignal 447 Inc.,DevOps,North America,51-200 employees,Starter,2023-05-24,Lead Analyst
+CUST-1290,KubeSphere 968 Inc.,Cybersecurity,North America,51-200 employees,Starter,2023-10-01,Director of IT
+CUST-1291,IronShield 606 Inc.,Fintech,North America,51-200 employees,Starter,2024-11-14,VP Engineering
+CUST-1292,RetailSphere 324 Inc.,E-commerce,North America,51-200 employees,Growth,2024-12-21,Director of IT
+CUST-1293,PrismGuard 130 Inc.,EdTech,North America,1-50 employees,Enterprise,2024-05-04,Head of Product
+CUST-1294,RetailSphere 775 Inc.,DevOps,North America,51-200 employees,Starter,2024-07-04,COO
+CUST-1295,ClearSignal 233 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-06-22,Lead Analyst
+CUST-1296,MetricWorks 730 Inc.,DevOps,North America,51-200 employees,Starter,2024-07-14,CTO
+CUST-1297,Nexora 596 Inc.,E-commerce,North America,201-1000 employees,Growth,2024-11-27,Head of Product
+CUST-1298,PrismGuard 607 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2024-04-09,Head of Product
+CUST-1299,MetricWorks 435 Inc.,Marketing SaaS,EMEA,51-200 employees,Growth,2023-11-12,COO
+CUST-1300,ApexFlow 415 Inc.,EdTech,APAC,201-1000 employees,Growth,2023-02-16,Lead Analyst
+CUST-1301,LogiChain 727 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-04-28,VP Engineering
+CUST-1302,IronShield 428 Inc.,E-commerce,APAC,201-1000 employees,Enterprise,2024-10-23,Lead Analyst
+CUST-1303,LogiChain 922 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-03-24,COO
+CUST-1304,TrustWave 905 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-07-04,Lead Analyst
+CUST-1305,MetricWorks 140 Inc.,Cybersecurity,APAC,201-1000 employees,Enterprise,2024-04-19,COO
+CUST-1306,EchoLink 567 Inc.,Logistics,EMEA,201-1000 employees,Growth,2023-12-21,Head of Product
+CUST-1307,QuantIQ 203 Inc.,Healthcare,North America,51-200 employees,Growth,2023-01-17,Head of Product
+CUST-1308,Nexora 78 Inc.,Healthcare,EMEA,51-200 employees,Growth,2023-02-19,Head of Product
+CUST-1309,EchoLink 55 Inc.,Logistics,North America,51-200 employees,Growth,2023-02-27,Head of Product
+CUST-1310,MetricWorks 306 Inc.,Cybersecurity,APAC,201-1000 employees,Growth,2024-09-04,COO
+CUST-1311,ClearSignal 338 Inc.,Cybersecurity,North America,1-50 employees,Growth,2023-08-15,Lead Analyst
+CUST-1312,IronShield 291 Inc.,Fintech,EMEA,51-200 employees,Growth,2023-06-29,COO
+CUST-1313,TrustWave 447 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-01-26,CTO
+CUST-1314,KubeSphere 723 Inc.,Logistics,North America,1-50 employees,Starter,2024-07-04,Lead Analyst
+CUST-1315,Synthetix 879 Inc.,Cybersecurity,North America,201-1000 employees,Enterprise,2023-03-01,CTO
+CUST-1316,PayMatrix 436 Inc.,E-commerce,North America,1-50 employees,Starter,2023-03-22,Lead Analyst
+CUST-1317,VeloceData 389 Inc.,Healthcare,EMEA,201-1000 employees,Starter,2024-01-22,COO
+CUST-1318,Hyperion 627 Inc.,Fintech,APAC,1-50 employees,Growth,2024-11-18,CTO
+CUST-1319,Nexora 500 Inc.,Cybersecurity,APAC,1-50 employees,Enterprise,2023-01-16,Head of Product
+CUST-1320,ZennithAnalytics 204 Inc.,Healthcare,EMEA,201-1000 employees,Enterprise,2024-12-13,CTO
+CUST-1321,PrismGuard 219 Inc.,Logistics,APAC,51-200 employees,Growth,2024-01-25,Lead Analyst
+CUST-1322,AuraCloud 674 Inc.,DevOps,North America,51-200 employees,Growth,2024-04-22,VP Engineering
+CUST-1323,HealthVault 749 Inc.,Marketing SaaS,APAC,1-50 employees,Starter,2023-11-17,Lead Analyst
+CUST-1324,CloudScale 586 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2024-08-21,CTO
+CUST-1325,EchoLink 437 Inc.,EdTech,North America,1-50 employees,Starter,2023-09-09,Lead Analyst
+CUST-1326,AuraCloud 680 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-10-19,COO
+CUST-1327,NeuroTech 481 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-07-13,Lead Analyst
+CUST-1328,DataPulse 948 Inc.,Fintech,EMEA,201-1000 employees,Starter,2024-11-15,VP Engineering
+CUST-1329,FinSecure 16 Inc.,Logistics,North America,51-200 employees,Starter,2023-06-04,VP Engineering
+CUST-1330,Nexora 527 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2024-09-23,Lead Analyst
+CUST-1331,TrustWave 509 Inc.,Fintech,North America,51-200 employees,Starter,2024-06-26,COO
+CUST-1332,QuantIQ 558 Inc.,EdTech,North America,201-1000 employees,Growth,2023-07-03,VP Engineering
+CUST-1333,ZennithAnalytics 108 Inc.,E-commerce,North America,51-200 employees,Starter,2023-12-29,Director of IT
+CUST-1334,HealthVault 416 Inc.,Healthcare,North America,51-200 employees,Growth,2024-12-14,Head of Product
+CUST-1335,IronShield 710 Inc.,Healthcare,EMEA,201-1000 employees,Enterprise,2023-04-06,Lead Analyst
+CUST-1336,BioSync 396 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-05-26,Lead Analyst
+CUST-1337,InfraOps 813 Inc.,DevOps,EMEA,201-1000 employees,Starter,2024-06-24,VP Engineering
+CUST-1338,Synthetix 226 Inc.,Marketing SaaS,North America,1000+ employees,Enterprise,2023-10-15,CTO
+CUST-1339,CoreStack 683 Inc.,Fintech,North America,201-1000 employees,Starter,2023-08-01,CTO
+CUST-1340,OmniLogic 780 Inc.,Logistics,APAC,1-50 employees,Growth,2024-08-03,Lead Analyst
+CUST-1341,TrustWave 928 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-12-06,COO
+CUST-1342,Stripewave 522 Inc.,DevOps,North America,51-200 employees,Growth,2023-12-15,CTO
+CUST-1343,FinSecure 638 Inc.,Logistics,LATAM,1-50 employees,Growth,2024-04-06,Lead Analyst
+CUST-1344,Synthetix 374 Inc.,Logistics,North America,51-200 employees,Growth,2023-03-29,CTO
+CUST-1345,IronShield 827 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-12-29,COO
+CUST-1346,OmniLogic 767 Inc.,Logistics,North America,1-50 employees,Starter,2023-11-12,Lead Analyst
+CUST-1347,LogiChain 789 Inc.,EdTech,North America,1-50 employees,Starter,2024-07-24,CTO
+CUST-1348,MetricWorks 427 Inc.,Healthcare,North America,51-200 employees,Starter,2024-09-04,Director of IT
+CUST-1349,VeloceData 404 Inc.,Fintech,North America,51-200 employees,Starter,2024-07-26,Head of Product
+CUST-1350,CoreStack 543 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-10-02,Lead Analyst
+CUST-1351,OmniLogic 74 Inc.,E-commerce,North America,51-200 employees,Starter,2023-03-20,Director of IT
+CUST-1352,QuantIQ 976 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-04-13,VP Engineering
+CUST-1353,OmniLogic 321 Inc.,Fintech,LATAM,1-50 employees,Growth,2023-12-04,Lead Analyst
+CUST-1354,KubeSphere 450 Inc.,E-commerce,North America,51-200 employees,Growth,2024-05-05,Director of IT
+CUST-1355,DataPulse 997 Inc.,Logistics,LATAM,1-50 employees,Growth,2024-05-17,CTO
+CUST-1356,HealthVault 258 Inc.,DevOps,North America,201-1000 employees,Growth,2023-04-27,CTO
+CUST-1357,Nexora 616 Inc.,E-commerce,EMEA,51-200 employees,Enterprise,2024-04-17,COO
+CUST-1358,Nexora 458 Inc.,EdTech,APAC,1-50 employees,Growth,2024-02-23,COO
+CUST-1359,NeuroTech 152 Inc.,EdTech,North America,51-200 employees,Growth,2024-01-22,VP Engineering
+CUST-1360,RetailSphere 622 Inc.,Marketing SaaS,EMEA,51-200 employees,Growth,2024-12-09,Lead Analyst
+CUST-1361,AuraCloud 47 Inc.,DevOps,EMEA,201-1000 employees,Growth,2023-03-29,VP Engineering
+CUST-1362,FinSecure 264 Inc.,DevOps,North America,51-200 employees,Growth,2024-10-22,COO
+CUST-1363,InfraOps 419 Inc.,DevOps,LATAM,51-200 employees,Starter,2023-09-22,Head of Product
+CUST-1364,MetricWorks 774 Inc.,Cybersecurity,North America,51-200 employees,Growth,2024-08-25,COO
+CUST-1365,MetricWorks 164 Inc.,DevOps,LATAM,51-200 employees,Starter,2023-03-29,VP Engineering
+CUST-1366,ClearSignal 973 Inc.,E-commerce,North America,1-50 employees,Growth,2024-06-17,Lead Analyst
+CUST-1367,LogiChain 497 Inc.,Healthcare,North America,51-200 employees,Starter,2023-11-04,VP Engineering
+CUST-1368,HealthVault 737 Inc.,Healthcare,North America,1-50 employees,Starter,2023-06-18,COO
+CUST-1369,Synthetix 538 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-04-18,Head of Product
+CUST-1370,HealthVault 424 Inc.,E-commerce,North America,51-200 employees,Starter,2024-09-20,Head of Product
+CUST-1371,RetailSphere 616 Inc.,Logistics,North America,201-1000 employees,Growth,2024-12-21,VP Engineering
+CUST-1372,CoreStack 114 Inc.,E-commerce,North America,1-50 employees,Starter,2024-11-17,Lead Analyst
+CUST-1373,MetricWorks 999 Inc.,DevOps,EMEA,51-200 employees,Growth,2023-12-23,Director of IT
+CUST-1374,VeloceData 478 Inc.,E-commerce,APAC,201-1000 employees,Growth,2024-09-21,CTO
+CUST-1375,Stripewave 698 Inc.,E-commerce,North America,1-50 employees,Starter,2024-01-18,COO
+CUST-1376,OmniLogic 533 Inc.,Logistics,North America,1-50 employees,Starter,2023-07-10,Lead Analyst
+CUST-1377,InfraOps 560 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-11-19,Lead Analyst
+CUST-1378,Hyperion 64 Inc.,DevOps,LATAM,51-200 employees,Starter,2024-01-29,CTO
+CUST-1379,MetricWorks 678 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2024-03-30,Lead Analyst
+CUST-1380,DataPulse 94 Inc.,Fintech,APAC,1-50 employees,Starter,2023-08-19,CTO
+CUST-1381,IronShield 182 Inc.,Marketing SaaS,EMEA,201-1000 employees,Growth,2024-06-07,VP Engineering
+CUST-1382,CoreStack 126 Inc.,EdTech,APAC,201-1000 employees,Growth,2023-02-12,COO
+CUST-1383,RetailSphere 569 Inc.,Cybersecurity,LATAM,1-50 employees,Growth,2023-09-11,Director of IT
+CUST-1384,VeloceData 43 Inc.,Marketing SaaS,North America,201-1000 employees,Starter,2023-05-01,Head of Product
+CUST-1385,Nexora 840 Inc.,DevOps,APAC,51-200 employees,Starter,2024-09-22,Head of Product
+CUST-1386,HealthVault 221 Inc.,Cybersecurity,APAC,51-200 employees,Starter,2024-09-03,CTO
+CUST-1387,DataPulse 341 Inc.,EdTech,North America,1-50 employees,Growth,2024-11-26,VP Engineering
+CUST-1388,OmniLogic 995 Inc.,Logistics,APAC,1000+ employees,Enterprise,2023-05-10,COO
+CUST-1389,VeloceData 145 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-11-23,Lead Analyst
+CUST-1390,NeuroTech 155 Inc.,EdTech,EMEA,51-200 employees,Starter,2023-04-06,Lead Analyst
+CUST-1391,MetricWorks 777 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-05-14,Director of IT
+CUST-1392,CoreStack 12 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-01-02,VP Engineering
+CUST-1393,HealthVault 557 Inc.,Logistics,North America,51-200 employees,Starter,2023-10-02,Director of IT
+CUST-1394,ClearSignal 300 Inc.,DevOps,EMEA,1-50 employees,Growth,2023-12-18,COO
+CUST-1395,FinSecure 59 Inc.,Fintech,North America,201-1000 employees,Growth,2023-05-08,Head of Product
+CUST-1396,RetailSphere 477 Inc.,Fintech,LATAM,51-200 employees,Enterprise,2023-05-16,COO
+CUST-1397,IronShield 172 Inc.,EdTech,North America,51-200 employees,Starter,2024-11-11,COO
+CUST-1398,DataPulse 63 Inc.,Logistics,EMEA,201-1000 employees,Enterprise,2024-03-15,COO
+CUST-1399,Stripewave 730 Inc.,Healthcare,North America,51-200 employees,Starter,2023-08-20,CTO
+CUST-1400,TrustWave 465 Inc.,Fintech,North America,1-50 employees,Starter,2024-03-08,COO
+CUST-1401,OmniLogic 499 Inc.,Healthcare,North America,1-50 employees,Growth,2023-04-16,Director of IT
+CUST-1402,LogiChain 912 Inc.,EdTech,North America,201-1000 employees,Enterprise,2023-05-17,COO
+CUST-1403,TrustWave 156 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-03-26,Director of IT
+CUST-1404,EchoLink 228 Inc.,E-commerce,APAC,51-200 employees,Starter,2023-08-11,VP Engineering
+CUST-1405,ScaleBridge 112 Inc.,E-commerce,APAC,51-200 employees,Starter,2024-03-15,Director of IT
+CUST-1406,HealthVault 153 Inc.,Cybersecurity,North America,1-50 employees,Growth,2024-09-06,COO
+CUST-1407,Hyperion 301 Inc.,Fintech,APAC,51-200 employees,Starter,2024-06-14,CTO
+CUST-1408,MetricWorks 203 Inc.,Logistics,North America,1-50 employees,Growth,2023-09-03,Lead Analyst
+CUST-1409,BioSync 125 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-01-13,Director of IT
+CUST-1410,ZennithAnalytics 334 Inc.,E-commerce,North America,201-1000 employees,Growth,2024-07-13,COO
+CUST-1411,DataPulse 791 Inc.,Marketing SaaS,LATAM,201-1000 employees,Starter,2023-03-11,VP Engineering
+CUST-1412,QuantIQ 230 Inc.,Fintech,APAC,1000+ employees,Enterprise,2023-10-21,COO
+CUST-1413,PrismGuard 523 Inc.,Logistics,North America,51-200 employees,Growth,2024-07-04,CTO
+CUST-1414,OmniLogic 294 Inc.,Healthcare,North America,51-200 employees,Starter,2023-06-09,CTO
+CUST-1415,KubeSphere 410 Inc.,Healthcare,North America,51-200 employees,Enterprise,2023-09-02,VP Engineering
+CUST-1416,Synthetix 98 Inc.,Logistics,North America,51-200 employees,Starter,2024-11-13,COO
+CUST-1417,TrustWave 768 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2023-06-17,Lead Analyst
+CUST-1418,LogiChain 545 Inc.,EdTech,North America,1-50 employees,Growth,2023-10-03,COO
+CUST-1419,ScaleBridge 130 Inc.,Fintech,North America,51-200 employees,Starter,2023-09-27,COO
+CUST-1420,CoreStack 652 Inc.,Healthcare,EMEA,51-200 employees,Starter,2024-08-03,Head of Product
+CUST-1421,LogiChain 171 Inc.,EdTech,APAC,201-1000 employees,Growth,2023-04-29,Head of Product
+CUST-1422,EchoLink 531 Inc.,Fintech,North America,201-1000 employees,Growth,2024-04-28,Director of IT
+CUST-1423,BioSync 952 Inc.,E-commerce,North America,1000+ employees,Starter,2024-11-02,Lead Analyst
+CUST-1424,Synthetix 339 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-03-21,CTO
+CUST-1425,LogiChain 132 Inc.,Fintech,North America,201-1000 employees,Enterprise,2024-02-15,VP Engineering
+CUST-1426,ScaleBridge 486 Inc.,EdTech,APAC,1-50 employees,Starter,2024-04-12,VP Engineering
+CUST-1427,LogiChain 215 Inc.,EdTech,EMEA,1-50 employees,Growth,2024-04-20,Director of IT
+CUST-1428,CoreStack 515 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2023-06-04,VP Engineering
+CUST-1429,ZennithAnalytics 429 Inc.,Fintech,North America,1-50 employees,Growth,2023-01-10,Director of IT
+CUST-1430,ApexFlow 787 Inc.,Logistics,APAC,201-1000 employees,Starter,2024-06-26,Head of Product
+CUST-1431,PayMatrix 513 Inc.,Fintech,LATAM,1-50 employees,Starter,2023-02-14,Head of Product
+CUST-1432,ScaleBridge 875 Inc.,Logistics,EMEA,51-200 employees,Enterprise,2023-03-28,CTO
+CUST-1433,VortexData 527 Inc.,E-commerce,EMEA,51-200 employees,Growth,2023-03-05,Lead Analyst
+CUST-1434,TrustWave 997 Inc.,E-commerce,North America,1-50 employees,Starter,2024-02-07,COO
+CUST-1435,ClearSignal 763 Inc.,DevOps,North America,1-50 employees,Starter,2023-07-27,Head of Product
+CUST-1436,FinSecure 798 Inc.,Healthcare,North America,1-50 employees,Starter,2024-02-21,VP Engineering
+CUST-1437,AuraCloud 376 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2023-04-03,Head of Product
+CUST-1438,HealthVault 712 Inc.,EdTech,APAC,51-200 employees,Starter,2023-12-02,Head of Product
+CUST-1439,Stripewave 738 Inc.,Cybersecurity,LATAM,51-200 employees,Starter,2023-11-03,Director of IT
+CUST-1440,ClearSignal 188 Inc.,Fintech,LATAM,201-1000 employees,Growth,2024-07-17,Head of Product
+CUST-1441,VortexData 483 Inc.,Healthcare,APAC,1-50 employees,Starter,2023-08-16,Head of Product
+CUST-1442,Nexora 853 Inc.,Logistics,North America,51-200 employees,Growth,2024-08-19,CTO
+CUST-1443,QuantIQ 949 Inc.,Healthcare,North America,1-50 employees,Growth,2024-03-30,Head of Product
+CUST-1444,Stripewave 936 Inc.,DevOps,North America,1000+ employees,Growth,2024-08-10,Lead Analyst
+CUST-1445,ClearSignal 751 Inc.,Logistics,EMEA,51-200 employees,Starter,2023-12-29,Head of Product
+CUST-1446,ZennithAnalytics 201 Inc.,EdTech,North America,201-1000 employees,Starter,2024-09-26,CTO
+CUST-1447,Synthetix 672 Inc.,EdTech,EMEA,201-1000 employees,Growth,2023-03-31,Director of IT
+CUST-1448,BioSync 150 Inc.,Logistics,North America,201-1000 employees,Growth,2024-10-07,CTO
+CUST-1449,HealthVault 29 Inc.,Logistics,APAC,51-200 employees,Starter,2024-05-11,Director of IT
+CUST-1450,ZennithAnalytics 589 Inc.,DevOps,North America,1-50 employees,Starter,2023-08-13,VP Engineering
+CUST-1451,ScaleBridge 840 Inc.,EdTech,North America,1000+ employees,Enterprise,2024-08-21,Head of Product
+CUST-1452,DataPulse 112 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2023-02-27,Head of Product
+CUST-1453,CoreStack 876 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-06-30,Head of Product
+CUST-1454,CoreStack 335 Inc.,DevOps,APAC,1-50 employees,Growth,2024-08-04,CTO
+CUST-1455,OmniLogic 586 Inc.,Cybersecurity,APAC,201-1000 employees,Enterprise,2024-07-09,Director of IT
+CUST-1456,DataPulse 512 Inc.,Fintech,North America,1-50 employees,Starter,2024-06-23,Lead Analyst
+CUST-1457,ApexFlow 349 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2023-11-28,VP Engineering
+CUST-1458,ApexFlow 161 Inc.,E-commerce,APAC,201-1000 employees,Enterprise,2023-03-16,Director of IT
+CUST-1459,PrismGuard 974 Inc.,Logistics,EMEA,1-50 employees,Starter,2023-06-11,COO
+CUST-1460,PayMatrix 820 Inc.,Marketing SaaS,EMEA,1-50 employees,Enterprise,2024-12-11,CTO
+CUST-1461,HealthVault 375 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2024-12-06,Director of IT
+CUST-1462,OmniLogic 191 Inc.,Fintech,LATAM,1000+ employees,Enterprise,2024-08-04,VP Engineering
+CUST-1463,DataPulse 626 Inc.,DevOps,APAC,1000+ employees,Growth,2024-08-02,VP Engineering
+CUST-1464,ZennithAnalytics 518 Inc.,E-commerce,North America,1-50 employees,Starter,2023-11-24,Head of Product
+CUST-1465,InfraOps 916 Inc.,Healthcare,APAC,51-200 employees,Growth,2023-12-10,Lead Analyst
+CUST-1466,ApexFlow 281 Inc.,Cybersecurity,North America,1-50 employees,Starter,2023-04-21,COO
+CUST-1467,ApexFlow 59 Inc.,Logistics,North America,51-200 employees,Starter,2024-02-28,Lead Analyst
+CUST-1468,ScaleBridge 397 Inc.,DevOps,EMEA,1-50 employees,Starter,2024-08-14,COO
+CUST-1469,FinSecure 713 Inc.,Cybersecurity,North America,1-50 employees,Growth,2023-10-29,VP Engineering
+CUST-1470,KubeSphere 277 Inc.,Healthcare,North America,1-50 employees,Starter,2023-03-18,CTO
+CUST-1471,ScaleBridge 105 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-02-01,Lead Analyst
+CUST-1472,InfraOps 178 Inc.,Logistics,North America,1-50 employees,Starter,2023-07-14,Lead Analyst
+CUST-1473,PrismGuard 577 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-02-07,CTO
+CUST-1474,AuraCloud 870 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2023-10-29,COO
+CUST-1475,InfraOps 624 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-10-26,VP Engineering
+CUST-1476,NeuroTech 874 Inc.,Healthcare,North America,51-200 employees,Starter,2024-11-07,Director of IT
+CUST-1477,Stripewave 667 Inc.,Logistics,North America,201-1000 employees,Growth,2024-04-01,VP Engineering
+CUST-1478,QuantIQ 460 Inc.,Marketing SaaS,North America,201-1000 employees,Growth,2023-06-04,COO
+CUST-1479,TrustWave 109 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2024-08-26,Head of Product
+CUST-1480,AuraCloud 72 Inc.,Logistics,APAC,51-200 employees,Starter,2024-05-01,CTO
+CUST-1481,ScaleBridge 251 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2023-02-05,CTO
+CUST-1482,CoreStack 932 Inc.,E-commerce,North America,201-1000 employees,Growth,2023-06-21,Head of Product
+CUST-1483,HealthVault 207 Inc.,E-commerce,North America,1-50 employees,Growth,2023-07-26,COO
+CUST-1484,OmniLogic 864 Inc.,EdTech,North America,201-1000 employees,Enterprise,2023-03-31,Lead Analyst
+CUST-1485,AuraCloud 416 Inc.,DevOps,APAC,51-200 employees,Growth,2023-01-13,COO
+CUST-1486,Hyperion 611 Inc.,Logistics,North America,1-50 employees,Growth,2024-08-19,VP Engineering
+CUST-1487,ZennithAnalytics 118 Inc.,Healthcare,APAC,201-1000 employees,Enterprise,2024-02-25,Director of IT
+CUST-1488,BioSync 680 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2024-02-17,Head of Product
+CUST-1489,Hyperion 633 Inc.,Logistics,North America,201-1000 employees,Growth,2023-09-01,VP Engineering
+CUST-1490,EchoLink 496 Inc.,EdTech,APAC,1-50 employees,Growth,2023-11-07,Director of IT
+CUST-1491,QuantIQ 873 Inc.,Marketing SaaS,APAC,51-200 employees,Enterprise,2023-08-22,Head of Product
+CUST-1492,IronShield 771 Inc.,Marketing SaaS,APAC,1-50 employees,Growth,2024-09-11,COO
+CUST-1493,Stripewave 202 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2024-06-12,Director of IT
+CUST-1494,ClearSignal 67 Inc.,E-commerce,North America,201-1000 employees,Growth,2024-06-20,CTO
+CUST-1495,ApexFlow 187 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2023-02-03,Lead Analyst
+CUST-1496,CloudScale 950 Inc.,DevOps,EMEA,1-50 employees,Growth,2024-06-01,Lead Analyst
+CUST-1497,InfraOps 955 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-04-01,Head of Product
+CUST-1498,VeloceData 495 Inc.,DevOps,North America,201-1000 employees,Growth,2024-12-06,VP Engineering
+CUST-1499,IronShield 38 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-08-08,Head of Product
+CUST-1500,InfraOps 240 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-11-29,VP Engineering
+CUST-1501,NeuroTech 943 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-09-16,CTO
+CUST-1502,HealthVault 975 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-01-21,Director of IT
+CUST-1503,RetailSphere 268 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-02-11,CTO
+CUST-1504,VortexData 17 Inc.,DevOps,EMEA,51-200 employees,Starter,2024-12-01,VP Engineering
+CUST-1505,NeuroTech 75 Inc.,DevOps,LATAM,51-200 employees,Growth,2023-09-25,COO
+CUST-1506,PrismGuard 985 Inc.,EdTech,North America,51-200 employees,Starter,2023-02-28,CTO
+CUST-1507,BioSync 686 Inc.,DevOps,EMEA,201-1000 employees,Growth,2023-10-30,Director of IT
+CUST-1508,ZennithAnalytics 438 Inc.,Logistics,North America,1-50 employees,Growth,2024-08-08,Head of Product
+CUST-1509,KubeSphere 753 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2024-11-18,Director of IT
+CUST-1510,MetricWorks 317 Inc.,E-commerce,APAC,201-1000 employees,Growth,2023-04-10,Lead Analyst
+CUST-1511,OmniLogic 768 Inc.,EdTech,EMEA,51-200 employees,Growth,2024-11-27,Director of IT
+CUST-1512,InfraOps 101 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-12-06,Director of IT
+CUST-1513,QuantIQ 609 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-10-11,CTO
+CUST-1514,CoreStack 976 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-11-28,Lead Analyst
+CUST-1515,MetricWorks 315 Inc.,Logistics,North America,201-1000 employees,Starter,2023-07-25,Director of IT
+CUST-1516,PayMatrix 593 Inc.,Marketing SaaS,North America,201-1000 employees,Growth,2023-03-24,Lead Analyst
+CUST-1517,KubeSphere 656 Inc.,E-commerce,North America,1-50 employees,Starter,2023-08-03,Head of Product
+CUST-1518,CoreStack 792 Inc.,E-commerce,EMEA,201-1000 employees,Starter,2024-09-21,Lead Analyst
+CUST-1519,InfraOps 449 Inc.,Logistics,North America,51-200 employees,Starter,2024-06-30,Head of Product
+CUST-1520,EchoLink 392 Inc.,Fintech,APAC,201-1000 employees,Growth,2023-01-19,COO
+CUST-1521,ApexFlow 651 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-04-16,Lead Analyst
+CUST-1522,MetricWorks 612 Inc.,EdTech,North America,201-1000 employees,Growth,2023-10-25,Lead Analyst
+CUST-1523,EchoLink 542 Inc.,DevOps,North America,51-200 employees,Starter,2024-05-16,Director of IT
+CUST-1524,FinSecure 202 Inc.,E-commerce,LATAM,1000+ employees,Enterprise,2023-08-22,Head of Product
+CUST-1525,EchoLink 144 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2024-01-11,COO
+CUST-1526,InfraOps 821 Inc.,Fintech,North America,51-200 employees,Growth,2024-09-30,VP Engineering
+CUST-1527,Hyperion 59 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-03-02,Lead Analyst
+CUST-1528,BioSync 136 Inc.,EdTech,EMEA,1-50 employees,Growth,2024-10-07,VP Engineering
+CUST-1529,IronShield 440 Inc.,Healthcare,EMEA,1-50 employees,Growth,2023-05-21,Lead Analyst
+CUST-1530,ClearSignal 930 Inc.,Healthcare,EMEA,51-200 employees,Starter,2023-04-19,Lead Analyst
+CUST-1531,Nexora 633 Inc.,Cybersecurity,APAC,201-1000 employees,Enterprise,2024-01-02,COO
+CUST-1532,PayMatrix 312 Inc.,E-commerce,North America,51-200 employees,Starter,2024-05-07,Director of IT
+CUST-1533,Synthetix 12 Inc.,Fintech,EMEA,1000+ employees,Enterprise,2024-11-16,Lead Analyst
+CUST-1534,OmniLogic 982 Inc.,Healthcare,APAC,1-50 employees,Growth,2023-09-20,COO
+CUST-1535,Synthetix 477 Inc.,EdTech,North America,1-50 employees,Growth,2023-02-10,Director of IT
+CUST-1536,LogiChain 830 Inc.,DevOps,North America,1-50 employees,Growth,2023-02-16,VP Engineering
+CUST-1537,VeloceData 151 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2023-10-02,COO
+CUST-1538,Stripewave 391 Inc.,DevOps,North America,51-200 employees,Enterprise,2023-10-06,Lead Analyst
+CUST-1539,PrismGuard 881 Inc.,Marketing SaaS,APAC,51-200 employees,Growth,2023-04-26,Head of Product
+CUST-1540,PrismGuard 753 Inc.,Fintech,LATAM,201-1000 employees,Starter,2024-08-27,Lead Analyst
+CUST-1541,HealthVault 592 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2023-01-30,COO
+CUST-1542,ScaleBridge 868 Inc.,E-commerce,EMEA,51-200 employees,Growth,2024-03-27,VP Engineering
+CUST-1543,Stripewave 277 Inc.,DevOps,North America,201-1000 employees,Growth,2024-08-13,COO
+CUST-1544,CoreStack 239 Inc.,DevOps,EMEA,51-200 employees,Growth,2024-03-19,COO
+CUST-1545,EchoLink 264 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-07-25,CTO
+CUST-1546,CloudScale 21 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-06-19,VP Engineering
+CUST-1547,FinSecure 513 Inc.,DevOps,North America,1000+ employees,Growth,2023-08-17,CTO
+CUST-1548,InfraOps 397 Inc.,Logistics,APAC,1-50 employees,Starter,2024-08-09,Lead Analyst
+CUST-1549,Stripewave 887 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-10-31,VP Engineering
+CUST-1550,VortexData 423 Inc.,Logistics,North America,51-200 employees,Growth,2024-09-10,CTO
+CUST-1551,InfraOps 321 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-02-25,Head of Product
+CUST-1552,VeloceData 475 Inc.,DevOps,EMEA,51-200 employees,Starter,2024-11-03,Director of IT
+CUST-1553,PrismGuard 473 Inc.,Healthcare,North America,51-200 employees,Starter,2023-12-30,COO
+CUST-1554,HealthVault 308 Inc.,DevOps,EMEA,1-50 employees,Starter,2023-05-24,COO
+CUST-1555,EchoLink 748 Inc.,Logistics,North America,51-200 employees,Starter,2024-02-07,Head of Product
+CUST-1556,RetailSphere 854 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-10-10,COO
+CUST-1557,CoreStack 136 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2024-05-25,VP Engineering
+CUST-1558,MetricWorks 763 Inc.,Fintech,EMEA,51-200 employees,Growth,2024-06-04,Head of Product
+CUST-1559,PrismGuard 602 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-09-06,CTO
+CUST-1560,ScaleBridge 339 Inc.,Logistics,North America,51-200 employees,Growth,2023-09-12,Director of IT
+CUST-1561,BioSync 996 Inc.,DevOps,LATAM,51-200 employees,Starter,2024-02-27,CTO
+CUST-1562,PrismGuard 917 Inc.,EdTech,APAC,51-200 employees,Starter,2024-07-20,COO
+CUST-1563,Nexora 215 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-11-19,Head of Product
+CUST-1564,PrismGuard 675 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-04-29,Director of IT
+CUST-1565,AuraCloud 501 Inc.,Logistics,EMEA,201-1000 employees,Growth,2024-03-08,VP Engineering
+CUST-1566,MetricWorks 119 Inc.,Fintech,North America,1-50 employees,Starter,2023-10-01,Head of Product
+CUST-1567,IronShield 709 Inc.,EdTech,North America,1-50 employees,Growth,2023-07-28,CTO
+CUST-1568,CloudScale 377 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2023-08-18,COO
+CUST-1569,InfraOps 584 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-10-22,COO
+CUST-1570,TrustWave 58 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-11-17,CTO
+CUST-1571,CloudScale 23 Inc.,EdTech,North America,201-1000 employees,Enterprise,2024-03-29,Head of Product
+CUST-1572,ZennithAnalytics 658 Inc.,DevOps,APAC,51-200 employees,Growth,2023-07-18,Director of IT
+CUST-1573,RetailSphere 191 Inc.,Healthcare,North America,1-50 employees,Starter,2024-01-22,VP Engineering
+CUST-1574,PayMatrix 295 Inc.,EdTech,North America,51-200 employees,Starter,2023-12-05,Lead Analyst
+CUST-1575,PrismGuard 969 Inc.,E-commerce,North America,1000+ employees,Enterprise,2024-10-02,CTO
+CUST-1576,ClearSignal 687 Inc.,EdTech,EMEA,51-200 employees,Starter,2024-12-25,Director of IT
+CUST-1577,MetricWorks 235 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2024-07-10,CTO
+CUST-1578,BioSync 104 Inc.,DevOps,North America,1-50 employees,Starter,2024-01-05,Director of IT
+CUST-1579,Nexora 983 Inc.,Marketing SaaS,LATAM,201-1000 employees,Enterprise,2023-01-10,VP Engineering
+CUST-1580,TrustWave 364 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2023-09-07,VP Engineering
+CUST-1581,TrustWave 916 Inc.,DevOps,North America,201-1000 employees,Starter,2023-09-20,CTO
+CUST-1582,EchoLink 299 Inc.,Fintech,APAC,201-1000 employees,Growth,2024-06-04,Lead Analyst
+CUST-1583,NeuroTech 54 Inc.,EdTech,APAC,1-50 employees,Starter,2023-04-09,Head of Product
+CUST-1584,FinSecure 560 Inc.,Fintech,EMEA,1-50 employees,Growth,2023-08-07,COO
+CUST-1585,PayMatrix 865 Inc.,Healthcare,North America,201-1000 employees,Enterprise,2024-03-21,COO
+CUST-1586,ClearSignal 972 Inc.,Healthcare,EMEA,1-50 employees,Starter,2023-12-06,VP Engineering
+CUST-1587,Stripewave 85 Inc.,Fintech,North America,1-50 employees,Starter,2023-08-22,Director of IT
+CUST-1588,PayMatrix 407 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2024-11-20,VP Engineering
+CUST-1589,AuraCloud 16 Inc.,Healthcare,APAC,51-200 employees,Growth,2023-03-16,Director of IT
+CUST-1590,ZennithAnalytics 524 Inc.,Healthcare,North America,51-200 employees,Growth,2023-10-16,Lead Analyst
+CUST-1591,BioSync 414 Inc.,Fintech,EMEA,51-200 employees,Starter,2024-02-05,CTO
+CUST-1592,IronShield 993 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2024-10-25,Director of IT
+CUST-1593,ApexFlow 576 Inc.,E-commerce,North America,1-50 employees,Growth,2024-07-04,CTO
+CUST-1594,Stripewave 322 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2024-02-27,COO
+CUST-1595,VeloceData 534 Inc.,E-commerce,North America,1-50 employees,Growth,2023-07-18,VP Engineering
+CUST-1596,DataPulse 697 Inc.,Fintech,APAC,1000+ employees,Enterprise,2024-04-17,COO
+CUST-1597,AuraCloud 84 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-08-17,Lead Analyst
+CUST-1598,KubeSphere 375 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-03-13,Head of Product
+CUST-1599,KubeSphere 507 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2023-06-06,CTO
+CUST-1600,CoreStack 383 Inc.,DevOps,LATAM,1-50 employees,Starter,2023-08-15,COO
+CUST-1601,EchoLink 666 Inc.,Logistics,North America,51-200 employees,Growth,2023-12-06,Lead Analyst
+CUST-1602,RetailSphere 466 Inc.,DevOps,APAC,51-200 employees,Starter,2024-10-23,CTO
+CUST-1603,Stripewave 871 Inc.,EdTech,APAC,1-50 employees,Starter,2023-09-27,COO
+CUST-1604,ScaleBridge 651 Inc.,Healthcare,EMEA,201-1000 employees,Enterprise,2024-10-08,VP Engineering
+CUST-1605,ClearSignal 605 Inc.,Logistics,APAC,1-50 employees,Starter,2023-09-24,CTO
+CUST-1606,ScaleBridge 562 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-08-26,COO
+CUST-1607,VeloceData 307 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-05-29,VP Engineering
+CUST-1608,TrustWave 254 Inc.,E-commerce,APAC,1-50 employees,Starter,2024-08-02,CTO
+CUST-1609,TrustWave 903 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-08-13,Lead Analyst
+CUST-1610,Synthetix 74 Inc.,EdTech,North America,1-50 employees,Starter,2024-01-05,Lead Analyst
+CUST-1611,NeuroTech 949 Inc.,Marketing SaaS,APAC,1-50 employees,Growth,2023-04-16,COO
+CUST-1612,MetricWorks 658 Inc.,EdTech,APAC,1-50 employees,Starter,2023-06-28,Lead Analyst
+CUST-1613,InfraOps 397 Inc.,DevOps,EMEA,201-1000 employees,Starter,2023-09-15,Lead Analyst
+CUST-1614,ZennithAnalytics 238 Inc.,Logistics,North America,201-1000 employees,Growth,2024-05-08,CTO
+CUST-1615,ApexFlow 523 Inc.,E-commerce,North America,1-50 employees,Starter,2023-10-15,Head of Product
+CUST-1616,OmniLogic 201 Inc.,E-commerce,North America,201-1000 employees,Starter,2023-08-24,Lead Analyst
+CUST-1617,HealthVault 348 Inc.,Healthcare,EMEA,51-200 employees,Starter,2023-06-15,COO
+CUST-1618,ClearSignal 430 Inc.,Fintech,North America,1-50 employees,Growth,2023-05-18,COO
+CUST-1619,MetricWorks 50 Inc.,E-commerce,North America,1-50 employees,Starter,2024-02-20,CTO
+CUST-1620,CoreStack 662 Inc.,Fintech,APAC,201-1000 employees,Enterprise,2023-03-29,Head of Product
+CUST-1621,RetailSphere 631 Inc.,Marketing SaaS,APAC,1-50 employees,Growth,2024-09-07,Head of Product
+CUST-1622,HealthVault 606 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-12-03,Director of IT
+CUST-1623,ZennithAnalytics 474 Inc.,Healthcare,North America,51-200 employees,Starter,2023-07-27,CTO
+CUST-1624,VeloceData 941 Inc.,Logistics,APAC,51-200 employees,Starter,2024-09-21,CTO
+CUST-1625,CloudScale 908 Inc.,Healthcare,North America,51-200 employees,Growth,2024-07-06,VP Engineering
+CUST-1626,ScaleBridge 970 Inc.,Logistics,EMEA,51-200 employees,Starter,2024-06-26,Lead Analyst
+CUST-1627,Synthetix 970 Inc.,Marketing SaaS,APAC,51-200 employees,Growth,2024-12-14,CTO
+CUST-1628,VortexData 445 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2023-03-27,Director of IT
+CUST-1629,Hyperion 907 Inc.,Logistics,North America,1-50 employees,Growth,2023-01-08,CTO
+CUST-1630,MetricWorks 130 Inc.,Fintech,North America,1-50 employees,Growth,2024-02-23,Director of IT
+CUST-1631,VortexData 168 Inc.,Logistics,EMEA,1-50 employees,Growth,2024-03-09,CTO
+CUST-1632,LogiChain 636 Inc.,EdTech,LATAM,51-200 employees,Starter,2024-07-19,CTO
+CUST-1633,NeuroTech 193 Inc.,DevOps,EMEA,51-200 employees,Enterprise,2024-08-14,Director of IT
+CUST-1634,FinSecure 732 Inc.,Logistics,EMEA,201-1000 employees,Growth,2023-08-24,Lead Analyst
+CUST-1635,HealthVault 726 Inc.,E-commerce,North America,51-200 employees,Growth,2024-07-17,CTO
+CUST-1636,PrismGuard 710 Inc.,Fintech,North America,1000+ employees,Starter,2023-04-04,Head of Product
+CUST-1637,NeuroTech 958 Inc.,Logistics,North America,1-50 employees,Starter,2024-09-15,VP Engineering
+CUST-1638,EchoLink 403 Inc.,Logistics,EMEA,51-200 employees,Growth,2024-09-03,VP Engineering
+CUST-1639,FinSecure 849 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-11-03,CTO
+CUST-1640,IronShield 209 Inc.,Fintech,APAC,51-200 employees,Growth,2024-09-21,Head of Product
+CUST-1641,TrustWave 46 Inc.,DevOps,North America,1-50 employees,Starter,2023-10-10,Lead Analyst
+CUST-1642,LogiChain 695 Inc.,Logistics,North America,1-50 employees,Starter,2024-12-21,VP Engineering
+CUST-1643,ZennithAnalytics 102 Inc.,EdTech,EMEA,51-200 employees,Growth,2023-12-22,Director of IT
+CUST-1644,Synthetix 630 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-06-29,Lead Analyst
+CUST-1645,MetricWorks 119 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-06-09,Director of IT
+CUST-1646,ScaleBridge 560 Inc.,EdTech,EMEA,1000+ employees,Enterprise,2023-09-07,Director of IT
+CUST-1647,FinSecure 479 Inc.,Marketing SaaS,APAC,201-1000 employees,Growth,2023-09-22,VP Engineering
+CUST-1648,BioSync 658 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-12-28,CTO
+CUST-1649,AuraCloud 19 Inc.,EdTech,North America,1-50 employees,Growth,2023-12-17,VP Engineering
+CUST-1650,AuraCloud 963 Inc.,E-commerce,EMEA,51-200 employees,Growth,2023-10-03,Head of Product
+CUST-1651,EchoLink 709 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2023-09-29,Head of Product
+CUST-1652,Synthetix 217 Inc.,Cybersecurity,APAC,51-200 employees,Growth,2023-05-03,VP Engineering
+CUST-1653,TrustWave 988 Inc.,Marketing SaaS,EMEA,201-1000 employees,Growth,2023-02-13,Lead Analyst
+CUST-1654,LogiChain 645 Inc.,DevOps,EMEA,1000+ employees,Enterprise,2023-10-09,Lead Analyst
+CUST-1655,DataPulse 792 Inc.,EdTech,North America,201-1000 employees,Starter,2024-06-22,Lead Analyst
+CUST-1656,NeuroTech 972 Inc.,Fintech,EMEA,51-200 employees,Growth,2023-06-28,Lead Analyst
+CUST-1657,VortexData 725 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-01-24,CTO
+CUST-1658,VortexData 343 Inc.,DevOps,EMEA,1-50 employees,Starter,2023-08-31,Director of IT
+CUST-1659,NeuroTech 991 Inc.,DevOps,North America,51-200 employees,Starter,2024-12-18,Director of IT
+CUST-1660,LogiChain 884 Inc.,Logistics,North America,1-50 employees,Starter,2024-08-12,COO
+CUST-1661,Synthetix 843 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2024-01-26,Head of Product
+CUST-1662,OmniLogic 829 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-05-18,COO
+CUST-1663,MetricWorks 556 Inc.,DevOps,APAC,1-50 employees,Growth,2024-08-04,VP Engineering
+CUST-1664,BioSync 111 Inc.,E-commerce,North America,201-1000 employees,Growth,2024-10-06,VP Engineering
+CUST-1665,RetailSphere 772 Inc.,DevOps,North America,51-200 employees,Growth,2023-09-21,Director of IT
+CUST-1666,ApexFlow 431 Inc.,Healthcare,North America,51-200 employees,Growth,2024-08-13,CTO
+CUST-1667,InfraOps 674 Inc.,E-commerce,LATAM,1-50 employees,Starter,2024-06-06,Lead Analyst
+CUST-1668,FinSecure 764 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2024-10-08,Head of Product
+CUST-1669,VeloceData 181 Inc.,DevOps,North America,51-200 employees,Starter,2023-03-15,VP Engineering
+CUST-1670,DataPulse 361 Inc.,Cybersecurity,North America,51-200 employees,Growth,2024-09-11,COO
+CUST-1671,BioSync 287 Inc.,Marketing SaaS,APAC,1000+ employees,Enterprise,2024-06-17,Lead Analyst
+CUST-1672,PayMatrix 181 Inc.,E-commerce,APAC,1-50 employees,Starter,2023-09-15,COO
+CUST-1673,PrismGuard 777 Inc.,Healthcare,North America,51-200 employees,Starter,2024-04-29,CTO
+CUST-1674,CloudScale 36 Inc.,Logistics,EMEA,1000+ employees,Growth,2024-09-24,Head of Product
+CUST-1675,Stripewave 680 Inc.,Logistics,North America,1-50 employees,Starter,2024-10-03,Head of Product
+CUST-1676,OmniLogic 549 Inc.,E-commerce,North America,51-200 employees,Growth,2023-11-30,Lead Analyst
+CUST-1677,RetailSphere 901 Inc.,EdTech,EMEA,1-50 employees,Enterprise,2024-07-06,Head of Product
+CUST-1678,CoreStack 621 Inc.,Marketing SaaS,EMEA,51-200 employees,Growth,2024-06-20,COO
+CUST-1679,InfraOps 556 Inc.,EdTech,APAC,51-200 employees,Starter,2023-04-02,Lead Analyst
+CUST-1680,IronShield 384 Inc.,Logistics,North America,1-50 employees,Starter,2023-05-20,Director of IT
+CUST-1681,IronShield 490 Inc.,Fintech,EMEA,51-200 employees,Growth,2023-11-03,VP Engineering
+CUST-1682,FinSecure 450 Inc.,EdTech,EMEA,201-1000 employees,Growth,2023-07-13,Lead Analyst
+CUST-1683,ScaleBridge 584 Inc.,Logistics,North America,1-50 employees,Growth,2024-02-04,Lead Analyst
+CUST-1684,Synthetix 279 Inc.,Healthcare,North America,1-50 employees,Growth,2024-09-19,COO
+CUST-1685,TrustWave 288 Inc.,EdTech,EMEA,51-200 employees,Starter,2023-07-12,VP Engineering
+CUST-1686,DataPulse 149 Inc.,EdTech,North America,51-200 employees,Starter,2024-12-18,CTO
+CUST-1687,NeuroTech 202 Inc.,DevOps,North America,1-50 employees,Starter,2023-07-10,VP Engineering
+CUST-1688,IronShield 285 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2023-06-04,VP Engineering
+CUST-1689,NeuroTech 232 Inc.,DevOps,North America,201-1000 employees,Growth,2024-01-16,Lead Analyst
+CUST-1690,PrismGuard 820 Inc.,Fintech,North America,201-1000 employees,Enterprise,2023-02-27,Director of IT
+CUST-1691,FinSecure 411 Inc.,Healthcare,EMEA,1-50 employees,Growth,2023-09-14,Lead Analyst
+CUST-1692,ClearSignal 22 Inc.,Healthcare,LATAM,201-1000 employees,Growth,2024-03-29,Head of Product
+CUST-1693,EchoLink 44 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2023-08-02,Lead Analyst
+CUST-1694,BioSync 707 Inc.,EdTech,LATAM,1-50 employees,Growth,2024-07-16,CTO
+CUST-1695,VortexData 269 Inc.,Marketing SaaS,EMEA,1-50 employees,Growth,2024-11-13,Head of Product
+CUST-1696,VortexData 251 Inc.,Logistics,North America,1-50 employees,Starter,2023-05-03,Lead Analyst
+CUST-1697,HealthVault 258 Inc.,Fintech,LATAM,51-200 employees,Growth,2024-12-05,CTO
+CUST-1698,OmniLogic 390 Inc.,Healthcare,North America,51-200 employees,Growth,2023-12-13,COO
+CUST-1699,CloudScale 71 Inc.,DevOps,EMEA,201-1000 employees,Enterprise,2023-05-09,Lead Analyst
+CUST-1700,Synthetix 334 Inc.,DevOps,APAC,51-200 employees,Starter,2024-12-06,Lead Analyst
+CUST-1701,LogiChain 751 Inc.,E-commerce,North America,1-50 employees,Growth,2024-07-26,Director of IT
+CUST-1702,AuraCloud 723 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-04-24,Director of IT
+CUST-1703,VeloceData 861 Inc.,E-commerce,North America,1-50 employees,Starter,2023-09-27,CTO
+CUST-1704,LogiChain 474 Inc.,Fintech,APAC,51-200 employees,Growth,2023-01-20,CTO
+CUST-1705,VeloceData 382 Inc.,Cybersecurity,North America,1-50 employees,Enterprise,2024-02-01,Head of Product
+CUST-1706,MetricWorks 709 Inc.,Marketing SaaS,APAC,1-50 employees,Starter,2024-02-24,COO
+CUST-1707,KubeSphere 123 Inc.,Healthcare,EMEA,1-50 employees,Growth,2023-05-13,Head of Product
+CUST-1708,VeloceData 42 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-10-19,Lead Analyst
+CUST-1709,TrustWave 511 Inc.,EdTech,North America,1-50 employees,Growth,2023-01-14,Head of Product
+CUST-1710,InfraOps 513 Inc.,Healthcare,EMEA,51-200 employees,Starter,2024-03-01,Director of IT
+CUST-1711,HealthVault 735 Inc.,Fintech,APAC,1-50 employees,Starter,2023-03-14,Director of IT
+CUST-1712,Stripewave 977 Inc.,Cybersecurity,LATAM,1-50 employees,Growth,2024-06-28,Lead Analyst
+CUST-1713,Nexora 207 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2024-07-25,Lead Analyst
+CUST-1714,EchoLink 118 Inc.,DevOps,EMEA,201-1000 employees,Growth,2023-04-17,Head of Product
+CUST-1715,HealthVault 194 Inc.,Logistics,EMEA,51-200 employees,Starter,2024-09-06,Lead Analyst
+CUST-1716,ZennithAnalytics 370 Inc.,DevOps,EMEA,1000+ employees,Enterprise,2024-02-27,COO
+CUST-1717,PayMatrix 855 Inc.,DevOps,EMEA,51-200 employees,Starter,2024-07-17,COO
+CUST-1718,QuantIQ 378 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2023-10-19,CTO
+CUST-1719,ApexFlow 540 Inc.,E-commerce,LATAM,1-50 employees,Starter,2023-08-16,Head of Product
+CUST-1720,VeloceData 332 Inc.,Fintech,APAC,1000+ employees,Enterprise,2024-07-20,CTO
+CUST-1721,AuraCloud 594 Inc.,E-commerce,North America,51-200 employees,Starter,2023-09-29,Director of IT
+CUST-1722,ScaleBridge 606 Inc.,Cybersecurity,North America,201-1000 employees,Starter,2024-02-14,CTO
+CUST-1723,ZennithAnalytics 232 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2024-12-07,COO
+CUST-1724,CoreStack 849 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-08-13,Lead Analyst
+CUST-1725,Stripewave 808 Inc.,Fintech,APAC,1-50 employees,Growth,2024-03-20,Lead Analyst
+CUST-1726,ZennithAnalytics 898 Inc.,Healthcare,APAC,1-50 employees,Growth,2024-09-08,VP Engineering
+CUST-1727,InfraOps 806 Inc.,Logistics,North America,51-200 employees,Starter,2024-08-01,Head of Product
+CUST-1728,KubeSphere 524 Inc.,Cybersecurity,North America,51-200 employees,Enterprise,2024-04-01,CTO
+CUST-1729,CoreStack 526 Inc.,Healthcare,North America,1-50 employees,Starter,2023-05-16,Director of IT
+CUST-1730,Stripewave 497 Inc.,Fintech,EMEA,1-50 employees,Starter,2024-03-20,COO
+CUST-1731,OmniLogic 790 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-08-08,Head of Product
+CUST-1732,AuraCloud 640 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-12-02,CTO
+CUST-1733,Stripewave 125 Inc.,Logistics,North America,1-50 employees,Starter,2024-08-31,COO
+CUST-1734,ApexFlow 798 Inc.,EdTech,North America,1-50 employees,Growth,2024-03-28,CTO
+CUST-1735,OmniLogic 461 Inc.,Fintech,APAC,1-50 employees,Growth,2023-06-09,COO
+CUST-1736,VeloceData 97 Inc.,Healthcare,EMEA,1-50 employees,Growth,2023-06-01,Director of IT
+CUST-1737,ApexFlow 361 Inc.,Healthcare,North America,51-200 employees,Starter,2024-07-04,Head of Product
+CUST-1738,Nexora 569 Inc.,EdTech,EMEA,51-200 employees,Enterprise,2024-12-12,COO
+CUST-1739,TrustWave 28 Inc.,Logistics,EMEA,51-200 employees,Starter,2023-06-24,VP Engineering
+CUST-1740,IronShield 215 Inc.,EdTech,North America,51-200 employees,Starter,2024-02-02,COO
+CUST-1741,QuantIQ 688 Inc.,DevOps,APAC,1-50 employees,Growth,2024-10-26,Lead Analyst
+CUST-1742,Synthetix 399 Inc.,Healthcare,APAC,51-200 employees,Growth,2023-04-01,Head of Product
+CUST-1743,Nexora 522 Inc.,Marketing SaaS,EMEA,201-1000 employees,Starter,2024-06-26,Director of IT
+CUST-1744,KubeSphere 511 Inc.,Logistics,EMEA,1-50 employees,Growth,2023-12-30,COO
+CUST-1745,IronShield 251 Inc.,EdTech,APAC,51-200 employees,Growth,2023-01-31,CTO
+CUST-1746,QuantIQ 240 Inc.,E-commerce,North America,51-200 employees,Starter,2024-01-27,CTO
+CUST-1747,TrustWave 637 Inc.,Cybersecurity,North America,51-200 employees,Starter,2023-11-16,CTO
+CUST-1748,KubeSphere 469 Inc.,E-commerce,North America,1-50 employees,Starter,2023-07-27,Head of Product
+CUST-1749,IronShield 715 Inc.,E-commerce,North America,1000+ employees,Enterprise,2024-11-02,CTO
+CUST-1750,ZennithAnalytics 171 Inc.,DevOps,North America,51-200 employees,Growth,2023-07-08,Director of IT
+CUST-1751,ClearSignal 910 Inc.,E-commerce,EMEA,201-1000 employees,Enterprise,2024-02-28,Lead Analyst
+CUST-1752,IronShield 463 Inc.,EdTech,North America,1-50 employees,Starter,2023-01-27,CTO
+CUST-1753,Hyperion 283 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-03-23,COO
+CUST-1754,FinSecure 498 Inc.,E-commerce,EMEA,51-200 employees,Growth,2024-01-18,Head of Product
+CUST-1755,VeloceData 406 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-02-23,VP Engineering
+CUST-1756,ZennithAnalytics 286 Inc.,Logistics,North America,51-200 employees,Starter,2023-07-29,VP Engineering
+CUST-1757,DataPulse 959 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2024-04-13,Head of Product
+CUST-1758,PayMatrix 424 Inc.,Fintech,EMEA,201-1000 employees,Enterprise,2024-02-08,CTO
+CUST-1759,EchoLink 595 Inc.,Fintech,EMEA,51-200 employees,Growth,2023-02-13,Head of Product
+CUST-1760,MetricWorks 560 Inc.,Logistics,LATAM,1-50 employees,Starter,2024-10-07,VP Engineering
+CUST-1761,Nexora 308 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-04-17,Head of Product
+CUST-1762,PayMatrix 311 Inc.,Fintech,EMEA,1000+ employees,Enterprise,2024-10-23,Lead Analyst
+CUST-1763,Stripewave 749 Inc.,Healthcare,North America,51-200 employees,Growth,2024-07-13,Head of Product
+CUST-1764,BioSync 433 Inc.,DevOps,EMEA,1-50 employees,Growth,2024-12-30,Head of Product
+CUST-1765,ScaleBridge 475 Inc.,Healthcare,North America,51-200 employees,Growth,2023-06-17,COO
+CUST-1766,EchoLink 136 Inc.,Healthcare,North America,51-200 employees,Starter,2024-06-20,COO
+CUST-1767,BioSync 754 Inc.,E-commerce,North America,51-200 employees,Growth,2023-12-10,CTO
+CUST-1768,VeloceData 685 Inc.,E-commerce,North America,1-50 employees,Growth,2023-02-22,Lead Analyst
+CUST-1769,IronShield 326 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2023-07-27,VP Engineering
+CUST-1770,Hyperion 793 Inc.,EdTech,North America,51-200 employees,Starter,2023-01-06,CTO
+CUST-1771,ScaleBridge 515 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-03-28,VP Engineering
+CUST-1772,Hyperion 624 Inc.,Fintech,North America,51-200 employees,Growth,2024-07-24,Head of Product
+CUST-1773,CloudScale 199 Inc.,E-commerce,North America,1-50 employees,Starter,2023-02-03,COO
+CUST-1774,CoreStack 868 Inc.,EdTech,North America,1-50 employees,Starter,2023-07-02,Head of Product
+CUST-1775,TrustWave 301 Inc.,E-commerce,LATAM,201-1000 employees,Growth,2023-02-06,VP Engineering
+CUST-1776,FinSecure 316 Inc.,DevOps,North America,51-200 employees,Starter,2024-03-13,CTO
+CUST-1777,Stripewave 309 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-06-23,Lead Analyst
+CUST-1778,MetricWorks 224 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2024-10-06,CTO
+CUST-1779,Stripewave 505 Inc.,EdTech,North America,201-1000 employees,Growth,2024-08-11,CTO
+CUST-1780,LogiChain 959 Inc.,E-commerce,EMEA,51-200 employees,Growth,2024-05-24,Lead Analyst
+CUST-1781,HealthVault 194 Inc.,Cybersecurity,EMEA,1000+ employees,Starter,2023-01-25,Lead Analyst
+CUST-1782,InfraOps 825 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-02-29,Lead Analyst
+CUST-1783,CloudScale 351 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-07-26,COO
+CUST-1784,IronShield 270 Inc.,Healthcare,North America,51-200 employees,Starter,2023-01-07,VP Engineering
+CUST-1785,TrustWave 351 Inc.,DevOps,North America,51-200 employees,Enterprise,2023-06-29,Head of Product
+CUST-1786,KubeSphere 863 Inc.,DevOps,APAC,51-200 employees,Starter,2023-02-06,COO
+CUST-1787,OmniLogic 503 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2023-12-10,Lead Analyst
+CUST-1788,HealthVault 843 Inc.,Logistics,APAC,1-50 employees,Starter,2024-08-01,COO
+CUST-1789,TrustWave 333 Inc.,Fintech,North America,51-200 employees,Growth,2023-12-29,VP Engineering
+CUST-1790,OmniLogic 297 Inc.,Fintech,North America,51-200 employees,Starter,2023-06-19,CTO
+CUST-1791,Hyperion 408 Inc.,E-commerce,EMEA,201-1000 employees,Enterprise,2024-12-23,Director of IT
+CUST-1792,PrismGuard 42 Inc.,EdTech,North America,51-200 employees,Starter,2024-04-07,Director of IT
+CUST-1793,Nexora 547 Inc.,EdTech,North America,51-200 employees,Starter,2023-07-26,VP Engineering
+CUST-1794,RetailSphere 528 Inc.,Fintech,APAC,1000+ employees,Growth,2023-12-15,Lead Analyst
+CUST-1795,EchoLink 904 Inc.,EdTech,APAC,1-50 employees,Growth,2024-06-12,COO
+CUST-1796,OmniLogic 220 Inc.,Fintech,EMEA,201-1000 employees,Growth,2023-01-05,Director of IT
+CUST-1797,ZennithAnalytics 55 Inc.,Healthcare,North America,201-1000 employees,Starter,2024-11-05,COO
+CUST-1798,IronShield 33 Inc.,EdTech,EMEA,1-50 employees,Starter,2023-10-21,Director of IT
+CUST-1799,AuraCloud 336 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2023-04-28,VP Engineering
+CUST-1800,Hyperion 583 Inc.,Healthcare,North America,51-200 employees,Starter,2023-05-25,COO
+CUST-1801,HealthVault 300 Inc.,Cybersecurity,North America,1-50 employees,Growth,2024-07-07,Lead Analyst
+CUST-1802,CloudScale 143 Inc.,Fintech,EMEA,51-200 employees,Starter,2023-02-25,VP Engineering
+CUST-1803,PayMatrix 411 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2024-12-07,COO
+CUST-1804,RetailSphere 641 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-11-17,CTO
+CUST-1805,Stripewave 954 Inc.,Marketing SaaS,EMEA,1-50 employees,Growth,2024-12-16,Lead Analyst
+CUST-1806,VortexData 476 Inc.,EdTech,EMEA,201-1000 employees,Growth,2023-08-26,Head of Product
+CUST-1807,OmniLogic 891 Inc.,EdTech,APAC,51-200 employees,Growth,2024-11-12,Director of IT
+CUST-1808,HealthVault 891 Inc.,DevOps,EMEA,1-50 employees,Starter,2023-12-26,Lead Analyst
+CUST-1809,RetailSphere 876 Inc.,E-commerce,North America,1-50 employees,Growth,2024-06-04,VP Engineering
+CUST-1810,BioSync 847 Inc.,Healthcare,North America,51-200 employees,Growth,2024-06-29,Lead Analyst
+CUST-1811,BioSync 614 Inc.,Logistics,North America,1-50 employees,Starter,2024-05-08,Lead Analyst
+CUST-1812,Stripewave 358 Inc.,Cybersecurity,APAC,51-200 employees,Growth,2024-03-21,CTO
+CUST-1813,HealthVault 360 Inc.,Cybersecurity,North America,51-200 employees,Growth,2024-12-29,CTO
+CUST-1814,ClearSignal 508 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-03-31,Head of Product
+CUST-1815,IronShield 988 Inc.,Logistics,North America,1-50 employees,Growth,2024-01-24,Director of IT
+CUST-1816,NeuroTech 670 Inc.,Fintech,North America,201-1000 employees,Enterprise,2024-10-13,VP Engineering
+CUST-1817,FinSecure 160 Inc.,E-commerce,EMEA,1-50 employees,Growth,2024-04-02,Head of Product
+CUST-1818,Nexora 707 Inc.,DevOps,North America,201-1000 employees,Growth,2024-03-21,COO
+CUST-1819,ZennithAnalytics 362 Inc.,Healthcare,EMEA,51-200 employees,Starter,2023-05-11,Director of IT
+CUST-1820,CloudScale 388 Inc.,Fintech,North America,51-200 employees,Enterprise,2023-04-23,Director of IT
+CUST-1821,VeloceData 41 Inc.,Cybersecurity,North America,51-200 employees,Growth,2024-12-29,Lead Analyst
+CUST-1822,BioSync 400 Inc.,Logistics,EMEA,51-200 employees,Starter,2023-07-12,CTO
+CUST-1823,BioSync 873 Inc.,DevOps,APAC,1-50 employees,Enterprise,2024-11-17,Head of Product
+CUST-1824,OmniLogic 21 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-11-04,Lead Analyst
+CUST-1825,OmniLogic 96 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-12-13,CTO
+CUST-1826,ZennithAnalytics 445 Inc.,E-commerce,EMEA,51-200 employees,Growth,2024-01-29,Director of IT
+CUST-1827,Synthetix 200 Inc.,Logistics,EMEA,51-200 employees,Growth,2023-08-31,COO
+CUST-1828,MetricWorks 285 Inc.,Logistics,APAC,51-200 employees,Starter,2023-02-08,CTO
+CUST-1829,NeuroTech 731 Inc.,DevOps,North America,51-200 employees,Growth,2023-05-26,COO
+CUST-1830,EchoLink 549 Inc.,EdTech,EMEA,1-50 employees,Growth,2023-04-01,Head of Product
+CUST-1831,NeuroTech 655 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-09-19,VP Engineering
+CUST-1832,ScaleBridge 361 Inc.,Fintech,EMEA,51-200 employees,Starter,2023-12-06,Lead Analyst
+CUST-1833,LogiChain 993 Inc.,EdTech,North America,1-50 employees,Growth,2023-11-08,COO
+CUST-1834,HealthVault 587 Inc.,EdTech,North America,51-200 employees,Starter,2023-02-22,COO
+CUST-1835,IronShield 838 Inc.,Fintech,North America,1-50 employees,Starter,2023-10-12,Director of IT
+CUST-1836,OmniLogic 640 Inc.,EdTech,North America,1-50 employees,Growth,2024-09-10,Head of Product
+CUST-1837,ZennithAnalytics 615 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-12-18,Head of Product
+CUST-1838,NeuroTech 195 Inc.,Fintech,North America,1-50 employees,Starter,2023-06-07,Lead Analyst
+CUST-1839,FinSecure 432 Inc.,Logistics,North America,51-200 employees,Growth,2023-08-04,CTO
+CUST-1840,EchoLink 872 Inc.,DevOps,North America,1-50 employees,Growth,2023-02-23,Head of Product
+CUST-1841,RetailSphere 418 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2024-06-29,Head of Product
+CUST-1842,BioSync 709 Inc.,Logistics,EMEA,1-50 employees,Growth,2023-01-13,Director of IT
+CUST-1843,ZennithAnalytics 826 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-02-12,VP Engineering
+CUST-1844,ZennithAnalytics 554 Inc.,DevOps,LATAM,51-200 employees,Growth,2023-10-07,Director of IT
+CUST-1845,QuantIQ 283 Inc.,Healthcare,North America,51-200 employees,Starter,2024-11-22,COO
+CUST-1846,Synthetix 761 Inc.,Cybersecurity,EMEA,51-200 employees,Enterprise,2023-11-17,CTO
+CUST-1847,ApexFlow 698 Inc.,Fintech,APAC,1-50 employees,Starter,2023-04-17,COO
+CUST-1848,RetailSphere 369 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2024-09-26,VP Engineering
+CUST-1849,CloudScale 971 Inc.,Cybersecurity,LATAM,51-200 employees,Growth,2023-05-03,VP Engineering
+CUST-1850,VeloceData 629 Inc.,E-commerce,North America,201-1000 employees,Growth,2023-07-09,VP Engineering
+CUST-1851,PrismGuard 198 Inc.,EdTech,North America,51-200 employees,Starter,2024-04-09,Director of IT
+CUST-1852,FinSecure 447 Inc.,DevOps,North America,201-1000 employees,Growth,2023-03-05,Lead Analyst
+CUST-1853,BioSync 350 Inc.,Fintech,North America,201-1000 employees,Growth,2023-03-13,Lead Analyst
+CUST-1854,ZennithAnalytics 215 Inc.,Logistics,North America,51-200 employees,Starter,2024-03-17,Head of Product
+CUST-1855,Hyperion 668 Inc.,Healthcare,APAC,201-1000 employees,Starter,2023-03-16,VP Engineering
+CUST-1856,CoreStack 755 Inc.,EdTech,APAC,1-50 employees,Starter,2024-10-30,COO
+CUST-1857,ApexFlow 965 Inc.,Fintech,EMEA,1-50 employees,Growth,2024-02-05,CTO
+CUST-1858,ApexFlow 537 Inc.,Marketing SaaS,EMEA,51-200 employees,Growth,2023-03-13,CTO
+CUST-1859,Synthetix 13 Inc.,Logistics,LATAM,201-1000 employees,Growth,2024-08-03,CTO
+CUST-1860,ZennithAnalytics 377 Inc.,DevOps,EMEA,51-200 employees,Growth,2024-10-24,VP Engineering
+CUST-1861,LogiChain 557 Inc.,DevOps,North America,51-200 employees,Growth,2024-10-25,Head of Product
+CUST-1862,DataPulse 577 Inc.,Fintech,LATAM,51-200 employees,Starter,2024-02-04,VP Engineering
+CUST-1863,InfraOps 715 Inc.,DevOps,EMEA,201-1000 employees,Growth,2023-07-14,Head of Product
+CUST-1864,CloudScale 207 Inc.,Fintech,EMEA,51-200 employees,Starter,2023-03-06,CTO
+CUST-1865,InfraOps 325 Inc.,Marketing SaaS,EMEA,201-1000 employees,Growth,2023-01-17,VP Engineering
+CUST-1866,KubeSphere 67 Inc.,DevOps,APAC,1-50 employees,Starter,2024-10-31,COO
+CUST-1867,MetricWorks 479 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-05-25,Lead Analyst
+CUST-1868,InfraOps 29 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2024-10-26,Head of Product
+CUST-1869,ApexFlow 186 Inc.,Fintech,APAC,201-1000 employees,Starter,2024-09-17,Head of Product
+CUST-1870,ClearSignal 615 Inc.,Healthcare,APAC,1-50 employees,Starter,2024-09-22,Head of Product
+CUST-1871,Stripewave 833 Inc.,Cybersecurity,North America,201-1000 employees,Enterprise,2024-11-25,Lead Analyst
+CUST-1872,KubeSphere 133 Inc.,E-commerce,North America,1000+ employees,Growth,2023-02-16,CTO
+CUST-1873,DataPulse 353 Inc.,Healthcare,North America,1-50 employees,Starter,2024-12-14,Director of IT
+CUST-1874,AuraCloud 178 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-10-09,CTO
+CUST-1875,BioSync 806 Inc.,E-commerce,North America,51-200 employees,Starter,2023-07-03,VP Engineering
+CUST-1876,PrismGuard 677 Inc.,EdTech,North America,201-1000 employees,Enterprise,2024-12-09,Head of Product
+CUST-1877,Nexora 156 Inc.,EdTech,EMEA,51-200 employees,Enterprise,2024-09-17,COO
+CUST-1878,CloudScale 620 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-11-05,Director of IT
+CUST-1879,PayMatrix 14 Inc.,Cybersecurity,North America,1000+ employees,Enterprise,2024-09-25,Director of IT
+CUST-1880,VeloceData 789 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-02-24,Head of Product
+CUST-1881,VortexData 825 Inc.,E-commerce,EMEA,1000+ employees,Enterprise,2023-06-30,Head of Product
+CUST-1882,TrustWave 954 Inc.,Fintech,North America,51-200 employees,Starter,2023-09-15,Director of IT
+CUST-1883,Hyperion 834 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2023-06-30,Head of Product
+CUST-1884,HealthVault 39 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-03-31,CTO
+CUST-1885,CoreStack 343 Inc.,Logistics,North America,51-200 employees,Starter,2023-04-23,Director of IT
+CUST-1886,Synthetix 110 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2023-08-14,VP Engineering
+CUST-1887,NeuroTech 609 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-09-16,Lead Analyst
+CUST-1888,DataPulse 406 Inc.,DevOps,North America,201-1000 employees,Growth,2023-10-04,Head of Product
+CUST-1889,KubeSphere 140 Inc.,Fintech,EMEA,1-50 employees,Starter,2024-04-21,Lead Analyst
+CUST-1890,PayMatrix 185 Inc.,DevOps,North America,1-50 employees,Starter,2024-10-15,CTO
+CUST-1891,ScaleBridge 184 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-08-10,CTO
+CUST-1892,NeuroTech 867 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2023-09-10,Head of Product
+CUST-1893,KubeSphere 454 Inc.,Cybersecurity,APAC,51-200 employees,Starter,2024-08-10,VP Engineering
+CUST-1894,PayMatrix 55 Inc.,Fintech,LATAM,201-1000 employees,Growth,2024-03-11,CTO
+CUST-1895,BioSync 500 Inc.,Healthcare,EMEA,1-50 employees,Growth,2023-01-13,COO
+CUST-1896,EchoLink 426 Inc.,Cybersecurity,North America,1-50 employees,Growth,2023-04-03,VP Engineering
+CUST-1897,NeuroTech 695 Inc.,EdTech,North America,51-200 employees,Growth,2024-08-20,VP Engineering
+CUST-1898,RetailSphere 484 Inc.,E-commerce,APAC,51-200 employees,Growth,2024-01-15,COO
+CUST-1899,RetailSphere 730 Inc.,Fintech,APAC,1-50 employees,Growth,2023-12-07,CTO
+CUST-1900,CloudScale 313 Inc.,Logistics,APAC,51-200 employees,Growth,2024-08-12,Head of Product
+CUST-1901,HealthVault 711 Inc.,Healthcare,EMEA,1-50 employees,Enterprise,2024-06-11,COO
+CUST-1902,LogiChain 919 Inc.,Fintech,North America,51-200 employees,Growth,2024-01-10,Director of IT
+CUST-1903,DataPulse 673 Inc.,Healthcare,EMEA,201-1000 employees,Starter,2023-12-09,Head of Product
+CUST-1904,AuraCloud 126 Inc.,Marketing SaaS,EMEA,201-1000 employees,Enterprise,2024-12-20,Head of Product
+CUST-1905,FinSecure 772 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2024-03-09,Director of IT
+CUST-1906,CloudScale 74 Inc.,DevOps,North America,51-200 employees,Starter,2023-05-06,Lead Analyst
+CUST-1907,PrismGuard 554 Inc.,EdTech,EMEA,51-200 employees,Growth,2024-12-10,VP Engineering
+CUST-1908,Nexora 923 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2023-03-20,VP Engineering
+CUST-1909,DataPulse 292 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-06-17,COO
+CUST-1910,ApexFlow 310 Inc.,Logistics,LATAM,51-200 employees,Starter,2023-12-22,Lead Analyst
+CUST-1911,RetailSphere 765 Inc.,Fintech,North America,1-50 employees,Growth,2023-08-26,CTO
+CUST-1912,InfraOps 353 Inc.,Logistics,EMEA,51-200 employees,Growth,2024-05-12,CTO
+CUST-1913,TrustWave 723 Inc.,Marketing SaaS,EMEA,51-200 employees,Growth,2023-11-10,Head of Product
+CUST-1914,HealthVault 276 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2023-02-18,Head of Product
+CUST-1915,LogiChain 301 Inc.,Marketing SaaS,LATAM,51-200 employees,Starter,2024-07-02,Director of IT
+CUST-1916,DataPulse 189 Inc.,E-commerce,North America,1-50 employees,Enterprise,2024-08-11,Head of Product
+CUST-1917,RetailSphere 276 Inc.,DevOps,North America,51-200 employees,Starter,2023-11-21,Director of IT
+CUST-1918,OmniLogic 391 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2023-01-26,Lead Analyst
+CUST-1919,ZennithAnalytics 521 Inc.,E-commerce,LATAM,1000+ employees,Growth,2024-07-13,CTO
+CUST-1920,KubeSphere 672 Inc.,EdTech,EMEA,1-50 employees,Enterprise,2024-08-10,COO
+CUST-1921,OmniLogic 828 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-02-11,Head of Product
+CUST-1922,TrustWave 574 Inc.,Healthcare,North America,51-200 employees,Growth,2024-04-01,Director of IT
+CUST-1923,Stripewave 344 Inc.,Fintech,EMEA,1-50 employees,Starter,2023-10-12,Head of Product
+CUST-1924,ApexFlow 95 Inc.,Marketing SaaS,EMEA,1000+ employees,Enterprise,2024-02-08,Head of Product
+CUST-1925,NeuroTech 335 Inc.,Fintech,APAC,51-200 employees,Starter,2024-03-13,Director of IT
+CUST-1926,BioSync 391 Inc.,Fintech,North America,51-200 employees,Enterprise,2024-07-28,VP Engineering
+CUST-1927,Nexora 755 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2023-06-17,COO
+CUST-1928,ScaleBridge 444 Inc.,Logistics,North America,51-200 employees,Starter,2023-08-01,Director of IT
+CUST-1929,NeuroTech 898 Inc.,DevOps,North America,1000+ employees,Enterprise,2023-04-01,VP Engineering
+CUST-1930,PayMatrix 664 Inc.,EdTech,North America,51-200 employees,Growth,2023-05-21,Head of Product
+CUST-1931,DataPulse 862 Inc.,Logistics,North America,51-200 employees,Growth,2023-11-06,CTO
+CUST-1932,IronShield 515 Inc.,Marketing SaaS,North America,201-1000 employees,Growth,2023-11-04,COO
+CUST-1933,ClearSignal 661 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2023-07-03,Lead Analyst
+CUST-1934,ZennithAnalytics 714 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-03-10,CTO
+CUST-1935,EchoLink 380 Inc.,Marketing SaaS,EMEA,201-1000 employees,Growth,2024-05-02,COO
+CUST-1936,ClearSignal 132 Inc.,DevOps,EMEA,51-200 employees,Growth,2023-06-16,CTO
+CUST-1937,CloudScale 159 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-02-24,Director of IT
+CUST-1938,LogiChain 439 Inc.,DevOps,North America,1-50 employees,Growth,2023-03-20,CTO
+CUST-1939,Nexora 794 Inc.,E-commerce,APAC,51-200 employees,Starter,2023-11-27,Director of IT
+CUST-1940,ClearSignal 875 Inc.,EdTech,North America,51-200 employees,Starter,2024-07-01,CTO
+CUST-1941,LogiChain 853 Inc.,E-commerce,North America,51-200 employees,Starter,2024-05-11,Lead Analyst
+CUST-1942,KubeSphere 953 Inc.,E-commerce,North America,1-50 employees,Starter,2023-07-12,CTO
+CUST-1943,Hyperion 716 Inc.,Healthcare,North America,1000+ employees,Growth,2023-05-15,VP Engineering
+CUST-1944,NeuroTech 366 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-09-03,CTO
+CUST-1945,FinSecure 360 Inc.,E-commerce,EMEA,1-50 employees,Growth,2023-08-16,Head of Product
+CUST-1946,VeloceData 720 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-03-22,Lead Analyst
+CUST-1947,PrismGuard 791 Inc.,Healthcare,North America,201-1000 employees,Enterprise,2023-02-13,Head of Product
+CUST-1948,VortexData 43 Inc.,Fintech,EMEA,1000+ employees,Starter,2023-11-05,COO
+CUST-1949,ApexFlow 782 Inc.,Healthcare,APAC,1000+ employees,Growth,2023-07-24,Head of Product
+CUST-1950,TrustWave 369 Inc.,Fintech,North America,201-1000 employees,Enterprise,2024-08-16,Director of IT
+CUST-1951,LogiChain 174 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2023-01-15,CTO
+CUST-1952,Nexora 742 Inc.,Cybersecurity,LATAM,1-50 employees,Growth,2023-01-05,COO
+CUST-1953,VortexData 956 Inc.,Cybersecurity,APAC,201-1000 employees,Growth,2024-12-15,CTO
+CUST-1954,DataPulse 460 Inc.,Healthcare,North America,51-200 employees,Starter,2023-08-08,CTO
+CUST-1955,Synthetix 427 Inc.,Healthcare,APAC,1-50 employees,Starter,2024-06-16,Head of Product
+CUST-1956,NeuroTech 790 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-12-02,Lead Analyst
+CUST-1957,VortexData 404 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-03-30,Head of Product
+CUST-1958,AuraCloud 427 Inc.,EdTech,LATAM,51-200 employees,Growth,2024-05-02,COO
+CUST-1959,LogiChain 193 Inc.,Fintech,LATAM,51-200 employees,Starter,2024-03-24,CTO
+CUST-1960,TrustWave 702 Inc.,Healthcare,North America,51-200 employees,Growth,2023-04-15,COO
+CUST-1961,ZennithAnalytics 923 Inc.,E-commerce,North America,1000+ employees,Enterprise,2024-09-01,Lead Analyst
+CUST-1962,VortexData 248 Inc.,Logistics,EMEA,1-50 employees,Growth,2024-08-18,CTO
+CUST-1963,QuantIQ 784 Inc.,Logistics,North America,51-200 employees,Enterprise,2024-05-11,CTO
+CUST-1964,QuantIQ 160 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-10-05,Head of Product
+CUST-1965,ApexFlow 111 Inc.,Fintech,APAC,51-200 employees,Starter,2023-07-03,Lead Analyst
+CUST-1966,Hyperion 705 Inc.,DevOps,North America,51-200 employees,Starter,2023-03-20,COO
+CUST-1967,FinSecure 542 Inc.,Marketing SaaS,APAC,1-50 employees,Growth,2024-05-17,CTO
+CUST-1968,QuantIQ 565 Inc.,DevOps,APAC,51-200 employees,Starter,2023-02-02,Lead Analyst
+CUST-1969,ScaleBridge 946 Inc.,Healthcare,North America,1-50 employees,Starter,2024-04-15,VP Engineering
+CUST-1970,CloudScale 191 Inc.,EdTech,APAC,1-50 employees,Starter,2023-11-16,COO
+CUST-1971,BioSync 509 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-07-06,CTO
+CUST-1972,NeuroTech 497 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-01-22,CTO
+CUST-1973,TrustWave 371 Inc.,EdTech,North America,1-50 employees,Starter,2024-01-11,Director of IT
+CUST-1974,HealthVault 769 Inc.,Fintech,APAC,51-200 employees,Starter,2024-03-14,Director of IT
+CUST-1975,LogiChain 431 Inc.,DevOps,North America,1-50 employees,Starter,2023-11-16,CTO
+CUST-1976,Stripewave 942 Inc.,Healthcare,APAC,1-50 employees,Starter,2024-07-05,Director of IT
+CUST-1977,CloudScale 481 Inc.,Logistics,EMEA,1000+ employees,Growth,2024-12-13,Lead Analyst
+CUST-1978,CoreStack 32 Inc.,DevOps,North America,51-200 employees,Growth,2024-05-15,VP Engineering
+CUST-1979,PrismGuard 701 Inc.,Cybersecurity,North America,51-200 employees,Growth,2023-12-14,Head of Product
+CUST-1980,Hyperion 316 Inc.,DevOps,LATAM,1-50 employees,Growth,2023-03-19,CTO
+CUST-1981,Nexora 304 Inc.,EdTech,North America,1000+ employees,Enterprise,2023-08-20,CTO
+CUST-1982,EchoLink 990 Inc.,Healthcare,EMEA,51-200 employees,Growth,2023-10-07,VP Engineering
+CUST-1983,CoreStack 830 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-11-06,CTO
+CUST-1984,HealthVault 317 Inc.,Logistics,EMEA,1-50 employees,Starter,2023-09-15,CTO
+CUST-1985,MetricWorks 474 Inc.,E-commerce,APAC,51-200 employees,Starter,2023-07-11,CTO
+CUST-1986,NeuroTech 228 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2024-03-20,CTO
+CUST-1987,EchoLink 651 Inc.,Fintech,EMEA,51-200 employees,Starter,2023-06-04,COO
+CUST-1988,TrustWave 793 Inc.,EdTech,APAC,51-200 employees,Growth,2023-03-07,COO
+CUST-1989,Nexora 876 Inc.,Logistics,North America,1-50 employees,Starter,2024-12-04,CTO
+CUST-1990,Synthetix 425 Inc.,Cybersecurity,North America,1-50 employees,Starter,2023-11-14,Lead Analyst
+CUST-1991,NeuroTech 583 Inc.,Logistics,North America,1000+ employees,Growth,2023-10-07,Head of Product
+CUST-1992,ApexFlow 274 Inc.,EdTech,EMEA,1-50 employees,Growth,2024-05-12,VP Engineering
+CUST-1993,CloudScale 890 Inc.,Healthcare,North America,1-50 employees,Starter,2024-02-21,Director of IT
+CUST-1994,TrustWave 683 Inc.,Healthcare,North America,201-1000 employees,Enterprise,2023-08-30,VP Engineering
+CUST-1995,CoreStack 762 Inc.,Healthcare,EMEA,201-1000 employees,Enterprise,2024-06-21,Director of IT
+CUST-1996,NeuroTech 915 Inc.,Healthcare,North America,1-50 employees,Growth,2023-12-04,CTO
+CUST-1997,EchoLink 409 Inc.,Cybersecurity,LATAM,1-50 employees,Starter,2023-08-08,Director of IT
+CUST-1998,RetailSphere 428 Inc.,EdTech,APAC,1-50 employees,Starter,2024-12-17,VP Engineering
+CUST-1999,KubeSphere 568 Inc.,Logistics,EMEA,1-50 employees,Starter,2023-05-29,Director of IT
+CUST-2000,NeuroTech 742 Inc.,DevOps,APAC,1-50 employees,Enterprise,2024-09-12,VP Engineering
+CUST-2001,ClearSignal 767 Inc.,Fintech,EMEA,201-1000 employees,Growth,2024-07-19,Lead Analyst
+CUST-2002,IronShield 664 Inc.,DevOps,APAC,51-200 employees,Starter,2023-08-31,Lead Analyst
+CUST-2003,BioSync 18 Inc.,Logistics,APAC,1000+ employees,Enterprise,2023-08-30,Director of IT
+CUST-2004,Nexora 890 Inc.,E-commerce,APAC,51-200 employees,Growth,2024-10-21,Lead Analyst
+CUST-2005,HealthVault 44 Inc.,EdTech,APAC,201-1000 employees,Enterprise,2024-04-27,COO
+CUST-2006,PayMatrix 958 Inc.,DevOps,EMEA,201-1000 employees,Enterprise,2023-06-14,COO
+CUST-2007,QuantIQ 528 Inc.,Healthcare,North America,51-200 employees,Growth,2023-12-01,Lead Analyst
+CUST-2008,PrismGuard 38 Inc.,Fintech,EMEA,1-50 employees,Starter,2024-10-18,Head of Product
+CUST-2009,ApexFlow 420 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-06-11,Head of Product
+CUST-2010,MetricWorks 740 Inc.,E-commerce,APAC,51-200 employees,Growth,2023-11-24,Lead Analyst
+CUST-2011,NeuroTech 904 Inc.,E-commerce,North America,51-200 employees,Growth,2023-10-16,Head of Product
+CUST-2012,Stripewave 434 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-08-07,Head of Product
+CUST-2013,ApexFlow 980 Inc.,Fintech,APAC,51-200 employees,Growth,2023-04-02,Lead Analyst
+CUST-2014,Nexora 278 Inc.,E-commerce,North America,51-200 employees,Growth,2023-06-02,VP Engineering
+CUST-2015,LogiChain 184 Inc.,Healthcare,North America,51-200 employees,Growth,2024-04-09,COO
+CUST-2016,NeuroTech 131 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2023-09-30,Director of IT
+CUST-2017,EchoLink 516 Inc.,Logistics,North America,201-1000 employees,Growth,2023-10-17,COO
+CUST-2018,TrustWave 203 Inc.,Logistics,North America,201-1000 employees,Starter,2023-09-26,Head of Product
+CUST-2019,Hyperion 471 Inc.,Cybersecurity,North America,51-200 employees,Starter,2023-01-11,Lead Analyst
+CUST-2020,OmniLogic 902 Inc.,DevOps,LATAM,51-200 employees,Starter,2024-01-28,COO
+CUST-2021,PayMatrix 763 Inc.,EdTech,North America,51-200 employees,Starter,2023-08-29,Lead Analyst
+CUST-2022,ZennithAnalytics 372 Inc.,Fintech,North America,51-200 employees,Starter,2024-02-09,COO
+CUST-2023,LogiChain 145 Inc.,Fintech,EMEA,1-50 employees,Starter,2023-12-14,Lead Analyst
+CUST-2024,OmniLogic 101 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-11-17,VP Engineering
+CUST-2025,OmniLogic 521 Inc.,EdTech,EMEA,1000+ employees,Growth,2023-09-27,CTO
+CUST-2026,ClearSignal 789 Inc.,EdTech,EMEA,51-200 employees,Starter,2024-05-18,Head of Product
+CUST-2027,AuraCloud 883 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-02-06,Lead Analyst
+CUST-2028,QuantIQ 177 Inc.,Marketing SaaS,North America,1000+ employees,Enterprise,2023-02-11,Lead Analyst
+CUST-2029,LogiChain 736 Inc.,Marketing SaaS,EMEA,1-50 employees,Growth,2023-06-01,VP Engineering
+CUST-2030,LogiChain 105 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2024-06-04,Director of IT
+CUST-2031,CoreStack 922 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2024-08-07,Head of Product
+CUST-2032,PayMatrix 952 Inc.,Healthcare,North America,51-200 employees,Starter,2023-12-03,VP Engineering
+CUST-2033,IronShield 707 Inc.,Healthcare,North America,51-200 employees,Enterprise,2023-11-28,Head of Product
+CUST-2034,ApexFlow 93 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2023-10-03,CTO
+CUST-2035,TrustWave 15 Inc.,DevOps,LATAM,51-200 employees,Enterprise,2023-11-29,COO
+CUST-2036,EchoLink 938 Inc.,E-commerce,North America,1-50 employees,Growth,2023-11-27,VP Engineering
+CUST-2037,EchoLink 82 Inc.,Logistics,North America,1-50 employees,Starter,2024-02-13,VP Engineering
+CUST-2038,ApexFlow 882 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2024-10-31,Head of Product
+CUST-2039,VortexData 315 Inc.,Marketing SaaS,APAC,201-1000 employees,Enterprise,2024-12-02,CTO
+CUST-2040,OmniLogic 377 Inc.,Healthcare,APAC,51-200 employees,Starter,2024-02-02,Lead Analyst
+CUST-2041,QuantIQ 586 Inc.,Logistics,North America,51-200 employees,Starter,2023-07-10,Lead Analyst
+CUST-2042,InfraOps 446 Inc.,Healthcare,North America,1-50 employees,Starter,2023-08-18,COO
+CUST-2043,TrustWave 740 Inc.,E-commerce,LATAM,51-200 employees,Growth,2023-03-27,Director of IT
+CUST-2044,RetailSphere 457 Inc.,Healthcare,APAC,51-200 employees,Starter,2023-05-11,COO
+CUST-2045,ScaleBridge 317 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-03-20,VP Engineering
+CUST-2046,MetricWorks 120 Inc.,Logistics,North America,51-200 employees,Growth,2023-09-17,Director of IT
+CUST-2047,QuantIQ 609 Inc.,Healthcare,APAC,1-50 employees,Growth,2024-04-18,Head of Product
+CUST-2048,HealthVault 196 Inc.,Logistics,North America,51-200 employees,Growth,2023-11-18,CTO
+CUST-2049,EchoLink 475 Inc.,Marketing SaaS,EMEA,1-50 employees,Enterprise,2023-07-11,Head of Product
+CUST-2050,DataPulse 90 Inc.,EdTech,APAC,1-50 employees,Starter,2023-01-06,Lead Analyst
+CUST-2051,VortexData 23 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-11-04,COO
+CUST-2052,Hyperion 753 Inc.,Marketing SaaS,North America,201-1000 employees,Growth,2024-12-08,COO
+CUST-2053,PrismGuard 701 Inc.,Logistics,APAC,1-50 employees,Starter,2023-07-15,VP Engineering
+CUST-2054,ClearSignal 26 Inc.,Cybersecurity,APAC,1-50 employees,Growth,2024-10-27,Head of Product
+CUST-2055,PayMatrix 872 Inc.,Cybersecurity,North America,201-1000 employees,Starter,2024-03-08,VP Engineering
+CUST-2056,VortexData 180 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-01-21,Lead Analyst
+CUST-2057,CoreStack 258 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-12-08,VP Engineering
+CUST-2058,VortexData 655 Inc.,Logistics,LATAM,201-1000 employees,Enterprise,2024-09-02,COO
+CUST-2059,AuraCloud 307 Inc.,Fintech,EMEA,51-200 employees,Growth,2024-09-18,COO
+CUST-2060,ScaleBridge 846 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-08-13,Director of IT
+CUST-2061,AuraCloud 75 Inc.,EdTech,APAC,51-200 employees,Starter,2024-05-21,CTO
+CUST-2062,InfraOps 365 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2023-07-16,Lead Analyst
+CUST-2063,LogiChain 458 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-09-08,COO
+CUST-2064,TrustWave 489 Inc.,E-commerce,APAC,201-1000 employees,Growth,2024-03-02,COO
+CUST-2065,InfraOps 762 Inc.,DevOps,APAC,201-1000 employees,Enterprise,2024-09-28,Head of Product
+CUST-2066,IronShield 717 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-09-12,Lead Analyst
+CUST-2067,VortexData 822 Inc.,Logistics,LATAM,51-200 employees,Starter,2024-07-24,VP Engineering
+CUST-2068,ApexFlow 377 Inc.,EdTech,North America,1-50 employees,Growth,2024-05-30,VP Engineering
+CUST-2069,HealthVault 75 Inc.,DevOps,North America,51-200 employees,Starter,2023-08-18,Lead Analyst
+CUST-2070,QuantIQ 358 Inc.,DevOps,APAC,201-1000 employees,Growth,2023-06-04,COO
+CUST-2071,VeloceData 537 Inc.,Healthcare,EMEA,1000+ employees,Enterprise,2024-04-13,VP Engineering
+CUST-2072,VortexData 810 Inc.,Healthcare,APAC,1-50 employees,Starter,2024-10-07,VP Engineering
+CUST-2073,VeloceData 220 Inc.,DevOps,North America,1-50 employees,Starter,2024-06-02,Lead Analyst
+CUST-2074,EchoLink 901 Inc.,Healthcare,North America,51-200 employees,Growth,2023-05-06,Head of Product
+CUST-2075,RetailSphere 435 Inc.,Fintech,North America,201-1000 employees,Growth,2024-06-01,Head of Product
+CUST-2076,Stripewave 282 Inc.,DevOps,EMEA,51-200 employees,Growth,2023-09-09,Head of Product
+CUST-2077,FinSecure 781 Inc.,Logistics,APAC,1-50 employees,Starter,2024-02-24,Lead Analyst
+CUST-2078,VeloceData 538 Inc.,DevOps,LATAM,51-200 employees,Growth,2024-06-13,VP Engineering
+CUST-2079,Stripewave 356 Inc.,DevOps,North America,201-1000 employees,Growth,2024-02-07,VP Engineering
+CUST-2080,TrustWave 954 Inc.,E-commerce,APAC,1-50 employees,Growth,2024-12-31,COO
+CUST-2081,ScaleBridge 542 Inc.,EdTech,North America,201-1000 employees,Enterprise,2023-11-08,COO
+CUST-2082,EchoLink 331 Inc.,DevOps,North America,1-50 employees,Starter,2023-05-31,COO
+CUST-2083,BioSync 466 Inc.,Cybersecurity,APAC,51-200 employees,Growth,2024-03-28,COO
+CUST-2084,LogiChain 918 Inc.,Logistics,APAC,201-1000 employees,Starter,2024-07-04,Director of IT
+CUST-2085,BioSync 752 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-06-07,CTO
+CUST-2086,IronShield 543 Inc.,DevOps,APAC,1-50 employees,Starter,2024-07-06,CTO
+CUST-2087,QuantIQ 257 Inc.,EdTech,EMEA,1000+ employees,Growth,2023-03-03,Director of IT
+CUST-2088,QuantIQ 652 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-04-04,Director of IT
+CUST-2089,CoreStack 764 Inc.,Fintech,EMEA,1000+ employees,Enterprise,2024-08-18,CTO
+CUST-2090,PrismGuard 925 Inc.,Cybersecurity,North America,1-50 employees,Growth,2024-08-09,COO
+CUST-2091,OmniLogic 741 Inc.,Logistics,EMEA,1-50 employees,Starter,2024-08-19,Head of Product
+CUST-2092,ClearSignal 807 Inc.,DevOps,EMEA,1-50 employees,Starter,2024-02-26,VP Engineering
+CUST-2093,Stripewave 73 Inc.,Logistics,APAC,51-200 employees,Starter,2024-01-14,COO
+CUST-2094,MetricWorks 422 Inc.,Logistics,APAC,51-200 employees,Growth,2024-03-26,COO
+CUST-2095,ZennithAnalytics 980 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2024-06-01,Head of Product
+CUST-2096,NeuroTech 738 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2023-05-01,COO
+CUST-2097,Nexora 476 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2023-05-02,CTO
+CUST-2098,VeloceData 428 Inc.,Healthcare,North America,51-200 employees,Starter,2023-06-06,VP Engineering
+CUST-2099,LogiChain 322 Inc.,DevOps,North America,51-200 employees,Growth,2023-05-26,CTO
+CUST-2100,PayMatrix 59 Inc.,EdTech,APAC,1-50 employees,Growth,2024-05-15,VP Engineering
+CUST-2101,VortexData 570 Inc.,DevOps,North America,1-50 employees,Starter,2023-11-14,CTO
+CUST-2102,RetailSphere 931 Inc.,DevOps,APAC,51-200 employees,Growth,2024-09-12,Head of Product
+CUST-2103,FinSecure 151 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2023-11-30,VP Engineering
+CUST-2104,HealthVault 649 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-02-16,COO
+CUST-2105,ScaleBridge 463 Inc.,EdTech,EMEA,201-1000 employees,Enterprise,2024-08-08,COO
+CUST-2106,HealthVault 800 Inc.,EdTech,EMEA,1-50 employees,Growth,2023-07-17,CTO
+CUST-2107,AuraCloud 600 Inc.,Fintech,LATAM,51-200 employees,Growth,2024-05-29,VP Engineering
+CUST-2108,VortexData 684 Inc.,E-commerce,LATAM,1-50 employees,Starter,2024-12-23,CTO
+CUST-2109,RetailSphere 96 Inc.,DevOps,North America,1-50 employees,Growth,2023-01-24,Director of IT
+CUST-2110,PayMatrix 194 Inc.,Logistics,North America,51-200 employees,Starter,2023-04-04,VP Engineering
+CUST-2111,VortexData 564 Inc.,E-commerce,North America,1-50 employees,Growth,2023-06-07,Director of IT
+CUST-2112,PayMatrix 704 Inc.,E-commerce,North America,1000+ employees,Growth,2024-12-31,VP Engineering
+CUST-2113,IronShield 409 Inc.,Healthcare,North America,51-200 employees,Starter,2024-01-20,VP Engineering
+CUST-2114,CloudScale 217 Inc.,Cybersecurity,APAC,51-200 employees,Starter,2024-05-31,Lead Analyst
+CUST-2115,VortexData 285 Inc.,Fintech,North America,51-200 employees,Starter,2023-01-30,Lead Analyst
+CUST-2116,InfraOps 249 Inc.,Fintech,North America,1000+ employees,Enterprise,2023-09-10,CTO
+CUST-2117,InfraOps 814 Inc.,E-commerce,North America,51-200 employees,Starter,2024-10-13,CTO
+CUST-2118,Nexora 811 Inc.,E-commerce,North America,1000+ employees,Enterprise,2024-07-04,Lead Analyst
+CUST-2119,ZennithAnalytics 578 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2024-09-27,Director of IT
+CUST-2120,InfraOps 181 Inc.,Fintech,North America,1000+ employees,Growth,2023-09-14,COO
+CUST-2121,BioSync 369 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2024-06-30,CTO
+CUST-2122,Stripewave 317 Inc.,Healthcare,North America,1-50 employees,Starter,2024-07-23,Director of IT
+CUST-2123,ScaleBridge 452 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2024-11-29,Director of IT
+CUST-2124,InfraOps 277 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2023-08-04,Lead Analyst
+CUST-2125,Hyperion 346 Inc.,Fintech,APAC,1-50 employees,Growth,2024-09-15,Lead Analyst
+CUST-2126,ApexFlow 933 Inc.,Fintech,EMEA,51-200 employees,Growth,2024-12-21,Lead Analyst
+CUST-2127,FinSecure 412 Inc.,Healthcare,APAC,51-200 employees,Starter,2023-02-01,COO
+CUST-2128,RetailSphere 698 Inc.,Healthcare,North America,201-1000 employees,Enterprise,2024-01-02,Lead Analyst
+CUST-2129,DataPulse 869 Inc.,Fintech,North America,51-200 employees,Starter,2023-01-10,Head of Product
+CUST-2130,EchoLink 30 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-09-20,COO
+CUST-2131,IronShield 837 Inc.,Cybersecurity,North America,51-200 employees,Starter,2023-10-15,Lead Analyst
+CUST-2132,ScaleBridge 730 Inc.,Cybersecurity,North America,1000+ employees,Enterprise,2023-04-24,Director of IT
+CUST-2133,CoreStack 522 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-11-19,COO
+CUST-2134,Hyperion 588 Inc.,E-commerce,North America,1-50 employees,Starter,2023-09-23,CTO
+CUST-2135,VeloceData 243 Inc.,EdTech,North America,51-200 employees,Enterprise,2024-12-10,COO
+CUST-2136,AuraCloud 639 Inc.,EdTech,EMEA,201-1000 employees,Starter,2024-03-13,COO
+CUST-2137,TrustWave 975 Inc.,Fintech,APAC,1-50 employees,Growth,2024-02-21,Director of IT
+CUST-2138,VortexData 706 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2023-08-18,VP Engineering
+CUST-2139,QuantIQ 950 Inc.,Logistics,EMEA,1-50 employees,Starter,2023-12-09,VP Engineering
+CUST-2140,ScaleBridge 595 Inc.,Fintech,LATAM,1-50 employees,Growth,2023-03-18,Head of Product
+CUST-2141,Nexora 178 Inc.,DevOps,North America,51-200 employees,Starter,2024-05-06,Lead Analyst
+CUST-2142,HealthVault 34 Inc.,DevOps,APAC,1-50 employees,Starter,2023-12-15,VP Engineering
+CUST-2143,ClearSignal 351 Inc.,Cybersecurity,LATAM,201-1000 employees,Growth,2023-04-08,COO
+CUST-2144,RetailSphere 602 Inc.,Healthcare,North America,1-50 employees,Starter,2023-11-17,COO
+CUST-2145,Stripewave 811 Inc.,E-commerce,North America,201-1000 employees,Starter,2024-09-17,COO
+CUST-2146,PayMatrix 77 Inc.,Healthcare,EMEA,51-200 employees,Starter,2024-01-26,Lead Analyst
+CUST-2147,VortexData 642 Inc.,Logistics,North America,51-200 employees,Growth,2023-01-11,Lead Analyst
+CUST-2148,BioSync 485 Inc.,Logistics,APAC,51-200 employees,Starter,2024-11-22,VP Engineering
+CUST-2149,RetailSphere 539 Inc.,DevOps,EMEA,1-50 employees,Starter,2024-12-31,VP Engineering
+CUST-2150,CoreStack 818 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2023-12-30,Lead Analyst
+CUST-2151,NeuroTech 752 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-05-11,Director of IT
+CUST-2152,CoreStack 456 Inc.,DevOps,North America,201-1000 employees,Enterprise,2023-05-31,Lead Analyst
+CUST-2153,IronShield 627 Inc.,DevOps,North America,1000+ employees,Enterprise,2024-11-04,COO
+CUST-2154,OmniLogic 68 Inc.,Cybersecurity,EMEA,201-1000 employees,Enterprise,2024-03-08,Director of IT
+CUST-2155,Nexora 215 Inc.,Cybersecurity,APAC,1-50 employees,Growth,2024-12-12,COO
+CUST-2156,RetailSphere 624 Inc.,DevOps,APAC,51-200 employees,Starter,2023-11-03,Lead Analyst
+CUST-2157,KubeSphere 176 Inc.,Healthcare,EMEA,201-1000 employees,Starter,2023-08-13,VP Engineering
+CUST-2158,InfraOps 238 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-12-06,COO
+CUST-2159,BioSync 220 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-03-17,Director of IT
+CUST-2160,ApexFlow 578 Inc.,Healthcare,North America,51-200 employees,Growth,2024-01-04,VP Engineering
+CUST-2161,ApexFlow 213 Inc.,Cybersecurity,North America,1-50 employees,Starter,2023-06-28,Director of IT
+CUST-2162,VeloceData 577 Inc.,Cybersecurity,North America,1-50 employees,Growth,2023-04-14,VP Engineering
+CUST-2163,ClearSignal 703 Inc.,E-commerce,North America,201-1000 employees,Starter,2023-08-04,Director of IT
+CUST-2164,RetailSphere 255 Inc.,DevOps,APAC,51-200 employees,Enterprise,2024-09-30,Lead Analyst
+CUST-2165,ScaleBridge 738 Inc.,Healthcare,North America,201-1000 employees,Starter,2023-07-14,Head of Product
+CUST-2166,AuraCloud 397 Inc.,DevOps,North America,51-200 employees,Growth,2023-02-17,CTO
+CUST-2167,CoreStack 203 Inc.,EdTech,APAC,1-50 employees,Starter,2023-10-14,Head of Product
+CUST-2168,VeloceData 530 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-11-10,CTO
+CUST-2169,Stripewave 181 Inc.,Logistics,APAC,51-200 employees,Starter,2024-05-25,CTO
+CUST-2170,RetailSphere 193 Inc.,DevOps,EMEA,51-200 employees,Starter,2024-05-21,Lead Analyst
+CUST-2171,QuantIQ 605 Inc.,Logistics,EMEA,201-1000 employees,Growth,2023-08-01,Head of Product
+CUST-2172,ScaleBridge 217 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2024-01-22,CTO
+CUST-2173,DataPulse 967 Inc.,DevOps,North America,1-50 employees,Growth,2023-10-30,Lead Analyst
+CUST-2174,MetricWorks 370 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-03-12,Lead Analyst
+CUST-2175,RetailSphere 452 Inc.,Logistics,North America,51-200 employees,Starter,2023-01-26,Head of Product
+CUST-2176,RetailSphere 249 Inc.,EdTech,EMEA,51-200 employees,Starter,2024-05-28,CTO
+CUST-2177,AuraCloud 669 Inc.,Healthcare,APAC,1000+ employees,Growth,2023-03-15,Director of IT
+CUST-2178,CloudScale 569 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-11-30,Director of IT
+CUST-2179,Nexora 732 Inc.,E-commerce,LATAM,201-1000 employees,Enterprise,2023-09-25,VP Engineering
+CUST-2180,FinSecure 316 Inc.,EdTech,APAC,201-1000 employees,Growth,2024-02-20,CTO
+CUST-2181,FinSecure 681 Inc.,Fintech,EMEA,51-200 employees,Growth,2023-06-02,Lead Analyst
+CUST-2182,Synthetix 242 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-04-24,COO
+CUST-2183,ClearSignal 482 Inc.,DevOps,APAC,1-50 employees,Starter,2024-12-15,Lead Analyst
+CUST-2184,Nexora 459 Inc.,Marketing SaaS,APAC,1-50 employees,Starter,2023-05-12,Director of IT
+CUST-2185,EchoLink 19 Inc.,Marketing SaaS,APAC,201-1000 employees,Growth,2024-03-05,Lead Analyst
+CUST-2186,TrustWave 780 Inc.,Logistics,APAC,51-200 employees,Starter,2024-08-24,VP Engineering
+CUST-2187,CoreStack 814 Inc.,Fintech,APAC,1-50 employees,Enterprise,2023-12-05,CTO
+CUST-2188,InfraOps 828 Inc.,Logistics,LATAM,1-50 employees,Starter,2024-07-01,Lead Analyst
+CUST-2189,Nexora 496 Inc.,Healthcare,North America,1000+ employees,Enterprise,2023-11-08,VP Engineering
+CUST-2190,DataPulse 116 Inc.,E-commerce,North America,51-200 employees,Starter,2023-07-11,Head of Product
+CUST-2191,Stripewave 943 Inc.,Logistics,North America,1-50 employees,Growth,2023-03-13,Lead Analyst
+CUST-2192,CloudScale 387 Inc.,Fintech,North America,201-1000 employees,Growth,2023-06-10,VP Engineering
+CUST-2193,OmniLogic 559 Inc.,Logistics,EMEA,1-50 employees,Enterprise,2023-07-31,Head of Product
+CUST-2194,VeloceData 220 Inc.,EdTech,North America,201-1000 employees,Growth,2024-09-10,CTO
+CUST-2195,IronShield 611 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-01-08,Head of Product
+CUST-2196,RetailSphere 75 Inc.,Logistics,EMEA,1-50 employees,Starter,2024-08-05,Lead Analyst
+CUST-2197,RetailSphere 483 Inc.,Fintech,EMEA,1-50 employees,Growth,2024-04-12,Director of IT
+CUST-2198,PrismGuard 872 Inc.,EdTech,North America,201-1000 employees,Enterprise,2024-03-01,Head of Product
+CUST-2199,DataPulse 931 Inc.,Logistics,EMEA,1000+ employees,Growth,2024-08-05,VP Engineering
+CUST-2200,BioSync 725 Inc.,Fintech,North America,201-1000 employees,Growth,2024-10-05,CTO
+CUST-2201,IronShield 692 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2024-05-20,Lead Analyst
+CUST-2202,FinSecure 576 Inc.,Healthcare,LATAM,1-50 employees,Starter,2023-11-30,Lead Analyst
+CUST-2203,RetailSphere 178 Inc.,EdTech,North America,1-50 employees,Starter,2024-10-16,COO
+CUST-2204,TrustWave 777 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2024-02-11,VP Engineering
+CUST-2205,ApexFlow 266 Inc.,Healthcare,EMEA,1-50 employees,Growth,2024-04-20,Lead Analyst
+CUST-2206,RetailSphere 79 Inc.,Healthcare,EMEA,1-50 employees,Enterprise,2023-05-24,Lead Analyst
+CUST-2207,ClearSignal 295 Inc.,E-commerce,North America,1-50 employees,Starter,2023-10-29,VP Engineering
+CUST-2208,AuraCloud 769 Inc.,Logistics,North America,51-200 employees,Starter,2023-10-07,Head of Product
+CUST-2209,RetailSphere 376 Inc.,E-commerce,North America,1-50 employees,Growth,2023-08-10,Lead Analyst
+CUST-2210,PrismGuard 58 Inc.,Healthcare,North America,1-50 employees,Starter,2023-01-05,VP Engineering
+CUST-2211,FinSecure 396 Inc.,Cybersecurity,APAC,51-200 employees,Starter,2023-04-04,VP Engineering
+CUST-2212,PayMatrix 38 Inc.,Fintech,North America,1-50 employees,Growth,2023-08-14,VP Engineering
+CUST-2213,HealthVault 865 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-12-01,Director of IT
+CUST-2214,AuraCloud 651 Inc.,Cybersecurity,EMEA,1000+ employees,Enterprise,2024-03-14,VP Engineering
+CUST-2215,Synthetix 228 Inc.,Healthcare,North America,1-50 employees,Starter,2023-11-20,VP Engineering
+CUST-2216,BioSync 227 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-09-30,Director of IT
+CUST-2217,CloudScale 78 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-04-15,COO
+CUST-2218,AuraCloud 820 Inc.,E-commerce,North America,1-50 employees,Starter,2024-10-08,COO
+CUST-2219,BioSync 704 Inc.,E-commerce,North America,51-200 employees,Growth,2023-11-22,COO
+CUST-2220,NeuroTech 79 Inc.,DevOps,North America,1000+ employees,Enterprise,2024-06-07,COO
+CUST-2221,EchoLink 248 Inc.,Fintech,North America,51-200 employees,Growth,2023-11-13,Head of Product
+CUST-2222,EchoLink 448 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-10-31,Head of Product
+CUST-2223,OmniLogic 394 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2024-03-30,COO
+CUST-2224,ScaleBridge 346 Inc.,E-commerce,North America,51-200 employees,Growth,2024-06-17,Lead Analyst
+CUST-2225,InfraOps 842 Inc.,EdTech,APAC,1-50 employees,Growth,2023-12-17,Head of Product
+CUST-2226,Nexora 562 Inc.,Fintech,APAC,51-200 employees,Starter,2024-12-04,COO
+CUST-2227,EchoLink 237 Inc.,Logistics,EMEA,1-50 employees,Growth,2023-03-08,Lead Analyst
+CUST-2228,Stripewave 986 Inc.,Cybersecurity,North America,1000+ employees,Enterprise,2023-05-09,VP Engineering
+CUST-2229,DataPulse 616 Inc.,Cybersecurity,North America,1-50 employees,Growth,2023-11-15,Head of Product
+CUST-2230,EchoLink 212 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-08-13,Lead Analyst
+CUST-2231,InfraOps 216 Inc.,EdTech,APAC,51-200 employees,Enterprise,2024-01-04,Lead Analyst
+CUST-2232,BioSync 181 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2023-06-09,Lead Analyst
+CUST-2233,ApexFlow 790 Inc.,Logistics,North America,1-50 employees,Growth,2023-11-04,CTO
+CUST-2234,AuraCloud 166 Inc.,E-commerce,North America,51-200 employees,Starter,2024-01-20,CTO
+CUST-2235,Hyperion 502 Inc.,Healthcare,North America,201-1000 employees,Growth,2023-07-14,VP Engineering
+CUST-2236,ApexFlow 892 Inc.,DevOps,EMEA,1000+ employees,Enterprise,2024-01-18,Lead Analyst
+CUST-2237,NeuroTech 325 Inc.,Healthcare,North America,1-50 employees,Growth,2024-01-30,CTO
+CUST-2238,DataPulse 208 Inc.,Logistics,LATAM,201-1000 employees,Enterprise,2023-12-23,CTO
+CUST-2239,PrismGuard 510 Inc.,DevOps,EMEA,51-200 employees,Growth,2023-09-10,Head of Product
+CUST-2240,NeuroTech 45 Inc.,DevOps,EMEA,51-200 employees,Growth,2024-10-22,Head of Product
+CUST-2241,QuantIQ 629 Inc.,Marketing SaaS,LATAM,1-50 employees,Starter,2024-08-15,COO
+CUST-2242,ClearSignal 175 Inc.,Fintech,North America,1-50 employees,Growth,2024-01-29,Lead Analyst
+CUST-2243,PrismGuard 610 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-03-13,Director of IT
+CUST-2244,PrismGuard 319 Inc.,Logistics,EMEA,201-1000 employees,Enterprise,2023-04-02,VP Engineering
+CUST-2245,InfraOps 596 Inc.,DevOps,APAC,1-50 employees,Starter,2024-02-12,COO
+CUST-2246,IronShield 16 Inc.,E-commerce,APAC,1-50 employees,Starter,2024-12-14,Lead Analyst
+CUST-2247,MetricWorks 436 Inc.,EdTech,EMEA,1-50 employees,Starter,2024-12-21,Head of Product
+CUST-2248,Nexora 508 Inc.,E-commerce,EMEA,1-50 employees,Growth,2023-08-06,Head of Product
+CUST-2249,Nexora 70 Inc.,E-commerce,APAC,1-50 employees,Enterprise,2024-02-23,Lead Analyst
+CUST-2250,InfraOps 944 Inc.,Healthcare,APAC,1-50 employees,Starter,2024-01-22,VP Engineering
+CUST-2251,QuantIQ 75 Inc.,DevOps,North America,1-50 employees,Starter,2023-04-14,VP Engineering
+CUST-2252,CloudScale 282 Inc.,Fintech,EMEA,201-1000 employees,Starter,2023-08-05,CTO
+CUST-2253,HealthVault 17 Inc.,Logistics,EMEA,1000+ employees,Enterprise,2024-05-12,Lead Analyst
+CUST-2254,FinSecure 355 Inc.,Logistics,North America,51-200 employees,Starter,2023-11-19,Head of Product
+CUST-2255,LogiChain 691 Inc.,Logistics,North America,1-50 employees,Starter,2023-12-05,VP Engineering
+CUST-2256,ApexFlow 477 Inc.,Logistics,EMEA,201-1000 employees,Starter,2024-09-08,VP Engineering
+CUST-2257,VeloceData 553 Inc.,EdTech,LATAM,201-1000 employees,Growth,2024-04-07,CTO
+CUST-2258,TrustWave 684 Inc.,Marketing SaaS,EMEA,51-200 employees,Starter,2024-10-15,Director of IT
+CUST-2259,ApexFlow 658 Inc.,DevOps,APAC,1000+ employees,Enterprise,2024-11-25,Lead Analyst
+CUST-2260,Synthetix 631 Inc.,Marketing SaaS,North America,51-200 employees,Starter,2024-03-14,Lead Analyst
+CUST-2261,TrustWave 887 Inc.,Healthcare,EMEA,1-50 employees,Starter,2023-05-27,CTO
+CUST-2262,ScaleBridge 595 Inc.,Fintech,North America,201-1000 employees,Growth,2024-11-20,CTO
+CUST-2263,VeloceData 488 Inc.,E-commerce,APAC,1000+ employees,Enterprise,2024-07-07,Head of Product
+CUST-2264,Synthetix 226 Inc.,E-commerce,APAC,51-200 employees,Starter,2024-03-21,COO
+CUST-2265,ApexFlow 174 Inc.,DevOps,APAC,201-1000 employees,Growth,2023-09-21,COO
+CUST-2266,NeuroTech 984 Inc.,Healthcare,EMEA,1000+ employees,Enterprise,2024-05-18,VP Engineering
+CUST-2267,HealthVault 718 Inc.,DevOps,APAC,1000+ employees,Enterprise,2024-09-07,VP Engineering
+CUST-2268,InfraOps 361 Inc.,Logistics,APAC,201-1000 employees,Enterprise,2024-10-31,COO
+CUST-2269,HealthVault 585 Inc.,Logistics,APAC,1-50 employees,Starter,2023-03-31,VP Engineering
+CUST-2270,Stripewave 358 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-11-17,Lead Analyst
+CUST-2271,CoreStack 764 Inc.,Fintech,North America,51-200 employees,Starter,2024-02-02,Lead Analyst
+CUST-2272,KubeSphere 799 Inc.,DevOps,APAC,1000+ employees,Growth,2024-11-10,CTO
+CUST-2273,CoreStack 237 Inc.,Healthcare,North America,51-200 employees,Starter,2023-05-29,Director of IT
+CUST-2274,ClearSignal 234 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-11-12,COO
+CUST-2275,CloudScale 623 Inc.,DevOps,North America,1000+ employees,Growth,2024-12-24,CTO
+CUST-2276,NeuroTech 656 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2023-12-08,Head of Product
+CUST-2277,ClearSignal 743 Inc.,Cybersecurity,APAC,1000+ employees,Growth,2023-02-23,Head of Product
+CUST-2278,VeloceData 509 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-06-13,VP Engineering
+CUST-2279,AuraCloud 411 Inc.,DevOps,North America,51-200 employees,Starter,2024-02-05,Lead Analyst
+CUST-2280,Stripewave 550 Inc.,EdTech,North America,1000+ employees,Enterprise,2024-07-15,Lead Analyst
+CUST-2281,VortexData 144 Inc.,DevOps,APAC,51-200 employees,Growth,2024-12-27,Director of IT
+CUST-2282,RetailSphere 680 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-05-29,Head of Product
+CUST-2283,Nexora 833 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2024-08-12,VP Engineering
+CUST-2284,TrustWave 814 Inc.,E-commerce,North America,1000+ employees,Enterprise,2023-06-22,VP Engineering
+CUST-2285,VortexData 374 Inc.,Marketing SaaS,North America,1-50 employees,Enterprise,2024-10-27,Director of IT
+CUST-2286,CoreStack 454 Inc.,E-commerce,EMEA,51-200 employees,Starter,2023-09-04,Lead Analyst
+CUST-2287,NeuroTech 319 Inc.,E-commerce,EMEA,51-200 employees,Growth,2024-11-17,COO
+CUST-2288,Stripewave 806 Inc.,Marketing SaaS,APAC,51-200 employees,Starter,2024-10-30,Lead Analyst
+CUST-2289,LogiChain 21 Inc.,Healthcare,North America,1-50 employees,Growth,2024-06-05,Head of Product
+CUST-2290,ApexFlow 610 Inc.,Marketing SaaS,North America,201-1000 employees,Enterprise,2023-07-05,Lead Analyst
+CUST-2291,NeuroTech 670 Inc.,Logistics,North America,1-50 employees,Starter,2024-12-31,CTO
+CUST-2292,DataPulse 425 Inc.,Fintech,North America,201-1000 employees,Enterprise,2024-06-26,Lead Analyst
+CUST-2293,Stripewave 541 Inc.,Healthcare,APAC,1-50 employees,Growth,2023-05-01,Head of Product
+CUST-2294,VeloceData 623 Inc.,E-commerce,North America,51-200 employees,Starter,2023-02-10,Head of Product
+CUST-2295,CoreStack 221 Inc.,E-commerce,North America,1-50 employees,Growth,2023-03-28,VP Engineering
+CUST-2296,MetricWorks 315 Inc.,DevOps,LATAM,1-50 employees,Enterprise,2024-11-04,VP Engineering
+CUST-2297,Synthetix 317 Inc.,Fintech,LATAM,51-200 employees,Growth,2024-11-05,CTO
+CUST-2298,RetailSphere 153 Inc.,Marketing SaaS,EMEA,51-200 employees,Enterprise,2023-12-27,CTO
+CUST-2299,AuraCloud 532 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2023-02-07,Head of Product
+CUST-2300,OmniLogic 316 Inc.,Cybersecurity,LATAM,51-200 employees,Starter,2024-01-03,Director of IT
+CUST-2301,OmniLogic 756 Inc.,Logistics,North America,1-50 employees,Starter,2023-06-17,Lead Analyst
+CUST-2302,RetailSphere 95 Inc.,EdTech,EMEA,1000+ employees,Growth,2023-07-28,VP Engineering
+CUST-2303,InfraOps 760 Inc.,EdTech,LATAM,51-200 employees,Starter,2024-01-17,CTO
+CUST-2304,TrustWave 673 Inc.,E-commerce,North America,1-50 employees,Enterprise,2024-03-20,Lead Analyst
+CUST-2305,ApexFlow 997 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-07-15,Lead Analyst
+CUST-2306,Stripewave 347 Inc.,Healthcare,North America,1-50 employees,Starter,2023-08-20,Director of IT
+CUST-2307,ApexFlow 110 Inc.,Logistics,LATAM,1-50 employees,Enterprise,2023-05-07,Head of Product
+CUST-2308,MetricWorks 755 Inc.,EdTech,EMEA,201-1000 employees,Starter,2023-12-24,COO
+CUST-2309,CoreStack 896 Inc.,EdTech,EMEA,51-200 employees,Growth,2023-06-24,Director of IT
+CUST-2310,FinSecure 408 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2024-06-28,CTO
+CUST-2311,Hyperion 913 Inc.,Logistics,EMEA,1-50 employees,Starter,2024-06-09,COO
+CUST-2312,OmniLogic 683 Inc.,E-commerce,North America,51-200 employees,Starter,2024-10-16,Director of IT
+CUST-2313,PrismGuard 806 Inc.,Cybersecurity,EMEA,51-200 employees,Starter,2024-03-25,Director of IT
+CUST-2314,HealthVault 489 Inc.,EdTech,North America,51-200 employees,Enterprise,2023-08-23,Director of IT
+CUST-2315,InfraOps 888 Inc.,Healthcare,LATAM,51-200 employees,Starter,2023-04-03,COO
+CUST-2316,Stripewave 88 Inc.,Cybersecurity,LATAM,1-50 employees,Starter,2023-10-20,CTO
+CUST-2317,ZennithAnalytics 514 Inc.,Fintech,LATAM,51-200 employees,Starter,2023-05-20,Lead Analyst
+CUST-2318,NeuroTech 537 Inc.,Healthcare,North America,51-200 employees,Growth,2023-01-08,COO
+CUST-2319,PayMatrix 729 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-06-24,COO
+CUST-2320,Hyperion 53 Inc.,Marketing SaaS,LATAM,51-200 employees,Growth,2024-06-20,Head of Product
+CUST-2321,DataPulse 86 Inc.,DevOps,APAC,51-200 employees,Enterprise,2024-03-08,Lead Analyst
+CUST-2322,BioSync 184 Inc.,DevOps,LATAM,1-50 employees,Growth,2024-07-06,VP Engineering
+CUST-2323,IronShield 316 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-08-05,Lead Analyst
+CUST-2324,Nexora 955 Inc.,EdTech,APAC,1000+ employees,Enterprise,2023-02-06,Lead Analyst
+CUST-2325,ScaleBridge 642 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-11-02,Director of IT
+CUST-2326,VortexData 15 Inc.,DevOps,APAC,1-50 employees,Starter,2023-04-14,Lead Analyst
+CUST-2327,NeuroTech 212 Inc.,Healthcare,EMEA,201-1000 employees,Growth,2024-05-14,VP Engineering
+CUST-2328,OmniLogic 797 Inc.,EdTech,North America,51-200 employees,Starter,2024-03-14,Head of Product
+CUST-2329,AuraCloud 841 Inc.,EdTech,North America,51-200 employees,Growth,2023-06-15,Head of Product
+CUST-2330,LogiChain 775 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-04-24,Head of Product
+CUST-2331,IronShield 51 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2023-06-14,COO
+CUST-2332,Nexora 981 Inc.,Marketing SaaS,LATAM,1000+ employees,Growth,2024-05-15,CTO
+CUST-2333,NeuroTech 829 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2024-05-28,COO
+CUST-2334,ZennithAnalytics 769 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-05-10,Head of Product
+CUST-2335,LogiChain 522 Inc.,Fintech,APAC,1-50 employees,Growth,2023-12-17,Lead Analyst
+CUST-2336,Hyperion 765 Inc.,Fintech,North America,1-50 employees,Starter,2024-03-15,Head of Product
+CUST-2337,Hyperion 166 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2024-12-18,Head of Product
+CUST-2338,TrustWave 850 Inc.,Logistics,North America,201-1000 employees,Enterprise,2024-12-18,COO
+CUST-2339,MetricWorks 635 Inc.,E-commerce,North America,201-1000 employees,Growth,2023-06-02,Head of Product
+CUST-2340,VortexData 145 Inc.,Logistics,North America,1000+ employees,Enterprise,2024-03-12,VP Engineering
+CUST-2341,Hyperion 214 Inc.,Healthcare,APAC,51-200 employees,Starter,2024-12-17,COO
+CUST-2342,Synthetix 237 Inc.,DevOps,North America,1-50 employees,Starter,2023-02-22,Director of IT
+CUST-2343,VortexData 285 Inc.,DevOps,North America,51-200 employees,Starter,2023-11-24,VP Engineering
+CUST-2344,DataPulse 51 Inc.,Fintech,North America,201-1000 employees,Growth,2024-04-28,Director of IT
+CUST-2345,ZennithAnalytics 631 Inc.,Healthcare,North America,1-50 employees,Starter,2023-12-09,Director of IT
+CUST-2346,VortexData 109 Inc.,Fintech,EMEA,201-1000 employees,Starter,2024-01-05,COO
+CUST-2347,HealthVault 380 Inc.,DevOps,North America,1-50 employees,Growth,2023-03-31,VP Engineering
+CUST-2348,OmniLogic 654 Inc.,Healthcare,North America,1000+ employees,Enterprise,2023-07-15,Head of Product
+CUST-2349,PrismGuard 466 Inc.,Healthcare,North America,51-200 employees,Starter,2024-04-30,Head of Product
+CUST-2350,AuraCloud 748 Inc.,E-commerce,North America,1-50 employees,Growth,2023-09-16,CTO
+CUST-2351,LogiChain 926 Inc.,DevOps,North America,201-1000 employees,Enterprise,2023-03-11,Lead Analyst
+CUST-2352,PayMatrix 546 Inc.,Fintech,North America,1-50 employees,Enterprise,2023-10-24,VP Engineering
+CUST-2353,CoreStack 72 Inc.,Cybersecurity,EMEA,51-200 employees,Growth,2024-06-09,VP Engineering
+CUST-2354,DataPulse 458 Inc.,Logistics,EMEA,51-200 employees,Growth,2023-07-31,Head of Product
+CUST-2355,ApexFlow 173 Inc.,Cybersecurity,EMEA,1-50 employees,Growth,2024-06-09,Lead Analyst
+CUST-2356,MetricWorks 734 Inc.,EdTech,North America,1-50 employees,Growth,2024-07-19,VP Engineering
+CUST-2357,DataPulse 239 Inc.,Fintech,EMEA,1-50 employees,Growth,2023-10-12,Head of Product
+CUST-2358,QuantIQ 904 Inc.,Fintech,EMEA,1-50 employees,Growth,2024-07-01,VP Engineering
+CUST-2359,ApexFlow 674 Inc.,DevOps,EMEA,1000+ employees,Enterprise,2024-12-23,CTO
+CUST-2360,QuantIQ 749 Inc.,E-commerce,North America,51-200 employees,Starter,2023-02-28,COO
+CUST-2361,ClearSignal 20 Inc.,DevOps,North America,1000+ employees,Growth,2023-01-17,CTO
+CUST-2362,TrustWave 898 Inc.,Healthcare,EMEA,51-200 employees,Enterprise,2023-09-21,COO
+CUST-2363,InfraOps 628 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2024-08-18,COO
+CUST-2364,HealthVault 888 Inc.,Logistics,North America,1-50 employees,Growth,2024-01-13,Head of Product
+CUST-2365,ScaleBridge 500 Inc.,Healthcare,EMEA,51-200 employees,Growth,2023-06-30,Head of Product
+CUST-2366,CoreStack 512 Inc.,E-commerce,EMEA,1-50 employees,Starter,2023-07-01,Lead Analyst
+CUST-2367,TrustWave 632 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-10-22,Lead Analyst
+CUST-2368,VortexData 751 Inc.,E-commerce,EMEA,201-1000 employees,Growth,2024-01-22,Lead Analyst
+CUST-2369,ApexFlow 122 Inc.,Fintech,APAC,51-200 employees,Starter,2023-09-12,VP Engineering
+CUST-2370,QuantIQ 156 Inc.,Fintech,APAC,1-50 employees,Growth,2024-07-09,COO
+CUST-2371,ClearSignal 356 Inc.,Healthcare,North America,51-200 employees,Growth,2024-03-30,Head of Product
+CUST-2372,IronShield 349 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-10-04,CTO
+CUST-2373,VortexData 31 Inc.,Fintech,North America,1-50 employees,Starter,2024-03-01,Head of Product
+CUST-2374,ApexFlow 944 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-11-02,Director of IT
+CUST-2375,Synthetix 953 Inc.,Logistics,EMEA,201-1000 employees,Enterprise,2024-05-18,Head of Product
+CUST-2376,VortexData 239 Inc.,Healthcare,LATAM,1-50 employees,Starter,2023-12-08,VP Engineering
+CUST-2377,LogiChain 955 Inc.,Healthcare,APAC,51-200 employees,Starter,2024-06-27,Director of IT
+CUST-2378,Hyperion 195 Inc.,Logistics,North America,51-200 employees,Starter,2023-10-21,Director of IT
+CUST-2379,ScaleBridge 116 Inc.,EdTech,APAC,51-200 employees,Enterprise,2024-12-29,VP Engineering
+CUST-2380,HealthVault 12 Inc.,E-commerce,APAC,1-50 employees,Starter,2024-04-02,COO
+CUST-2381,HealthVault 814 Inc.,Marketing SaaS,APAC,1-50 employees,Starter,2023-10-13,Head of Product
+CUST-2382,Stripewave 340 Inc.,E-commerce,North America,51-200 employees,Starter,2024-03-10,Lead Analyst
+CUST-2383,PrismGuard 433 Inc.,DevOps,North America,1000+ employees,Enterprise,2024-01-28,Lead Analyst
+CUST-2384,AuraCloud 519 Inc.,Marketing SaaS,EMEA,201-1000 employees,Growth,2024-08-17,COO
+CUST-2385,PayMatrix 549 Inc.,Cybersecurity,EMEA,1-50 employees,Starter,2023-01-18,Director of IT
+CUST-2386,AuraCloud 495 Inc.,E-commerce,APAC,1-50 employees,Starter,2023-05-23,Director of IT
+CUST-2387,RetailSphere 157 Inc.,Logistics,North America,201-1000 employees,Starter,2023-05-22,VP Engineering
+CUST-2388,PrismGuard 730 Inc.,E-commerce,North America,1-50 employees,Enterprise,2024-01-16,VP Engineering
+CUST-2389,PrismGuard 118 Inc.,Healthcare,EMEA,51-200 employees,Starter,2023-05-31,Director of IT
+CUST-2390,OmniLogic 90 Inc.,Cybersecurity,North America,51-200 employees,Growth,2023-06-03,Head of Product
+CUST-2391,NeuroTech 771 Inc.,E-commerce,EMEA,51-200 employees,Starter,2024-02-26,COO
+CUST-2392,KubeSphere 464 Inc.,Fintech,North America,1-50 employees,Growth,2023-02-02,CTO
+CUST-2393,FinSecure 187 Inc.,E-commerce,North America,201-1000 employees,Growth,2024-04-10,CTO
+CUST-2394,PrismGuard 859 Inc.,EdTech,APAC,51-200 employees,Growth,2024-03-09,Head of Product
+CUST-2395,QuantIQ 104 Inc.,Logistics,LATAM,1-50 employees,Starter,2024-09-25,VP Engineering
+CUST-2396,Synthetix 411 Inc.,E-commerce,APAC,1000+ employees,Enterprise,2023-03-21,COO
+CUST-2397,RetailSphere 498 Inc.,DevOps,EMEA,51-200 employees,Starter,2023-02-25,Director of IT
+CUST-2398,InfraOps 444 Inc.,Cybersecurity,North America,1-50 employees,Starter,2023-12-10,VP Engineering
+CUST-2399,Synthetix 298 Inc.,E-commerce,EMEA,1-50 employees,Growth,2023-11-13,Head of Product
+CUST-2400,AuraCloud 216 Inc.,Fintech,North America,1-50 employees,Growth,2023-02-15,CTO
+CUST-2401,HealthVault 505 Inc.,Fintech,North America,1-50 employees,Starter,2024-01-01,Director of IT
+CUST-2402,BioSync 522 Inc.,Cybersecurity,North America,51-200 employees,Starter,2023-05-13,COO
+CUST-2403,TrustWave 109 Inc.,DevOps,North America,201-1000 employees,Starter,2023-06-03,VP Engineering
+CUST-2404,CoreStack 825 Inc.,Logistics,EMEA,201-1000 employees,Starter,2023-06-15,Head of Product
+CUST-2405,TrustWave 484 Inc.,Healthcare,APAC,1-50 employees,Growth,2023-08-09,COO
+CUST-2406,InfraOps 154 Inc.,E-commerce,LATAM,51-200 employees,Enterprise,2024-09-15,COO
+CUST-2407,MetricWorks 962 Inc.,DevOps,North America,1-50 employees,Starter,2024-09-30,Lead Analyst
+CUST-2408,CloudScale 922 Inc.,Logistics,North America,1000+ employees,Enterprise,2023-06-06,CTO
+CUST-2409,InfraOps 519 Inc.,Healthcare,APAC,1-50 employees,Growth,2024-07-14,VP Engineering
+CUST-2410,NeuroTech 106 Inc.,Marketing SaaS,North America,1000+ employees,Growth,2023-10-14,CTO
+CUST-2411,LogiChain 371 Inc.,Healthcare,North America,201-1000 employees,Growth,2024-04-29,Director of IT
+CUST-2412,FinSecure 907 Inc.,Marketing SaaS,EMEA,1-50 employees,Starter,2024-08-05,Lead Analyst
+CUST-2413,CloudScale 382 Inc.,EdTech,North America,201-1000 employees,Enterprise,2023-05-13,Lead Analyst
+CUST-2414,LogiChain 534 Inc.,DevOps,North America,51-200 employees,Starter,2023-09-27,COO
+CUST-2415,CloudScale 645 Inc.,Fintech,EMEA,1-50 employees,Growth,2023-01-09,Head of Product
+CUST-2416,VeloceData 117 Inc.,EdTech,North America,51-200 employees,Growth,2023-08-17,Lead Analyst
+CUST-2417,VeloceData 483 Inc.,Healthcare,North America,51-200 employees,Starter,2024-04-21,VP Engineering
+CUST-2418,Stripewave 194 Inc.,Healthcare,APAC,1000+ employees,Enterprise,2023-07-24,Lead Analyst
+CUST-2419,KubeSphere 76 Inc.,DevOps,North America,51-200 employees,Starter,2024-05-02,VP Engineering
+CUST-2420,QuantIQ 475 Inc.,Fintech,EMEA,1000+ employees,Growth,2023-08-07,Director of IT
+CUST-2421,CoreStack 42 Inc.,Logistics,North America,201-1000 employees,Enterprise,2024-04-29,Head of Product
+CUST-2422,CloudScale 226 Inc.,Fintech,LATAM,51-200 employees,Starter,2024-10-12,Head of Product
+CUST-2423,Stripewave 155 Inc.,Healthcare,North America,1-50 employees,Growth,2024-04-07,Lead Analyst
+CUST-2424,MetricWorks 229 Inc.,EdTech,North America,1-50 employees,Growth,2024-03-14,Director of IT
+CUST-2425,FinSecure 314 Inc.,E-commerce,North America,1000+ employees,Enterprise,2024-07-02,COO
+CUST-2426,HealthVault 174 Inc.,Logistics,North America,51-200 employees,Starter,2023-01-11,CTO
+CUST-2427,HealthVault 925 Inc.,Cybersecurity,North America,51-200 employees,Growth,2023-11-28,COO
+CUST-2428,ClearSignal 971 Inc.,DevOps,North America,201-1000 employees,Enterprise,2024-05-26,Director of IT
+CUST-2429,VortexData 821 Inc.,Logistics,North America,201-1000 employees,Enterprise,2023-05-09,COO
+CUST-2430,RetailSphere 664 Inc.,Healthcare,North America,201-1000 employees,Growth,2024-12-14,CTO
+CUST-2431,FinSecure 180 Inc.,Logistics,North America,1-50 employees,Starter,2024-11-26,CTO
+CUST-2432,ApexFlow 389 Inc.,DevOps,North America,201-1000 employees,Growth,2023-05-08,COO
+CUST-2433,NeuroTech 674 Inc.,Marketing SaaS,North America,51-200 employees,Growth,2024-03-12,CTO
+CUST-2434,FinSecure 353 Inc.,Healthcare,APAC,51-200 employees,Starter,2024-07-20,CTO
+CUST-2435,DataPulse 565 Inc.,Logistics,North America,201-1000 employees,Growth,2024-03-23,COO
+CUST-2436,IronShield 728 Inc.,Healthcare,LATAM,201-1000 employees,Starter,2024-10-27,VP Engineering
+CUST-2437,Hyperion 964 Inc.,Logistics,North America,201-1000 employees,Growth,2024-07-11,VP Engineering
+CUST-2438,InfraOps 464 Inc.,Fintech,EMEA,201-1000 employees,Growth,2024-04-10,CTO
+CUST-2439,BioSync 127 Inc.,Cybersecurity,APAC,1000+ employees,Enterprise,2024-04-20,Lead Analyst
+CUST-2440,ZennithAnalytics 850 Inc.,Logistics,North America,51-200 employees,Starter,2023-10-18,Director of IT
+CUST-2441,ScaleBridge 684 Inc.,EdTech,North America,1000+ employees,Enterprise,2024-11-20,Head of Product
+CUST-2442,ApexFlow 931 Inc.,Logistics,North America,1-50 employees,Growth,2024-06-15,COO
+CUST-2443,Hyperion 335 Inc.,DevOps,North America,51-200 employees,Starter,2024-07-23,Lead Analyst
+CUST-2444,Nexora 641 Inc.,Logistics,APAC,201-1000 employees,Growth,2023-05-12,COO
+CUST-2445,BioSync 755 Inc.,E-commerce,North America,1-50 employees,Starter,2023-08-25,VP Engineering
+CUST-2446,PrismGuard 830 Inc.,E-commerce,EMEA,51-200 employees,Growth,2024-10-04,Director of IT
+CUST-2447,ClearSignal 576 Inc.,E-commerce,LATAM,1-50 employees,Starter,2024-03-23,VP Engineering
+CUST-2448,InfraOps 798 Inc.,E-commerce,North America,201-1000 employees,Enterprise,2023-03-22,CTO
+CUST-2449,BioSync 35 Inc.,E-commerce,LATAM,51-200 employees,Growth,2023-07-11,Head of Product
+CUST-2450,InfraOps 929 Inc.,Cybersecurity,North America,51-200 employees,Starter,2024-01-23,Director of IT
+CUST-2451,TrustWave 62 Inc.,EdTech,North America,1-50 employees,Starter,2024-08-16,VP Engineering
+CUST-2452,VortexData 480 Inc.,Healthcare,North America,1-50 employees,Growth,2023-04-06,VP Engineering
+CUST-2453,NeuroTech 874 Inc.,DevOps,APAC,1-50 employees,Starter,2023-01-23,Lead Analyst
+CUST-2454,Stripewave 508 Inc.,Healthcare,North America,51-200 employees,Growth,2024-10-10,Lead Analyst
+CUST-2455,HealthVault 174 Inc.,E-commerce,North America,1000+ employees,Enterprise,2024-10-08,CTO
+CUST-2456,VeloceData 42 Inc.,Healthcare,LATAM,1000+ employees,Enterprise,2024-09-20,CTO
+CUST-2457,AuraCloud 15 Inc.,E-commerce,EMEA,1-50 employees,Starter,2024-09-12,VP Engineering
+CUST-2458,AuraCloud 33 Inc.,E-commerce,North America,51-200 employees,Growth,2023-01-31,Director of IT
+CUST-2459,OmniLogic 235 Inc.,Healthcare,EMEA,1000+ employees,Growth,2024-05-08,Head of Product
+CUST-2460,Stripewave 366 Inc.,EdTech,EMEA,201-1000 employees,Growth,2024-02-14,Head of Product
+CUST-2461,QuantIQ 187 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2024-02-07,VP Engineering
+CUST-2462,CoreStack 822 Inc.,EdTech,North America,1-50 employees,Growth,2024-03-19,Lead Analyst
+CUST-2463,PayMatrix 620 Inc.,EdTech,APAC,51-200 employees,Growth,2024-03-15,Head of Product
+CUST-2464,CoreStack 371 Inc.,DevOps,APAC,201-1000 employees,Growth,2023-02-04,CTO
+CUST-2465,QuantIQ 610 Inc.,Logistics,North America,201-1000 employees,Growth,2024-06-27,Director of IT
+CUST-2466,BioSync 40 Inc.,Healthcare,North America,1-50 employees,Growth,2024-01-02,Head of Product
+CUST-2467,Stripewave 230 Inc.,DevOps,North America,201-1000 employees,Starter,2023-11-23,COO
+CUST-2468,ApexFlow 744 Inc.,DevOps,North America,51-200 employees,Starter,2023-08-27,CTO
+CUST-2469,Stripewave 404 Inc.,EdTech,EMEA,51-200 employees,Starter,2023-10-12,COO
+CUST-2470,Hyperion 978 Inc.,Healthcare,EMEA,51-200 employees,Growth,2024-03-21,Director of IT
+CUST-2471,ClearSignal 337 Inc.,Cybersecurity,North America,201-1000 employees,Growth,2023-10-09,Lead Analyst
+CUST-2472,VortexData 137 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2024-08-13,VP Engineering
+CUST-2473,IronShield 28 Inc.,Fintech,APAC,1-50 employees,Growth,2024-02-17,VP Engineering
+CUST-2474,ScaleBridge 556 Inc.,Fintech,North America,1-50 employees,Starter,2024-03-01,COO
+CUST-2475,IronShield 291 Inc.,DevOps,APAC,51-200 employees,Growth,2023-11-17,Lead Analyst
+CUST-2476,Hyperion 58 Inc.,Logistics,North America,1000+ employees,Enterprise,2024-10-18,VP Engineering
+CUST-2477,ClearSignal 392 Inc.,Healthcare,North America,1-50 employees,Starter,2023-04-18,Director of IT
+CUST-2478,VeloceData 714 Inc.,Logistics,North America,1-50 employees,Growth,2024-01-13,CTO
+CUST-2479,ApexFlow 966 Inc.,Fintech,North America,201-1000 employees,Starter,2023-11-08,VP Engineering
+CUST-2480,QuantIQ 347 Inc.,Logistics,North America,1-50 employees,Starter,2024-04-16,VP Engineering
+CUST-2481,OmniLogic 336 Inc.,E-commerce,APAC,201-1000 employees,Enterprise,2024-02-28,COO
+CUST-2482,RetailSphere 694 Inc.,Healthcare,EMEA,1-50 employees,Starter,2024-05-16,Director of IT
+CUST-2483,KubeSphere 801 Inc.,Marketing SaaS,North America,1-50 employees,Starter,2023-03-26,Director of IT
+CUST-2484,AuraCloud 865 Inc.,Cybersecurity,EMEA,201-1000 employees,Growth,2023-03-21,VP Engineering
+CUST-2485,NeuroTech 71 Inc.,Cybersecurity,North America,1-50 employees,Growth,2023-07-12,Lead Analyst
+CUST-2486,VortexData 358 Inc.,Cybersecurity,APAC,201-1000 employees,Growth,2023-11-17,Director of IT
+CUST-2487,PrismGuard 474 Inc.,E-commerce,APAC,1-50 employees,Starter,2024-01-08,Lead Analyst
+CUST-2488,RetailSphere 898 Inc.,Cybersecurity,APAC,1-50 employees,Starter,2023-06-18,COO
+CUST-2489,IronShield 984 Inc.,Healthcare,North America,201-1000 employees,Enterprise,2023-09-04,VP Engineering
+CUST-2490,ScaleBridge 481 Inc.,E-commerce,North America,51-200 employees,Starter,2023-12-27,Director of IT
+CUST-2491,VortexData 959 Inc.,Healthcare,North America,1-50 employees,Starter,2024-03-17,CTO
+CUST-2492,KubeSphere 64 Inc.,Marketing SaaS,North America,1-50 employees,Growth,2024-03-08,Head of Product
+CUST-2493,IronShield 203 Inc.,Logistics,North America,1-50 employees,Growth,2024-06-15,Lead Analyst
+CUST-2494,VortexData 707 Inc.,Fintech,EMEA,1000+ employees,Growth,2023-02-24,VP Engineering
+CUST-2495,CoreStack 282 Inc.,Cybersecurity,North America,1-50 employees,Starter,2024-09-27,COO
+CUST-2496,PrismGuard 424 Inc.,Logistics,North America,1-50 employees,Growth,2024-12-09,Director of IT
+CUST-2497,NeuroTech 220 Inc.,E-commerce,APAC,1-50 employees,Starter,2024-09-02,Director of IT
+CUST-2498,EchoLink 13 Inc.,Healthcare,North America,1000+ employees,Enterprise,2023-11-09,COO
+CUST-2499,Synthetix 184 Inc.,DevOps,EMEA,1-50 employees,Starter,2024-04-11,Head of Product
+CUST-2500,ApexFlow 692 Inc.,Marketing SaaS,North America,1-50 employees,Enterprise,2023-03-20,Head of Product
